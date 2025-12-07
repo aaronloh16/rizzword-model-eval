@@ -5,13 +5,13 @@ import { ModelSelector } from "@/components/ModelSelector";
 import { RaceArena, RaceResult } from "@/components/RaceArena";
 import { Results } from "@/components/Results";
 import { ClueList } from "@/components/CrosswordGrid";
-import { ModelConfig } from "@/lib/models";
+import { ModelConfig, getDefaultModels } from "@/lib/models";
 
 type GamePhase = "select" | "race" | "results";
 
 export default function Home() {
   const [phase, setPhase] = useState<GamePhase>("select");
-  const [selectedModels, setSelectedModels] = useState<ModelConfig[]>([]);
+  const [selectedModels, setSelectedModels] = useState<ModelConfig[]>(getDefaultModels);
   const [results, setResults] = useState<RaceResult[]>([]);
 
   const handleModelToggle = useCallback((model: ModelConfig) => {
