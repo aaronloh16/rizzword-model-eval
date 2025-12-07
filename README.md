@@ -8,6 +8,9 @@ Which AI has the most rizz? A real-time model evaluation game where GPT-4o, Clau
 ![Category](https://img.shields.io/badge/Category-Model%20Eval%20Game-cyan)
 ![AI SDK](https://img.shields.io/badge/AI%20SDK-v5-green)
 
+<img width="1213" height="751" alt="Screenshot 2025-12-07 at 6 14 24 AM" src="https://github.com/user-attachments/assets/fd514f22-4364-4585-8981-9e858230ea29" />
+
+
 ## 🎮 What is this?
 
 **RizzWord** is a Model Eval Game that tests how well different AI models understand Gen Z internet slang and memes. 
@@ -16,6 +19,9 @@ Which AI has the most rizz? A real-time model evaluation game where GPT-4o, Clau
 - Watch them race to solve a crossword filled with terms like "SKIBIDI", "RIZZ", "GYATT", and "SIGMA"
 - Models use intersecting letters as hints (just like a real crossword!)
 - See which AI truly has the rizz when it comes to internet culture
+
+<img width="1280" height="784" alt="Screenshot 2025-12-07 at 6 15 27 AM" src="https://github.com/user-attachments/assets/1a12c766-dbb7-40e6-a4a9-66d50938af5d" />
+
 
 ## 🚀 Tech Stack
 
