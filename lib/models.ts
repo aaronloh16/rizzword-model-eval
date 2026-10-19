@@ -10,7 +10,7 @@
  * 
  * Vercel AI Gateway Model ID Format:
  *   "provider/model-name"
- *   Examples: "openai/gpt-4o", "anthropic/claude-sonnet-4.5", "xai/grok-4"
+ *   Examples: "openai/gpt-4o", "anthropic/claude-sonnet-4.5", "spacexai/grok-4.7"
  * 
  * The gateway abstracts away individual provider API keys - you only need
  * the AI_GATEWAY_API_KEY environment variable.
@@ -72,8 +72,8 @@ export const availableModels: ModelConfig[] = [
 
   {
     id: "gemini-3-pro",
-    name: "Gemini 3 Pro",
-    gatewayId: "google/gemini-3-pro-preview",
+    name: "Gemini 3.1 Pro",
+    gatewayId: "google/gemini-3.1-pro-preview",
     color: "#4285f4",       // Google blue
     icon: "/gemini.webp",
   },
@@ -81,8 +81,8 @@ export const availableModels: ModelConfig[] = [
   // xAI Models
   {
     id: "grok-4",
-    name: "Grok 4",
-    gatewayId: "xai/grok-4",
+    name: "Grok 4.7",
+    gatewayId: "spacexai/grok-4.7",
     color: "#1da1f2",       // X/Twitter blue
     icon: "/grok.webp",
   },
