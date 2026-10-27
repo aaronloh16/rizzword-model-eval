@@ -13,7 +13,7 @@
     "build": "next build",
     "start": "next start --port 3600",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "tsx --test \"lib/**/*.test.ts\"",
     "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm puzzles:validate",
     "puzzles:generate": "tsx scripts/generate-puzzles.ts",
@@ -22,6 +22,7 @@
     "race:simulate": "tsx scripts/simulate-races.ts"
   },
   "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
     "@upstash/ratelimit": "^2.2.0",
     "@upstash/redis": "^1.40.0",
     "ai": "^7.0.154",
