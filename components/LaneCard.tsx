@@ -58,7 +58,7 @@ export const LaneCard = memo(function LaneCard({ puzzle, lane, rank, now, raceOv
       </header>
 
       <div className="px-4">
-        <MiniGrid puzzle={puzzle} cells={lane.cells} activeEntry={lane.status === "solving" ? lane.lastEntry : null} accent={color} reveal={raceOver} />
+        <MiniGrid puzzle={puzzle} cells={lane.cells} version={lane.fills} activeEntry={lane.status === "solving" ? lane.lastEntry : null} accent={color} reveal={raceOver} />
       </div>
 
       <div className="mt-3 flex h-7 items-center gap-2 px-4 text-xs">

@@ -90,15 +90,14 @@ export function Prediction({
           <p className="text-sm text-muted">Pick who you think wins, then hit start. No spoilers below until it finishes.</p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <div role="radiogroup" aria-label="Your predicted winner" className="flex flex-wrap gap-2">
+          <div role="group" aria-label="Your predicted winner" className="flex flex-wrap gap-2">
             {models.map((m) => {
               const on = pick === m.id;
               return (
                 <button
                   key={m.id}
                   type="button"
-                  role="radio"
-                  aria-checked={on}
+                  aria-pressed={on}
                   onClick={() => onPick(m.id)}
                   className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm transition-all ${
                     on ? "border-transparent bg-white font-semibold text-ink" : "border-line text-muted hover:border-dim hover:text-white"

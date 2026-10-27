@@ -8,6 +8,8 @@ import type { CellFill } from "@/lib/race/state";
 interface MiniGridProps {
   puzzle: Puzzle;
   cells: Map<string, CellFill>;
+  /** Bumps whenever `cells` changes; lets memo skip re-rendering every clock tick. */
+  version: number;
   /** Entry id to outline (the one the model just answered). */
   activeEntry?: string | null;
   accent?: string;
@@ -77,4 +79,6 @@ export const MiniGrid = memo(function MiniGrid({ puzzle, cells, activeEntry, acc
       )}
     </div>
   );
-});
+}, (a, b) =>
+  a.puzzle === b.puzzle && a.version === b.version && a.activeEntry === b.activeEntry && a.reveal === b.reveal && a.accent === b.accent,
+);

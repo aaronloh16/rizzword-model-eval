@@ -43,20 +43,20 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <span className="sticker relative grid size-8 place-items-center bg-lime font-display text-lg font-extrabold text-ink transition-transform group-hover:-rotate-6">
                   <span className="absolute left-0.5 top-0 text-[8px] font-bold">1</span>R
                 </span>
-                <span className="font-display text-xl font-extrabold tracking-tight">
+                <span className="hidden font-display text-xl font-extrabold tracking-tight min-[400px]:inline">
                   Rizz<span className="text-lime">Word</span>
                 </span>
               </Link>
-              <nav aria-label="Main" className="flex items-center gap-1 text-sm">
+              <nav aria-label="Main" className="flex items-center gap-0.5 text-sm sm:gap-1">
                 {NAV.map((n) => (
-                  <Link key={n.href} href={n.href} className="rounded-full px-3 py-1.5 text-muted transition-colors hover:bg-panel-2 hover:text-white">
+                  <Link key={n.href} href={n.href} className="rounded-full px-2.5 py-1.5 text-muted transition-colors hover:bg-panel-2 hover:text-white sm:px-3">
                     {n.label}
                   </Link>
                 ))}
               </nav>
             </div>
-            <Ticker />
           </header>
+          <Ticker />
 
           <main id="main" className="flex-1">
             {children}

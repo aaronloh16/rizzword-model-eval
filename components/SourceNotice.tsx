@@ -19,13 +19,12 @@ export function SourceBadge({ source }: { source: "live" | "simulated" }) {
 export function SimulatedNotice() {
   return (
     <p className="rounded-xl border border-sun/30 bg-sun/[0.06] px-4 py-3 text-sm text-muted">
-      <strong className="font-semibold text-sun">Heads up: this replay is simulated.</strong> It&apos;s synthetic demo data so the site works with
-      zero API spend. Every model gets the same odds, so the winner is a dice roll, not a verdict. Real races are recorded through AI Gateway with{" "}
-      <code className="rounded bg-panel-2 px-1 py-0.5 font-mono text-xs text-white">pnpm race:record</code> (
-      <a className="underline underline-offset-2 hover:text-white" href={`${REPO_URL}#recording-real-races`}>
-        how
+      <strong className="font-semibold text-sun">Simulated replay.</strong> Synthetic demo data so the site runs at $0. Every model gets the same
+      odds, so the winner is a dice roll, not a verdict. Real races are recorded with{" "}
+      <a className="font-mono text-xs text-white underline underline-offset-2" href={`${REPO_URL}#recording-real-races`}>
+        pnpm race:record
       </a>
-      ).
+      .
     </p>
   );
 }

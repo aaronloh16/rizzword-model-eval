@@ -12,14 +12,14 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6">
-      <section className="grid gap-8 pb-8 pt-10 sm:pt-14 lg:grid-cols-[1.3fr_1fr] lg:items-end">
+      <section className="grid gap-8 pb-8 pt-8 sm:pt-12 lg:grid-cols-[1.3fr_1fr] lg:items-end">
         <div>
           <p className="mb-4 flex flex-wrap items-center gap-2 font-mono text-xs uppercase tracking-widest text-dim">
             <span className="rounded-full border border-line px-2 py-0.5 text-white">Daily #{puzzle.issue}</span>
             <span>{fmtDate(puzzle.id, { weekday: "long", month: "long", day: "numeric" })}</span>
             {race && <SourceBadge source={race.source} />}
           </p>
-          <h1 className="font-display text-[clamp(2.6rem,7vw,5.5rem)] font-extrabold leading-[0.92] tracking-tight">
+          <h1 className="font-display text-[clamp(2.5rem,6.2vw,5rem)] font-extrabold leading-[0.92] tracking-tight">
             Which AI has
             <br />
             the most{" "}
@@ -27,7 +27,7 @@ export default function Home() {
               <span className="sticker relative z-10 inline-block bg-lime px-3 text-ink">rizz?</span>
             </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-muted">
+          <p className="mt-5 max-w-xl text-base text-muted sm:text-lg">
             Every day, frontier models race through the same crossword of internet slang. Watch them think out loud, fill the grid, and burn tokens,
             side by side. Today: <em className="font-display not-italic text-white">&ldquo;{puzzle.title}&rdquo;</em>.
           </p>

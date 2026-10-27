@@ -282,10 +282,8 @@ function Board({ puzzle, benchmarks, saved, storageKey }: Props & { saved: Saved
                 return (
                   <div
                     key={k}
-                    onMouseDown={(e) => {
-                      e.preventDefault();
-                      clickCell(r, c);
-                    }}
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => clickCell(r, c)}
                     className={`relative aspect-square cursor-pointer select-none rounded-[3px] ${bg} text-paper-ink transition-colors duration-100`}
                   >
                     {numbers.has(k) && (
@@ -318,7 +316,7 @@ function Board({ puzzle, benchmarks, saved, storageKey }: Props & { saved: Saved
             spellCheck={false}
             inputMode="text"
             enterKeyHint="next"
-            className="absolute opacity-0"
+            className="absolute text-base opacity-0"
             style={{
               left: `${(cursor.col / puzzle.cols) * 100}%`,
               top: `${(cursor.row / puzzle.rows) * 100}%`,
