@@ -2,8 +2,8 @@
   "name": "rizzword",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Frontier AI models race to solve a daily brainrot crossword. Replays are free; live races are key-gated.",
-  "license": "MIT",
   "engines": {
     "node": ">=22"
   },
