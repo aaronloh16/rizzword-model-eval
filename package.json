@@ -1,30 +1,44 @@
 {
   "name": "rizzword",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Frontier AI models race to solve a daily brainrot crossword. Replays are free; live races are key-gated.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.15.1",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3600",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start --port 3600",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test \"lib/**/*.test.ts\"",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm puzzles:validate",
+    "puzzles:generate": "tsx scripts/generate-puzzles.ts",
+    "puzzles:validate": "tsx scripts/validate-puzzles.ts",
+    "race:record": "tsx scripts/record-race.ts",
+    "race:simulate": "tsx scripts/simulate-races.ts"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^2.0.18",
-    "@upstash/ratelimit": "^2.0.7",
-    "@upstash/redis": "^1.35.7",
-    "ai": "^5.0.108",
-    "next": "16.4.2",
+    "@upstash/ratelimit": "^2.2.0",
+    "@upstash/redis": "^1.40.0",
+    "ai": "^7.0.154",
+    "next": "16.4.3",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.2",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^10.13.0",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
   }
 }
