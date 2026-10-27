@@ -18,11 +18,13 @@ interface RaceBoardProps {
 /** Side-by-side lanes for every model, plus a sticky standings strip. */
 export function RaceBoard({ puzzle, models, events, now, pick }: RaceBoardProps) {
   const state = useMemo(() => deriveRace(puzzle, models, events, now), [puzzle, models, events, now]);
-  const rank = (id: string) => state.standings.indexOf(id) + 1;
+  const started = state.lanes.some((l) => l.status !== "waiting");
+  // Nobody is "#1" before the flag drops.
+  const rank = (id: string) => (started ? state.standings.indexOf(id) + 1 : 0);
 
   return (
     <div>
-      <Standings state={state} />
+      <Standings state={state} started={started} />
       <Announcer state={state} />
       <div className="scrollbar-none -mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 xl:grid-cols-3">
         {models.map((m) => {
@@ -39,7 +41,7 @@ export function RaceBoard({ puzzle, models, events, now, pick }: RaceBoardProps)
 }
 
 /** Compact live leaderboard. On mobile it doubles as the lane navigator. */
-function Standings({ state }: { state: RaceState }) {
+function Standings({ state, started }: { state: RaceState; started: boolean }) {
   return (
     <ol aria-label="Standings" className="scrollbar-none mb-4 flex gap-2 overflow-x-auto">
       {state.standings.map((id, i) => {
@@ -52,7 +54,7 @@ function Standings({ state }: { state: RaceState }) {
             style={{ order: i }}
           >
             <span className="grid size-6 place-items-center rounded-full font-mono text-[10px] font-bold text-ink" style={{ background: modelColor(id) }}>
-              {i + 1}
+              {started ? i + 1 : "·"}
             </span>
             <span className="font-semibold">{lane.model.name}</span>
             <span className="font-mono tabular text-dim">

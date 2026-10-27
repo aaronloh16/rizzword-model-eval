@@ -30,7 +30,7 @@ export const LaneCard = memo(function LaneCard({ puzzle, lane, rank, now, raceOv
 
   return (
     <article
-      aria-label={`${lane.model.name}, ${ordinal(rank)} place, ${lane.correctEntries} of ${total} correct`}
+      aria-label={rank ? `${lane.model.name}, ${ordinal(rank)} place, ${lane.correctEntries} of ${total} correct` : `${lane.model.name}, waiting to start`}
       className={`relative flex min-w-0 flex-col overflow-hidden rounded-2xl border bg-panel transition-[border-color,box-shadow] duration-500 ${
         winner ? "border-lime shadow-[0_0_0_1px_var(--color-lime),0_0_40px_-8px_var(--color-lime)]" : "border-line"
       }`}
@@ -42,9 +42,9 @@ export const LaneCard = memo(function LaneCard({ puzzle, lane, rank, now, raceOv
             className={`sticker grid size-9 shrink-0 place-items-center font-display text-sm font-extrabold tabular ${
               winner ? "-rotate-6 bg-lime text-ink" : "bg-panel-2 text-white"
             } transition-transform`}
-            title={`${ordinal(rank)} place`}
+            title={rank ? `${ordinal(rank)} place` : undefined}
           >
-            {winner ? "👑" : `#${rank}`}
+            {winner ? "👑" : rank ? `#${rank}` : "–"}
           </span>
           <div className="min-w-0">
             <h3 className="truncate font-display text-base font-bold leading-tight">{lane.model.name}</h3>
@@ -86,7 +86,7 @@ export const LaneCard = memo(function LaneCard({ puzzle, lane, rank, now, raceOv
       <dl className="grid grid-cols-4 gap-px border-t border-line bg-line text-center">
         <Stat label="Time" value={fmtTime(elapsed)} />
         <Stat label="Solved" value={`${lane.correctEntries}/${total}`} />
-        <Stat label="Cost" value={lane.costUsd !== null ? fmtUsd(lane.costUsd) : "…"} hint={lane.costSource === "estimate" ? "Estimated from list price" : lane.costSource === "gateway" ? "Reported by AI Gateway" : undefined} />
+        <Stat label="Cost" value={lane.costUsd !== null ? fmtUsd(lane.costUsd) : lane.status === "waiting" ? "—" : "…"} hint={lane.costSource === "estimate" ? "Estimated from list price" : lane.costSource === "gateway" ? "Reported by AI Gateway" : undefined} />
         <Stat label="Tokens" value={fmtTokens(tokens)} hint={lane.usage ? `${lane.usage.input} in · ${lane.usage.output} out (${lane.usage.reasoning} reasoning)` : "Live estimate"} />
       </dl>
     </article>
