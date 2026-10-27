@@ -1,8 +1,7 @@
 {
  "version": 1,
  "puzzleId": "2026-10-21",
- "recordedAt": "2026-10-21T12:00:00.000Z",
- "source": "simulated",
+ "recordedAt": "2026-10-27T05:40:49.181Z",
  "models": [
   {
    "id": "gpt-6.1-sol",
@@ -40,1832 +39,1961 @@
   "maxOutputTokens": 3000,
   "promptVersion": "v1"
  },
+ "source": "live",
  "events": [
   {
-   "t": 65,
-   "model": "claude-opus-5.5",
-   "type": "start"
-  },
-  {
-   "t": 65,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 97,
+   "t": 0,
    "model": "gpt-6.1-sol",
    "type": "start"
   },
   {
-   "t": 97,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 116,
-   "model": "deepseek-v4.1-flash",
+   "t": 3,
+   "model": "claude-opus-5.5",
    "type": "start"
   },
   {
-   "t": 116,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 144,
+   "t": 4,
    "model": "gemini-4-argon",
    "type": "start"
   },
   {
-   "t": 144,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 170,
+   "t": 5,
    "model": "grok-4.7",
    "type": "start"
   },
   {
-   "t": 170,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 188,
+   "t": 5,
    "model": "kimi-k3.1-pro",
    "type": "start"
   },
   {
-   "t": 188,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Scanning 14 clues. "
+   "t": 5,
+   "model": "deepseek-v4.1-flash",
+   "type": "start"
   },
   {
-   "t": 725,
+   "t": 953,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "text": "We"
   },
   {
-   "t": 1640,
+   "t": 1040,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
+   "text": " need solve crossword. Need output answers. Need reason. We have 13x13 with slots. Need solve Gen Z slang.\n\nLet's parse grid coordinates. Need determine entries and lengths. Provided clues and crosses. We can solve from clues.\n\nList across:\n2A ("
   },
   {
-   "t": 1749,
+   "t": 1189,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "7) Hyping someone up way too hard. likely \"GLAZING\" (hyping excessively) length 7. Cross letter5 = 1D letter2. G L A Z I N G: letter5 I"
+  },
+  {
+   "t": 1324,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ". So 1D letter2 = I.\n\n5A (3) The enemy, in drill-rap parlance. \"OPP\" (opposition/enemy). length3. Cross letter1 = 3D letter2; letter3 = 6D letter1. O P P. So "
+  },
+  {
+   "t": 1441,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "text": "This is a 13x13 crossword"
   },
   {
-   "t": 1758,
+   "t": 1459,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "3D letter2 = O, 6D letter1 = P.\n\n7A (5) What models eat and bill you for. \"TOKENS\" (tokens) length6? Wait slot (5) says 5? clue 7A (5) What models eat and"
+  },
+  {
+   "t": 1606,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " bill you for. Models eat tokens? \"tokens\" 6. But slot length maybe 5? Let's inspect grid. Row 4? Need map. Entry 7A starts at row 4? Let's parse grid"
+  },
+  {
+   "t": 1608,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " puzzle using Gen Z "
+  },
+  {
+   "t": 1760,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ".\n\nGiven rows:\n\n1: \" ## ## ## ## ## ##  1 ## ## ## ## ## ##\"\nActually leading space? Need 13 columns. Let's index. Row strings:\nr1:  ## ## ## ## ## ##  1 ## ## ## ## ## ##\nMaybe columns:"
+  },
+  {
+   "t": 1774,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "slang."
+  },
+  {
+   "t": 1905,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " c1 #, c2 #? Let's reconstruct from layout. Need not maybe.\n\nWe can solve clue answers.\n\n2A likely GLAZING (7)\n5A OPP (3)\n7A"
+  },
+  {
+   "t": 2034,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " (5) What models eat and bill you for. Models eat \"PROMPTS\"? bill for tokens. \"TOKENS\" 6. 5 letters could be \"TOKEN\"? Models"
+  },
+  {
+   "t": 2172,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " eat tokens? \"What models eat and bill you for\" = TOKENS (6), but (5) indicates 5. Could be \"TOKEN\" singular? \"What models eat and bill you for\" = TOKENS. Maybe"
+  },
+  {
+   "t": 2311,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " length listed in clue is not slot? It says 7A (5) maybe entry length 5? Need check grid: row 4 has \" 7  .  . "
+  },
+  {
+   "t": 2441,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " .  .\" maybe length 4? Let's parse.\n\nLet's carefully map grid. 13x13. Row strings:\n1 \" ## ## ## ## ## ##  1 ## ## ## ## ## ##\"\n2 \" ## ##  2  .  .  .  .  .  . ## ## ## ##\"\n3 \"  3 ## ## ##"
+  },
+  {
+   "t": 2577,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " ## ##  . ## ##  4 ## ## ##\"\n4 \"  5  .  6 ## ## ##  . ##  7  .  .  .  .\"\n5 \"  . ##  . ## ##  8  .  . ##  . ## ## ##\"\n6 \"  9  .  .  .  .  . ## ## ##"
+  },
+  {
+   "t": 2717,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "  . ## ## ##\"\n7 \"  . ##  . ## ##  . ## ## ##  . ## ## ##\"\n8 \"  . ##  . ## ## 10  .  .  .  . ## ## ##\"\n9 \" ## ##  . ## ##  . ## ## ## ## ## ## ##\"\n10 \" ## ## ## ## ##  . ## ##"
+  },
+  {
+   "t": 2805,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "I"
+  },
+  {
+   "t": 2862,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 11 ## ## ## ##\"\n11 \" ## ## ## ## 12  .  .  .  .  . ## ## ##\"\n12 \" ## ## ## ## ##  . ## ##  . ## ## ## ##\"\n13 \" ## ## ## ## ## ## 13  .  .  .  .  . ##\"\n\nNeed count columns. It seems each token separated by spaces"
+  },
+  {
+   "t": 2984,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? Let's tokenize row1: \"##\",\"##\",\"##\",\"##\",\"##\",\"##\",\"1\",\"##\",\"##\",\"##\",\"##\",\"##\",\"##\" = 13 tokens. Good.\nRow2 tokens: \"##\",\"##\",\"2\",\".\",\".\",\".\",\".\",\".\",\".\",\"##\",\"##\",\"##\",\"##\" = 13.\nRow3"
+  },
+  {
+   "t": 3104,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ": \"3\",\"##\",\"##\",\"##\",\"##\",\"##\",\".\",\"##\",\"##\",\"4\",\"##\",\"##\",\"##\" = 13? tokens: 3, ##, ##, ##, ##, ##, ., ##, ##, 4, ##, ##, ## yes.\n\nSo coordinate c=1..13."
+  },
+  {
+   "t": 3161,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " need solve. I'll output answer lines only, easiest first, revise if needed. Should carefully parse"
+  },
+  {
+   "t": 3246,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Need entries.\n\nAcross starts:\n2A at row2 c3, length? Row2 has c3=2, c4-c8 dots, c9 dot? Wait row2 tokens c"
+  },
+  {
+   "t": 3316,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1801,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1897,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's CAP. "
-  },
-  {
-   "t": 1961,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "CAP"
-  },
-  {
-   "t": 1961,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". "
-  },
-  {
-   "t": 2151,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 2244,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "TOKEN"
-  },
-  {
-   "t": 2244,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
-  },
-  {
-   "t": 2262,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 2359,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 2483,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "1D",
    "answer": "SIGMA"
   },
   {
-   "t": 2483,
-   "model": "deepseek-v4.1-flash",
+   "t": 3333,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
+   "text": " grid, lengths, slang. Should produce correct."
   },
   {
-   "t": 2570,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "t": 3342,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "GLAZING"
   },
   {
-   "t": 2591,
+   "t": 3382,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's OPP. "
+   "text": "1 ##, c2 ##, c3 2, c4 ., c5 ., c6 ., c7 ., c8 ., c9 ., c10 ##... That's 7 cells? c3-c9 = 7. Yes 2A length 7. Good GLAZING.\n\n5A"
   },
   {
-   "t": 2647,
-   "model": "deepseek-v4.1-flash",
+   "t": 3394,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "5A",
    "answer": "OPP"
   },
   {
-   "t": 2647,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _O____. "
-  },
-  {
-   "t": 2843,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's GOOBER. "
-  },
-  {
-   "t": 2920,
-   "model": "deepseek-v4.1-flash",
+   "t": 3477,
+   "model": "gpt-6.1-sol",
    "type": "fill",
-   "entry": "3D",
-   "answer": "GOOBER"
+   "entry": "7A",
+   "answer": "TOKES"
   },
   {
-   "t": 2920,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". "
-  },
-  {
-   "t": 3163,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe CRINGE? "
-  },
-  {
-   "t": 3243,
-   "model": "deepseek-v4.1-flash",
+   "t": 3508,
+   "model": "gpt-6.1-sol",
    "type": "fill",
-   "entry": "13A",
-   "answer": "CRINGE"
+   "entry": "8A",
+   "answer": "CAP"
   },
   {
-   "t": 3243,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". Have B_____. "
-  },
-  {
-   "t": 3474,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe BZOMEV? "
-  },
-  {
-   "t": 3628,
-   "model": "deepseek-v4.1-flash",
+   "t": 3519,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "9A",
-   "answer": "BZOMEV"
+   "answer": "BOOMER"
   },
   {
-   "t": 3628,
+   "t": 3532,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". "
+   "text": " at row4 c1? row4 tokens: c1=5, c2=., c3=6, c4 ##, c5 ##, c6 ##, c7=., c8 ##, c9=7, c10=., c11=., c12=., c13=. Wait row4: \"  5  .  6 ## ## ##  . ##"
   },
   {
-   "t": 3767,
+   "t": 3557,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I have enough time. Should think all entries.\n\n"
+  },
+  {
+   "t": 3569,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 3569,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "GLAZING"
+  },
+  {
+   "t": 3576,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 3656,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
+   "text": "  7  .  .  .  .\" tokens: 5, ., 6, ##, ##, ##, ., ##, 7, ., ., ., . = 13. 5A starts c1 across? cells c1=5, c2=., c3=6? But c3 has 6 start down? If"
   },
   {
-   "t": 3891,
-   "model": "deepseek-v4.1-flash",
+   "t": 3663,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "12A",
    "answer": "BUSSIN"
   },
   {
-   "t": 3891,
+   "t": 3814,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CV____U_. "
+   "text": " across length? c1-c2 maybe 2, but clue says 5A (3). Wait row4 c1=5, c2=., c3=6, c4##. That would be 5A length 2? Hmm maybe entry 5A is"
   },
   {
-   "t": 3970,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's CRASHOUT. "
-  },
-  {
-   "t": 4051,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "CRASHOUT"
-  },
-  {
-   "t": 4051,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have P_O___. "
-  },
-  {
-   "t": 4118,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
-  },
-  {
-   "t": 4129,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's PROMPT. "
-  },
-  {
-   "t": 4221,
+   "t": 3827,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
+   "text": "Across:\n2A 7 hyping someone up"
   },
   {
-   "t": 4250,
+   "t": 3848,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
+   "type": "fill",
+   "entry": "13A",
+   "answer": "SHEESH"
   },
   {
-   "t": 4295,
+   "t": 3880,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "CAP"
+  },
+  {
+   "t": 3880,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "OPP"
+  },
+  {
+   "t": 3880,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "BOOMER"
+  },
+  {
+   "t": 3880,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 3947,
    "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " down? No id 5 at row4 c1. Across clue 5A (3): The enemy... \"OPP\" length 3. Need three cells. Could be c1,c2,c3? But c"
+  },
+  {
+   "t": 3948,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "GOOBER"
+  },
+  {
+   "t": 3978,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 3982,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "6D",
    "answer": "PROMPT"
   },
   {
-   "t": 4295,
+   "t": 4069,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 4077,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". Have S____. "
+   "text": "3 is labeled 6, which is a down start within across? Actually a cell can be start of both across and down? If c3 has number 6, and if c1-c3 across"
+  },
+  {
+   "t": 4152,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nMapping the grid coordinates"
+  },
+  {
+   "t": 4161,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 4161,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "BUSSIN"
+  },
+  {
+   "t": 4161,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "VIBE"
+  },
+  {
+   "t": 4161,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "SHEESH"
+  },
+  {
+   "t": 4173,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " way too hard = GLAZING (7). crosses"
+  },
+  {
+   "t": 4218,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " includes c3, then c3 would also start 6D down. But number at c3 for down start; if across continues, it would"
   },
   {
    "t": 4326,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's OPP. "
+   "text": " and entry starts to"
   },
   {
-   "t": 4383,
+   "t": 4365,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " not be start? In crossword, numbers assigned to cells that start an across or down. A cell can have number for down only if not across start? If it is"
+  },
+  {
+   "t": 4410,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Maybe ICK? "
+   "text": " letter5 = 1D letter2. GL"
   },
   {
-   "t": 4502,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 4582,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's CAP. "
-  },
-  {
-   "t": 4639,
-   "model": "grok-4.7",
+   "t": 4419,
+   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "5A",
-   "answer": "OPP"
+   "entry": "3D",
+   "answer": "GOOBER"
   },
   {
-   "t": 4639,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
-  },
-  {
-   "t": 4701,
-   "model": "deepseek-v4.1-flash",
+   "t": 4420,
+   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
+   "entry": "6D",
+   "answer": "PROMPT"
   },
   {
-   "t": 4701,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". Have _I_I. "
-  },
-  {
-   "t": 4765,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "ICK"
-  },
-  {
-   "t": 4765,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". "
-  },
-  {
-   "t": 4804,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "CAP"
-  },
-  {
-   "t": 4804,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
-  },
-  {
-   "t": 4892,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 5023,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "VIBE"
-  },
-  {
-   "t": 5023,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". Have _O___Y. "
-  },
-  {
-   "t": 5179,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 5211,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's CAP. "
-  },
-  {
-   "t": 5268,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's LOWKEY. "
-  },
-  {
-   "t": 5298,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "VIBE"
-  },
-  {
-   "t": 5298,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". "
-  },
-  {
-   "t": 5312,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's OPP. "
-  },
-  {
-   "t": 5316,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "LOWKEY"
-  },
-  {
-   "t": 5316,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
-  },
-  {
-   "t": 5422,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "OPP"
-  },
-  {
-   "t": 5422,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". "
-  },
-  {
-   "t": 5440,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's GLAZING. "
-  },
-  {
-   "t": 5503,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "CAP"
-  },
-  {
-   "t": 5503,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". "
-  },
-  {
-   "t": 5508,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 5554,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "GLAZING"
-  },
-  {
-   "t": 5556,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
-  },
-  {
-   "t": 5676,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 5826,
-   "model": "kimi-k3.1-pro",
+   "t": 4420,
+   "model": "gemini-4-argon",
    "type": "fill",
    "entry": "7A",
    "answer": "TOKEN"
   },
   {
-   "t": 5826,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
-  },
-  {
-   "t": 5829,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's OPP. "
-  },
-  {
-   "t": 5885,
-   "model": "grok-4.7",
+   "t": 4449,
+   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "11D",
-   "answer": "VIBE"
+   "entry": "8D",
+   "answer": "CRASHOUT"
   },
   {
-   "t": 5885,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". "
-  },
-  {
-   "t": 5916,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 6037,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "OPP"
-  },
-  {
-   "t": 6037,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
-  },
-  {
-   "t": 6045,
-   "model": "deepseek-v4.1-flash",
+   "t": 4449,
+   "model": "gemini-4-argon",
    "type": "done",
    "usage": {
-    "input": 679,
-    "output": 336,
+    "input": 1059,
+    "output": 90,
     "reasoning": 0
    },
-   "costUsd": 0.000151725,
+   "costUsd": 0.003018,
    "costSource": "estimate",
    "finishReason": "stop"
   },
   {
-   "t": 6131,
+   "t": 4494,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's BOOMER. "
+   "text": " determine word lengths."
   },
   {
-   "t": 6141,
+   "t": 4495,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " inside across, it can also be start of down. So 5A could be c1-c3 = 3 cells, with c3 also start 6D down. But row4 c4"
+  },
+  {
+   "t": 4569,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AZING letters G L A Z I N G"
+  },
+  {
+   "t": 4600,
    "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "11D",
    "answer": "VIBE"
   },
   {
-   "t": 6141,
+   "t": 4601,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
+   "type": "done",
+   "usage": {
+    "input": 992,
+    "output": 91,
+    "reasoning": 0
+   },
+   "costUsd": 0.002894,
+   "costSource": "estimate",
+   "finishReason": "stop"
   },
   {
-   "t": 6201,
+   "t": 4624,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " is black, so length c1-c3 = 3. Yes. Thus 5A = OPP: c1 O, c2 P, c3 P. Then c3 starts 6D, l"
+  },
+  {
+   "t": 4893,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's CAP. "
+   "text": "; letter5 I. 1D lone wolf"
   },
   {
-   "t": 6210,
-   "model": "gemini-4-argon",
+   "t": 5304,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "8A (3) \"No ___ = I'm being completely serious rn\". "
+   "text": " grindset archetype = SIGMA (5); letter"
   },
   {
-   "t": 6313,
+   "t": 5529,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 I yes. letter5 A = 8"
+  },
+  {
+   "t": 5611,
    "model": "claude-opus-5.5",
    "type": "think",
-   "text": "Pretty sure it's CAP. "
+   "text": "Filling in 2A as"
   },
   {
-   "t": 6315,
+   "t": 5764,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A letter2. 8A No ___ ="
+  },
+  {
+   "t": 5817,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": " GLAZING conf"
+  },
+  {
+   "t": 5884,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I'm serious rn = CAP ("
+  },
+  {
+   "t": 6098,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3), letter2"
+  },
+  {
+   "t": 6280,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "irms SIGMA for 1D, and that leads me to CAP for 8A"
+  },
+  {
+   "t": 6355,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " A yes. Good.\n5A 3 enemy drill"
+  },
+  {
+   "t": 6795,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " rap parlance = OPP (3). crosses"
+  },
+  {
+   "t": 6935,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter1 = 3D letter2, letter"
+  },
+  {
+   "t": 7023,
    "model": "grok-4.7",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "BOOMER"
+   "type": "think",
+   "text": "\n\n2A is 7 letters. It"
   },
   {
-   "t": 6315,
+   "t": 7184,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 = 6D letter1. 3"
+  },
+  {
+   "t": 7187,
    "model": "grok-4.7",
    "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". "
+   "text": " crosses 1D at row 2,"
   },
   {
-   "t": 6362,
-   "model": "gpt-6.1-sol",
+   "t": 7336,
+   "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's SIGMA. "
+   "text": " column 7. 1D is 5 letters"
   },
   {
-   "t": 6413,
-   "model": "gemini-4-argon",
+   "t": 7495,
+   "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's CAP. "
+   "text": " down from row 1, column"
   },
   {
-   "t": 6507,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "CAP"
-  },
-  {
-   "t": 6507,
+   "t": 7605,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
+   "text": "D lovable goofball 6 = GO"
   },
   {
-   "t": 6582,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "CAP"
+   "t": 7651,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 7."
   },
   {
-   "t": 6582,
+   "t": 7852,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "OFY? 5. \"lovable goof"
+  },
+  {
+   "t": 8180,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "ball\" = GOOBER (6). letter"
+  },
+  {
+   "t": 8424,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 O fits OPP O. 3D GOO"
+  },
+  {
+   "t": 8668,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "BER letter4 B = 9A letter1"
+  },
+  {
+   "t": 8671,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nMapping rows 3 through"
+  },
+  {
+   "t": 8673,
    "model": "claude-opus-5.5",
    "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". "
+   "text": ", then crossing letters suggest BOOMER for 9A, SALTY for 10A, and BUSSIN for 12A.\n\nChec"
   },
   {
-   "t": 6676,
-   "model": "gpt-6.1-sol",
+   "t": 8676,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "king VIBE against 11D and SHEESH for 13A both confirm cleanly. Working out 5A, I try GOOFBALL but it's too long, then settle on GOOBER checking against BOOMER's B; PROMPT fits 6D, and TOKEN with LOWKEY for 4D confirms the Y matching SALTY.\n\n"
+  },
+  {
+   "t": 8677,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "GLAZING"
+  },
+  {
+   "t": 8677,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "1D",
    "answer": "SIGMA"
   },
   {
-   "t": 6676,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have P_____. "
-  },
-  {
-   "t": 6742,
-   "model": "gemini-4-argon",
+   "t": 8677,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "8A",
    "answer": "CAP"
   },
   {
-   "t": 6742,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "5A (3) \"The enemy, in drill-rap parlance\". "
-  },
-  {
-   "t": 6804,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 6890,
+   "t": 8677,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SHEESH. "
-  },
-  {
-   "t": 6988,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 7062,
-   "model": "grok-4.7",
    "type": "fill",
-   "entry": "7A",
-   "answer": "TOKEN"
+   "entry": "9A",
+   "answer": "BOOMER"
   },
   {
-   "t": 7062,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
+   "t": 8677,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "CRASHOUT"
   },
   {
-   "t": 7097,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's PROMPT. "
+   "t": 8678,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
   },
   {
-   "t": 7212,
+   "t": 8678,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "BUSSIN"
+  },
+  {
+   "t": 8678,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "VIBE"
+  },
+  {
+   "t": 8678,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "13A",
    "answer": "SHEESH"
   },
   {
-   "t": 7212,
+   "t": 8678,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". "
-  },
-  {
-   "t": 7253,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's OPP. "
-  },
-  {
-   "t": 7266,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 7266,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". "
-  },
-  {
-   "t": 7280,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "PROMPT"
-  },
-  {
-   "t": 7280,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". "
-  },
-  {
-   "t": 7324,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 7523,
-   "model": "gemini-4-argon",
    "type": "fill",
    "entry": "5A",
    "answer": "OPP"
   },
   {
-   "t": 7523,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". "
-  },
-  {
-   "t": 7535,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 7535,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have P_O___. "
-  },
-  {
-   "t": 7582,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe CRINGE? "
-  },
-  {
-   "t": 7590,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 7649,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's BOOMER. "
-  },
-  {
-   "t": 7796,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "TOKEN"
-  },
-  {
-   "t": 7796,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". Have ____I_. "
-  },
-  {
-   "t": 7866,
+   "t": 8678,
    "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "4D",
-   "answer": "CRINGE"
+   "entry": "3D",
+   "answer": "GOOBER"
   },
   {
-   "t": 7866,
+   "t": 8679,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
-  },
-  {
-   "t": 7955,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Maybe SHEEGH? "
-  },
-  {
-   "t": 7976,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "BOOMER"
-  },
-  {
-   "t": 7976,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". Have __E___. "
-  },
-  {
-   "t": 8041,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's PROMPT. "
-  },
-  {
-   "t": 8129,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
-  },
-  {
-   "t": 8235,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "SHEEGH"
-  },
-  {
-   "t": 8235,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". Have ___E. "
-  },
-  {
-   "t": 8315,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 8418,
-   "model": "grok-4.7",
    "type": "fill",
    "entry": "6D",
    "answer": "PROMPT"
   },
   {
-   "t": 8418,
+   "t": 8679,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "TOKEN"
+  },
+  {
+   "t": 8689,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 8689,
+   "model": "claude-opus-5.5",
+   "type": "done",
+   "usage": {
+    "input": 1399,
+    "output": 457,
+    "reasoning": 332
+   },
+   "costUsd": 0.014736,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 8867,
    "model": "grok-4.7",
    "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _O_B__. "
+   "text": " 13 and verifying each"
   },
   {
-   "t": 8502,
+   "t": 8916,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's SHEESH. "
+   "text": ". 9A \"OK, ___\" dismiss"
   },
   {
-   "t": 8512,
-   "model": "gpt-6.1-sol",
+   "t": 9054,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " row totals 13 cells."
+  },
+  {
+   "t": 9164,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "ive generational comeback = BOOMER (6)."
+  },
+  {
+   "t": 9406,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter1 B, letter3 O, letter6 R."
+  },
+  {
+   "t": 9570,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 6D what you type before model starts y"
+  },
+  {
+   "t": 9815,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "apping = PROMPT (6), letter1 P fits"
+  },
+  {
+   "t": 9977,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " OPP letter3 P, letter3 O fits"
+  },
+  {
+   "t": 10301,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " BOOMER letter3 O. Great.\n4"
+  },
+  {
+   "t": 10308,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "GLAZING"
+  },
+  {
+   "t": 10308,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "OPP"
+  },
+  {
+   "t": 10309,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "TOKEN"
+  },
+  {
+   "t": 10309,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "CAP"
+  },
+  {
+   "t": 10344,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "BOOMER"
+  },
+  {
+   "t": 10344,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 10344,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "12A",
    "answer": "BUSSIN"
   },
   {
-   "t": 8512,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _O____. "
-  },
-  {
-   "t": 8563,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 8563,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "11D (4) \"The overall energy of a room\". Have ___E. "
-  },
-  {
-   "t": 8717,
-   "model": "kimi-k3.1-pro",
+   "t": 10345,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "13A",
    "answer": "SHEESH"
   },
   {
-   "t": 8717,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _I_B__. "
+   "t": 10373,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SIGMA"
   },
   {
-   "t": 8780,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 8859,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's GOOBER. "
-  },
-  {
-   "t": 8925,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's GOOBER. "
-  },
-  {
-   "t": 8953,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's VIBE. "
-  },
-  {
-   "t": 9018,
-   "model": "gpt-6.1-sol",
+   "t": 10374,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "3D",
    "answer": "GOOBER"
   },
   {
-   "t": 9018,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". Have _O____. "
-  },
-  {
-   "t": 9063,
-   "model": "grok-4.7",
+   "t": 10375,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
-   "entry": "3D",
-   "answer": "GOOBER"
+   "entry": "4D",
+   "answer": "LOWKEY"
   },
   {
-   "t": 9063,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". "
+   "t": 10375,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "PROMPT"
   },
   {
-   "t": 9079,
-   "model": "gemini-4-argon",
+   "t": 10407,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 10414,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "11D",
    "answer": "VIBE"
   },
   {
-   "t": 9079,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". Have ____I_. "
+   "t": 10414,
+   "model": "deepseek-v4.1-flash",
+   "type": "done",
+   "usage": {
+    "input": 1027,
+    "output": 4004,
+    "reasoning": 3913
+   },
+   "costUsd": 0.0012782250000000002,
+   "costSource": "estimate",
+   "finishReason": "stop"
   },
   {
-   "t": 9179,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "VIBE"
-  },
-  {
-   "t": 9179,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". Have ____E. "
-  },
-  {
-   "t": 9277,
+   "t": 10565,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's GOOBER. "
+   "text": "D secretly or kind of; opposite highkey = LOW"
   },
   {
-   "t": 9297,
-   "model": "gemini-4-argon",
+   "t": 10839,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
+   "text": "KEY (6). letter2 O = 7"
   },
   {
-   "t": 9443,
-   "model": "gpt-6.1-sol",
+   "t": 11158,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's LOWKEY. "
+   "text": "A letter2. 7A what models eat"
   },
   {
-   "t": 9464,
-   "model": "claude-opus-5.5",
+   "t": 11411,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's SALTY. "
+   "text": " and bill you for = TOKENS? 6"
   },
   {
-   "t": 9502,
+   "t": 11779,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ", but length 5. \"What models eat"
+  },
+  {
+   "t": 12082,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " and bill you for\" = TOKEN? 5"
+  },
+  {
+   "t": 12316,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". letter2 O yes TOKEN. letter6 Y"
+  },
+  {
+   "t": 12547,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = 10A letter5. 10A bitter about"
+  },
+  {
+   "t": 12794,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " taking an L = SALTY (5), letter"
+  },
+  {
+   "t": 13042,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5 Y. letter1 S = 8D"
+  },
+  {
+   "t": 13301,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter4.\n8D spectacular emotional meltdown often over something"
+  },
+  {
+   "t": 13567,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tiny, 8 letters = CRASHOUT? "
+  },
+  {
+   "t": 13817,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8 (C R A S H O U T"
+  },
+  {
+   "t": 14230,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "). Letter1 C = 8A letter1"
+  },
+  {
+   "t": 14395,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " CAP C yes. letter2 R = 9"
+  },
+  {
+   "t": 14977,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A letter6 BOOMER R yes. letter"
+  },
+  {
+   "t": 15170,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4 S = 10A letter1 SALTY S yes. letter7 U = 12A letter2"
+  },
+  {
+   "t": 15399,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 12A when food so good it's absolutely"
+  },
+  {
+   "t": 15732,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ___ = BUSSIN (6) letter2"
+  },
+  {
+   "t": 15997,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " U yes; letter5 I = 11D letter2"
+  },
+  {
+   "t": 16171,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 11D overall energy of a room ="
+  },
+  {
+   "t": 16356,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's SALTY. "
+   "text": "\n\n10A is 6 letters. "
   },
   {
-   "t": 9548,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "LOWKEY"
-  },
-  {
-   "t": 9548,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". Have ____Y. "
-  },
-  {
-   "t": 9603,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "12A",
-   "answer": "BUSSIN"
-  },
-  {
-   "t": 9603,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". "
-  },
-  {
-   "t": 9641,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "GOOBER"
-  },
-  {
-   "t": 9641,
+   "t": 16415,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". Have _O____. "
+   "text": " VIBE (4), letter2 I yes,"
   },
   {
-   "t": 9680,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 9680,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". Have ____I_. "
-  },
-  {
-   "t": 9757,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 9878,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 9878,
+   "t": 16543,
    "model": "grok-4.7",
    "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". Have __E___. "
+   "text": "11A is 5 letters. 12A"
   },
   {
-   "t": 9947,
+   "t": 16575,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Maybe SHEESH? "
+   "text": " letter4 E = 13A letter3. "
   },
   {
-   "t": 10019,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 10047,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 10047,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". Have B_O___. "
-  },
-  {
-   "t": 10108,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
-  },
-  {
-   "t": 10199,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "SHEESH"
-  },
-  {
-   "t": 10199,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". Have ____I_. "
-  },
-  {
-   "t": 10292,
+   "t": 16728,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's SHEESH. "
+   "text": " is 6 letters. 13A is"
   },
   {
-   "t": 10299,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "12A",
-   "answer": "BUSSIN"
-  },
-  {
-   "t": 10299,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _O____. "
-  },
-  {
-   "t": 10323,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 10323,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have P_____. "
-  },
-  {
-   "t": 10370,
+   "t": 16897,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
+   "text": "13A drawn-out exclamation when something impressive ="
   },
   {
-   "t": 10495,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "12A",
-   "answer": "BUSSIN"
-  },
-  {
-   "t": 10495,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CR____U_. "
-  },
-  {
-   "t": 10593,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BOOMER. "
-  },
-  {
-   "t": 10649,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "SHEESH"
-  },
-  {
-   "t": 10649,
+   "t": 16910,
    "model": "grok-4.7",
    "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". Have _O___Y. "
+   "text": " 5 letters."
   },
   {
-   "t": 10697,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's PROMPT. "
-  },
-  {
-   "t": 10744,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's GOOBER. "
-  },
-  {
-   "t": 10747,
+   "t": 17242,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's CRASHOUT. "
+   "text": " SHEESH (6) letter3 E yes."
   },
   {
-   "t": 10911,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "PROMPT"
-  },
-  {
-   "t": 10911,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "4D (6) \"Secretly or kind of; opposite of highkey\". Have _____Y. "
-  },
-  {
-   "t": 10961,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "BOOMER"
-  },
-  {
-   "t": 10961,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "13A (6) \"Drawn-out exclamation when something is i…\". Have __E___. "
-  },
-  {
-   "t": 10966,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "CRASHOUT"
-  },
-  {
-   "t": 10966,
+   "t": 17666,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
+   "text": " All consistent.\n\nI'll output one per line exactly ids"
   },
   {
-   "t": 11018,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "GOOBER"
-  },
-  {
-   "t": 11018,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
-  },
-  {
-   "t": 11045,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's LOWKEY. "
-  },
-  {
-   "t": 11169,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's LOWKEY. "
-  },
-  {
-   "t": 11338,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SHEESH. "
-  },
-  {
-   "t": 11339,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "LOWKEY"
-  },
-  {
-   "t": 11339,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "1D (5) \"Lone-wolf grindset archetype who doesn't …\". Have ____A. "
-  },
-  {
-   "t": 11395,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "LOWKEY"
-  },
-  {
-   "t": 11395,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "12A (6) \"When the food is so good it's absolutely …\". Have ____I_. "
-  },
-  {
-   "t": 11403,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's GLAZING. "
-  },
-  {
-   "t": 11521,
+   "t": 17916,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's GLAZING. "
+   "text": ". easiest first perhaps all. Answers:\n2A"
   },
   {
-   "t": 11563,
-   "model": "gemini-4-argon",
+   "t": 18238,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's SIGMA. "
+   "text": " GLAZING\n1D SIGMA\n8A CAP\n"
   },
   {
-   "t": 11572,
+   "t": 18470,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5A OPP\n3D GOOBER"
+  },
+  {
+   "t": 18720,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\n9A BOOMER\n6D PROMPT\n"
+  },
+  {
+   "t": 19001,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4D LOWKEY\n7A TOKEN\n10A"
+  },
+  {
+   "t": 19181,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's BUSSIN. "
+   "text": "\n\n13A is 6 letters from"
   },
   {
-   "t": 11596,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "SHEESH"
-  },
-  {
-   "t": 11596,
-   "model": "gpt-6.1-sol",
+   "t": 19258,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
+   "text": " SALTY\n8D CRASHOUT\n12A BUSS"
   },
   {
-   "t": 11642,
-   "model": "claude-opus-5.5",
+   "t": 19304,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 7 to 12.\n\n5A"
+  },
+  {
+   "t": 19425,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is 3 letters in row"
+  },
+  {
+   "t": 19541,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "IN\n11D VIBE\n13A SHEESH"
+  },
+  {
+   "t": 19556,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 4, columns 1 through"
+  },
+  {
+   "t": 19796,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 3. The cell containing 6 is also the start"
+  },
+  {
+   "t": 19866,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\n\nCheck 7A \"What models eat and"
+  },
+  {
+   "t": 19923,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " of 6D.\n\nNow determining"
+  },
+  {
+   "t": 20045,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the position of 7A."
+  },
+  {
+   "t": 20258,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " bill you for\" tokens but slot 5 suggests TOKEN"
+  },
+  {
+   "t": 20495,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " weird singular. Could be \"TOKEN\" yes."
+  },
+  {
+   "t": 20935,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Should check grid perhaps 7A length 5"
+  },
+  {
+   "t": 21121,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". yes. Could be \"TOKENS\" 6"
+  },
+  {
+   "t": 21493,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " inconsistency. I'll map grid to ensure no alternative"
+  },
+  {
+   "t": 21865,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Row4: 5 . 6 ## ##"
+  },
+  {
+   "t": 21895,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n7A is 5 letters from"
+  },
+  {
+   "t": 22114,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 9 to 13. 8A is 3 letters in row "
+  },
+  {
+   "t": 22117,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ## . ## 7 . . . . =>"
+  },
+  {
+   "t": 22331,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "5, columns 6 through 8. 9A is 6 letters "
+  },
+  {
+   "t": 22549,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "in row 6, columns 1 through 6. 10A is 5 "
+  },
+  {
+   "t": 22614,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 5A cells c1-c3 OPP"
+  },
+  {
+   "t": 22761,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "letters in row 8, columns 6 through 10.\n\nNow "
+  },
+  {
+   "t": 22979,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". c7 belongs 1D? I'll parse"
+  },
+  {
+   "t": 23000,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "checking the down entries. 1D is 5 letters in "
+  },
+  {
+   "t": 23181,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 7A c9-c13 = TOKEN"
+  },
+  {
+   "t": 23589,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Good.\n\nShould have no commentary. Could output"
+  },
+  {
+   "t": 23915,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " in easiest order. All confident. Ensure 13"
+  },
+  {
+   "t": 24092,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 7.\n\n3D is 6 letters in"
+  },
+  {
+   "t": 24166,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A SHEESH length 6 S H E E"
+  },
+  {
+   "t": 24230,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 1 from row 3"
+  },
+  {
+   "t": 24361,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " to row 8. It crosses"
+  },
+  {
+   "t": 24411,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " S H. 11D VIBE crosses letter"
+  },
+  {
+   "t": 24490,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5A at letter 2 and "
+  },
+  {
+   "t": 24623,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9A at letter 4.\n\n4D "
+  },
+  {
+   "t": 24658,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4 E yes. 8D CRASHOUT"
+  },
+  {
+   "t": 24758,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "starts at row 3, column"
+  },
+  {
+   "t": 24886,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 10. The cell is open."
+  },
+  {
+   "t": 25066,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letters C R A S H O U T. Good.\n\n"
+  },
+  {
+   "t": 25068,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "I should respond only lines."
+  },
+  {
+   "t": 25229,
+   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "2A",
    "answer": "GLAZING"
   },
   {
-   "t": 11642,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have P_____. "
-  },
-  {
-   "t": 11658,
+   "t": 25230,
    "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "GLAZING"
-  },
-  {
-   "t": 11658,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "10A (5) \"Bitter about taking an L\". Have S___H. "
-  },
-  {
-   "t": 11694,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "12A",
-   "answer": "BUSSIN"
-  },
-  {
-   "t": 11694,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CR_S__U_. "
-  },
-  {
-   "t": 11839,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's PROMPT. "
-  },
-  {
-   "t": 11888,
-   "model": "gemini-4-argon",
    "type": "fill",
    "entry": "1D",
    "answer": "SIGMA"
   },
   {
-   "t": 11888,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". Have _O___. "
-  },
-  {
-   "t": 11910,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 12033,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's GLAZING. "
-  },
-  {
-   "t": 12047,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "PROMPT"
-  },
-  {
-   "t": 12047,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". Have B_O___. "
-  },
-  {
-   "t": 12221,
+   "t": 25494,
    "model": "kimi-k3.1-pro",
    "type": "fill",
-   "entry": "10A",
-   "answer": "SALTY"
+   "entry": "8A",
+   "answer": "CAP"
   },
   {
-   "t": 12221,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "6D (6) \"What you type before the model starts yap…\". Have K_O___. "
-  },
-  {
-   "t": 12259,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's CRASHOUT. "
-  },
-  {
-   "t": 12385,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "GLAZING"
-  },
-  {
-   "t": 12385,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CR_S__U_. "
-  },
-  {
-   "t": 12433,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BOOMER. "
-  },
-  {
-   "t": 12440,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 12442,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "CRASHOUT"
-  },
-  {
-   "t": 12442,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
-  },
-  {
-   "t": 12588,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "TOKEN"
-  },
-  {
-   "t": 12588,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "3D (6) \"Lovable goofball\". Have _O____. "
-  },
-  {
-   "t": 12615,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's CRASHOUT. "
-  },
-  {
-   "t": 12688,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Maybe SAVAGE? "
-  },
-  {
-   "t": 12715,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "BOOMER"
-  },
-  {
-   "t": 12715,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "7A (5) \"What models eat and bill you for\". Have _R___. "
-  },
-  {
-   "t": 12820,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's GLAZING. "
-  },
-  {
-   "t": 12855,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "CRASHOUT"
-  },
-  {
-   "t": 13004,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "GLAZING"
-  },
-  {
-   "t": 13022,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 13022,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Recheck 5A: crossings don't fit. "
-  },
-  {
-   "t": 13086,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's GOOBER. "
-  },
-  {
-   "t": 13121,
-   "model": "gpt-6.1-sol",
-   "type": "done",
-   "usage": {
-    "input": 679,
-    "output": 977,
-    "reasoning": 930
-   },
-   "costUsd": 0.011128,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 13179,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's TOKEN. "
-  },
-  {
-   "t": 13388,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "GOOBER"
-  },
-  {
-   "t": 13388,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "9A (6) \"\"OK, ___\" (dismissive generational comeba…\". Have B_O___. "
-  },
-  {
-   "t": 13404,
-   "model": "grok-4.7",
-   "type": "done",
-   "usage": {
-    "input": 679,
-    "output": 848,
-    "reasoning": 801
-   },
-   "costUsd": 0.006446,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 13506,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "TOKEN"
-  },
-  {
-   "t": 13506,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CR_S__U_. "
-  },
-  {
-   "t": 13642,
+   "t": 25495,
    "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "5A",
    "answer": "OPP"
   },
   {
-   "t": 13642,
+   "t": 25656,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Recheck 4D: crossings don't fit. "
-  },
-  {
-   "t": 13793,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe CRAPHOUT? "
-  },
-  {
-   "t": 13955,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's BOOMER. "
-  },
-  {
-   "t": 13959,
-   "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "8D",
-   "answer": "CRAPHOUT"
+   "entry": "3D",
+   "answer": "GOOBER"
   },
   {
-   "t": 13959,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Recheck 4D: crossings don't fit. "
-  },
-  {
-   "t": 14339,
-   "model": "gemini-4-argon",
+   "t": 25892,
+   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "9A",
    "answer": "BOOMER"
   },
   {
-   "t": 14339,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "2A (7) \"Hyping someone up way too hard\". Have ____I__. "
-  },
-  {
-   "t": 14462,
-   "model": "claude-opus-5.5",
+   "t": 25892,
+   "model": "kimi-k3.1-pro",
    "type": "fill",
-   "entry": "4D",
-   "answer": "LOWKEY"
+   "entry": "6D",
+   "answer": "PROMPT"
   },
   {
-   "t": 14586,
+   "t": 26054,
    "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "4D",
    "answer": "LOWKEY"
   },
   {
-   "t": 14787,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's GLAZING. "
-  },
-  {
-   "t": 14791,
-   "model": "claude-opus-5.5",
-   "type": "done",
-   "usage": {
-    "input": 679,
-    "output": 888,
-    "reasoning": 838
-   },
-   "costUsd": 0.020476,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 14949,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "GLAZING"
-  },
-  {
-   "t": 14949,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "8D (8) \"Spectacular emotional meltdown, often ove…\". Have CR_S__U_. "
-  },
-  {
-   "t": 15094,
+   "t": 26305,
    "model": "kimi-k3.1-pro",
-   "type": "done",
-   "usage": {
-    "input": 679,
-    "output": 1005,
-    "reasoning": 952
-   },
-   "costUsd": 0.011408,
-   "costSource": "estimate",
-   "finishReason": "stop"
+   "type": "fill",
+   "entry": "7A",
+   "answer": "TOKEN"
   },
   {
-   "t": 15285,
-   "model": "gemini-4-argon",
+   "t": 26307,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 26460,
+   "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's CRASHOUT. "
+   "text": "\n\n4D is 6 letters in"
   },
   {
-   "t": 15654,
-   "model": "gemini-4-argon",
+   "t": 26590,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 10 from row "
+  },
+  {
+   "t": 26603,
+   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "8D",
    "answer": "CRASHOUT"
   },
   {
-   "t": 15654,
-   "model": "gemini-4-argon",
+   "t": 26716,
+   "model": "grok-4.7",
    "type": "think",
-   "text": "Recheck 13A: crossings don't fit. "
+   "text": "3 to row 8. It crosses"
   },
   {
-   "t": 15946,
-   "model": "gemini-4-argon",
+   "t": 26771,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "BUSSIN"
+  },
+  {
+   "t": 26773,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "VIBE"
+  },
+  {
+   "t": 26852,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 7A at letter 2 and "
+  },
+  {
+   "t": 26975,
+   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "13A",
    "answer": "SHEESH"
   },
   {
-   "t": 16337,
-   "model": "gemini-4-argon",
+   "t": 26975,
+   "model": "kimi-k3.1-pro",
    "type": "done",
    "usage": {
-    "input": 679,
-    "output": 1098,
-    "reasoning": 1047
+    "input": 1087,
+    "output": 944,
+    "reasoning": 843
    },
-   "costUsd": 0.012338,
+   "costUsd": 0.011614,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 27108,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "10A at letter 5.\n\n6D is 6 letters in column"
+  },
+  {
+   "t": 27230,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 3 from row 4 to row"
+  },
+  {
+   "t": 27357,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 9. It crosses 5A at"
+  },
+  {
+   "t": 27595,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter 1 and 9A at letter 3.\n\n8D starts"
+  },
+  {
+   "t": 27739,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at row 5, column 6."
+  },
+  {
+   "t": 28983,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n8D is 8 letters in"
+  },
+  {
+   "t": 29211,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 6 from row 5 to row 12. It crosses"
+  },
+  {
+   "t": 29349,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 8A at letter 1, 9A "
+  },
+  {
+   "t": 29563,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "at letter 6, 10A at letter 1, and 12A at"
+  },
+  {
+   "t": 29791,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter 2.\n\n11D is 4 letters in column 9"
+  },
+  {
+   "t": 29913,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " from row 10 to row "
+  },
+  {
+   "t": 30150,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "13. It crosses 12A at letter 5 and 13A at"
+  },
+  {
+   "t": 30371,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter 3.\n\nThe first answer is GLAZING for"
+  },
+  {
+   "t": 30737,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2A.\n\n1D is SIGMA. 2A is GLAZING. 8A is CAP."
+  },
+  {
+   "t": 33738,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n8D is CRASHOUT. It"
+  },
+  {
+   "t": 33965,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starts with C to match 8A. The second letter"
+  },
+  {
+   "t": 34163,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " R aligns with 9A letter 6. The fourth letter"
+  },
+  {
+   "t": 34283,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " S aligns with 10A letter"
+  },
+  {
+   "t": 34483,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 1. The seventh letter U aligns with 12A letter"
+  },
+  {
+   "t": 34693,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2.\n\n5A is OPPS. It means enemy in drill-rap"
+  },
+  {
+   "t": 34826,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " parlance. The first"
+  },
+  {
+   "t": 35002,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter O matches 3D letter 2."
+  },
+  {
+   "t": 36096,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n3D is GOOBER. It means"
+  },
+  {
+   "t": 36268,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " lovable goofball.\n\n"
+  },
+  {
+   "t": 36453,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9A is BOOMER. It is a dismissive generational"
+  },
+  {
+   "t": 36574,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " comeback.\n\n6D starts"
+  },
+  {
+   "t": 36725,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with P and letter 3"
+  },
+  {
+   "t": 38994,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is O.\n\n6D is PROMPT. The "
+  },
+  {
+   "t": 39216,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "first letter is P and the third letter is"
+  },
+  {
+   "t": 39422,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " O, matching the crosses.\n\nA conflict emerged"
+  },
+  {
+   "t": 39550,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with 5A. It is 3 letters,"
+  },
+  {
+   "t": 39745,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " but \"opps\" is 4 letters. The correct 3-letter"
+  },
+  {
+   "t": 39958,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " enemy term in drill-rap parlance is being reconsidered."
+  },
+  {
+   "t": 41868,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe 3-letter enemy"
+  },
+  {
+   "t": 41998,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " term is OPP. It fits"
+  },
+  {
+   "t": 42132,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the drill-rap clue "
+  },
+  {
+   "t": 42265,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "and satisfies all cross-checks."
+  },
+  {
+   "t": 42393,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " GOOBER remains the "
+  },
+  {
+   "t": 42517,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "correct answer for 3D."
+  },
+  {
+   "t": 44108,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n4D is LOWKEY. It means"
+  },
+  {
+   "t": 44330,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " secretly or kind of and is the opposite"
+  },
+  {
+   "t": 44535,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " of highkey.\n\n7A is TOKENS. Models consume"
+  },
+  {
+   "t": 44743,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " tokens and bill for them.\n\n10A is SALTY."
+  },
+  {
+   "t": 44947,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " It means bitter about taking an L.\n\nThe solver"
+  },
+  {
+   "t": 46762,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is now working on 12A.\n\n12A is BUSSIN. The"
+  },
+  {
+   "t": 46891,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " second letter is U,"
+  },
+  {
+   "t": 47129,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " matching 8D letter 7.\n\n13A is being solved"
+  },
+  {
+   "t": 47252,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " next. It must be a "
+  },
+  {
+   "t": 47498,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "drawn-out exclamation when something is impressive."
+  },
+  {
+   "t": 49835,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n11D is VIBE. It matches"
+  },
+  {
+   "t": 49985,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 12A letter 5.\n\n13A "
+  },
+  {
+   "t": 50236,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "is SHEESH. It is a drawn-out exclamation when something"
+  },
+  {
+   "t": 50475,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is impressive. The third letter is E, matching"
+  },
+  {
+   "t": 57190,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 11D letter 4."
+  },
+  {
+   "t": 57217,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "GLAZING"
+  },
+  {
+   "t": 57275,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 57307,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "CAP"
+  },
+  {
+   "t": 57337,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 57368,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "OPP"
+  },
+  {
+   "t": 57383,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 57385,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "BOOMER"
+  },
+  {
+   "t": 57390,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "GOOBER"
+  },
+  {
+   "t": 57392,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 57392,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "TOKENS"
+  },
+  {
+   "t": 57393,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 57395,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "BUSSIN"
+  },
+  {
+   "t": 57534,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "VIBE"
+  },
+  {
+   "t": 57549,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "SHEESH"
+  },
+  {
+   "t": 57549,
+   "model": "grok-4.7",
+   "type": "done",
+   "usage": {
+    "input": 2242,
+    "output": 5707,
+    "reasoning": 5621
+   },
+   "costUsd": 0.038726,
    "costSource": "estimate",
    "finishReason": "stop"
   }

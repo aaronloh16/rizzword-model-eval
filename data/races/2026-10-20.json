@@ -1,8 +1,7 @@
 {
  "version": 1,
  "puzzleId": "2026-10-20",
- "recordedAt": "2026-10-20T12:00:00.000Z",
- "source": "simulated",
+ "recordedAt": "2026-10-27T05:39:51.137Z",
  "models": [
   {
    "id": "gpt-6.1-sol",
@@ -40,1806 +39,2543 @@
   "maxOutputTokens": 3000,
   "promptVersion": "v1"
  },
+ "source": "live",
  "events": [
   {
-   "t": 76,
-   "model": "gemini-4-argon",
+   "t": 0,
+   "model": "gpt-6.1-sol",
    "type": "start"
   },
   {
-   "t": 76,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 77,
-   "model": "grok-4.7",
-   "type": "start"
-  },
-  {
-   "t": 77,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 97,
+   "t": 3,
    "model": "claude-opus-5.5",
    "type": "start"
   },
   {
-   "t": 97,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 119,
-   "model": "deepseek-v4.1-flash",
-   "type": "start"
-  },
-  {
-   "t": 119,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 171,
-   "model": "kimi-k3.1-pro",
-   "type": "start"
-  },
-  {
-   "t": 171,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 194,
-   "model": "gpt-6.1-sol",
-   "type": "start"
-  },
-  {
-   "t": 194,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 481,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1023,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". "
-  },
-  {
-   "t": 1121,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1319,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
-  },
-  {
-   "t": 1424,
+   "t": 4,
    "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "type": "start"
   },
   {
-   "t": 1505,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "BET"
-  },
-  {
-   "t": 1505,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". "
-  },
-  {
-   "t": 1685,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SLOP. "
-  },
-  {
-   "t": 1762,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "SLOP"
-  },
-  {
-   "t": 1762,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". Have _E__. "
-  },
-  {
-   "t": 1938,
+   "t": 5,
    "model": "grok-4.7",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "type": "start"
   },
   {
-   "t": 1985,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1998,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's YEET. "
-  },
-  {
-   "t": 2086,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "YEET"
-  },
-  {
-   "t": 2086,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". Have ___P. "
-  },
-  {
-   "t": 2322,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SIMP. "
-  },
-  {
-   "t": 2387,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "SIMP"
-  },
-  {
-   "t": 2387,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". "
-  },
-  {
-   "t": 2512,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". "
-  },
-  {
-   "t": 2541,
+   "t": 5,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "type": "start"
   },
   {
-   "t": 2650,
+   "t": 5,
+   "model": "deepseek-v4.1-flash",
+   "type": "start"
+  },
+  {
+   "t": 707,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's SUS. "
+   "text": "We"
   },
   {
-   "t": 2736,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "SUS"
-  },
-  {
-   "t": 2736,
+   "t": 828,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
+   "text": " need solve crossword. Need answer lines only. Need infer slang.\n\nLet's map grid and entries. Need solve all.\n\nList clues with lengths.\n\n1A"
   },
   {
-   "t": 2831,
+   "t": 948,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " (4) London roadman's word for mate. likely \"BRUV\" (4) or \"MATE\"? London roadman word for mate = BRUV. crosses"
+  },
+  {
+   "t": 1122,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter2 = 2D letter1. If 1A BRUV then 2D starts R.\n\n4A (6) \"Time to ___\": stop scrolling and actually focus (2 words). Maybe \"LOCK IN\" = 6 letters no space? LOCKIN. Clue says (2 words) but"
+  },
+  {
+   "t": 1278,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " answer likely LOCKIN. Crosses: letter2 = 2D letter3. If LOCKIN letter2 O. Thus 2D letter3 O. 2D 9 letters \"Optimize your face like"
+  },
+  {
+   "t": 1417,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " it's a min-max RPG build\" = maybe \"LOOKSMAX\"? Actually optimize your face = looksmaxxing? 9 letters \"LOOKSMAX\" 8? \"ME"
+  },
+  {
+   "t": 1552,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "WING\"? 6. \"Looksmax\" 8. \"looksmaxx\" 9? Optimize face like min-max RPG build = LOOKSMAXX? Count LOOKSMA"
+  },
+  {
+   "t": 1572,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SUS. "
-  },
-  {
-   "t": 2959,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's BLUD. "
-  },
-  {
-   "t": 3022,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "1A",
-   "answer": "BLUD"
+   "answer": "BRUV"
   },
   {
-   "t": 3022,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". Have S_____. "
-  },
-  {
-   "t": 3036,
+   "t": 1605,
    "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "SUS"
-  },
-  {
-   "t": 3036,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". "
-  },
-  {
-   "t": 3133,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
-  },
-  {
-   "t": 3283,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SIMP. "
-  },
-  {
-   "t": 3317,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 3317,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". Have ____I_. "
-  },
-  {
-   "t": 3445,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". "
-  },
-  {
-   "t": 3521,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's LOCKIN. "
-  },
-  {
-   "t": 3564,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "SIMP"
-  },
-  {
-   "t": 3564,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 3593,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "4A",
    "answer": "LOCKIN"
   },
   {
-   "t": 3593,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 3701,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 3821,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 3870,
+   "t": 1607,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 3890,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 3890,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". "
-  },
-  {
-   "t": 4100,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 4100,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". "
-  },
-  {
-   "t": 4104,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
-  },
-  {
-   "t": 4135,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 4135,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". "
-  },
-  {
-   "t": 4190,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
-  },
-  {
-   "t": 4190,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". Have ____T. "
-  },
-  {
-   "t": 4296,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SUS. "
-  },
-  {
-   "t": 4306,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 4380,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
-  },
-  {
-   "t": 4418,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 4418,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". Have _____H__. "
-  },
-  {
-   "t": 4504,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
-  },
-  {
-   "t": 4511,
-   "model": "gemini-4-argon",
    "type": "fill",
    "entry": "5A",
    "answer": "SUS"
   },
   {
-   "t": 4511,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". "
-  },
-  {
-   "t": 4628,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SNATCHED"
-  },
-  {
-   "t": 4628,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have L_O_S____. "
-  },
-  {
-   "t": 4705,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "BET"
-  },
-  {
-   "t": 4705,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". Have _E__. "
-  },
-  {
-   "t": 4730,
+   "t": 1629,
    "model": "grok-4.7",
    "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". "
+   "text": "This is a 12x12 crossword"
   },
   {
-   "t": 4817,
+   "t": 1686,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SLOP"
+  },
+  {
+   "t": 1735,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
+   "text": "XX = 9? L O O K S M A X X =9. Yes 2D likely LOOKSMAXX. Crosses: 2D letter1 = 1A letter2. If LOOKSMAXX letter1 L, then 1A letter2 = L. London roadman's word"
   },
   {
-   "t": 4818,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". "
-  },
-  {
-   "t": 4913,
-   "model": "deepseek-v4.1-flash",
+   "t": 1738,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "2D",
    "answer": "LOOKSMAXX"
   },
   {
-   "t": 4913,
+   "t": 1784,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "SIMP"
+  },
+  {
+   "t": 1791,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "SAVAGE"
+  },
+  {
+   "t": 1865,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SNATCHED"
+  },
+  {
+   "t": 1871,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have A__A_A__I_G. "
+   "text": " for mate 4 letters with second L: \"BLOKE\"? no London roadman mate = \"BRUV\" second R. \"MATE\" second A. \"BROV\"? Hmm if 2D letter1 L, "
   },
   {
-   "t": 4952,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SUS. "
+   "t": 1887,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
   },
   {
-   "t": 4977,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
+   "t": 1924,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "AGENT"
   },
   {
-   "t": 5012,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's AURAFARMING. "
-  },
-  {
-   "t": 5092,
-   "model": "gemini-4-argon",
+   "t": 1958,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "12D",
    "answer": "BET"
   },
   {
-   "t": 5092,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 5121,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "AURAFARMING"
-  },
-  {
-   "t": 5183,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "SUS"
-  },
-  {
-   "t": 5183,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". "
-  },
-  {
-   "t": 5218,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
-  },
-  {
-   "t": 5238,
+   "t": 1984,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's YEET. "
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
   },
   {
-   "t": 5343,
+   "t": 2012,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1A second = L. 4-letter slang for mate London: \"B"
+  },
+  {
+   "t": 2046,
    "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "14A",
    "answer": "YEET"
   },
   {
-   "t": 5343,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
-  },
-  {
-   "t": 5348,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "BET"
-  },
-  {
-   "t": 5348,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". Have _E__. "
-  },
-  {
-   "t": 5530,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 5634,
+   "t": 2059,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Maybe YEUJ? "
+   "text": " puzzle themed around"
   },
   {
-   "t": 5650,
+   "t": 2153,
    "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "LAZ\"? \"DEYA\"? Wait \"London roadman's word for mate\" maybe \"BRUD\" (brethren) second R. \"AKHI\" second K. Let"
+  },
+  {
+   "t": 2202,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "AURAFARMING"
+  },
+  {
+   "t": 2202,
+   "model": "gpt-6.1-sol",
    "type": "done",
    "usage": {
-    "input": 669,
-    "output": 344,
+    "input": 970,
+    "output": 93,
     "reasoning": 0
    },
-   "costUsd": 0.000153375,
+   "costUsd": 0.00287,
    "costSource": "estimate",
    "finishReason": "stop"
   },
   {
-   "t": 5700,
-   "model": "gpt-6.1-sol",
+   "t": 2317,
+   "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's BLUD. "
+   "text": "'s verify 2D.\n\nOptimize your face like it's a min-max RPG build: \"MEWMAX\"? Actually mewing is facial exercise,"
   },
   {
-   "t": 5758,
+   "t": 2453,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " looksmaxxing. Term \"looksmaxx\" 9? L O O K S M A X X. Letter3 O matches 4A letter2 if LOCKIN letter"
+  },
+  {
+   "t": 2759,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "2 O. letter5 S = 7A letter1. letter7 A = 10A letter1. So 2D pattern: L ? O ? S ? A ? ? if LOOKSMAXX. "
+  },
+  {
+   "t": 2890,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1A letter2 = L. But BRUV second R, not L. Maybe 1A \"BLOK\"? London roadman word for mate is \"BLOKE\"? Actually roadman slang: \"bruv\", \"blud\", \"fam\", \"cuz\". 4 letters with second L"
+  },
+  {
+   "t": 2990,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "I"
+  },
+  {
+   "t": 3037,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? \"BLOKE\" = man/mate, second L? B L O K E 5. \"BLUD\" = London roadman's word for mate?"
+  },
+  {
+   "t": 3162,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Yes \"blud\" (blood) is mate, 4 letters B L U D. second L! So 1A = BLUD. Great. 2D first L from "
+  },
+  {
+   "t": 3226,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " need solve crossword. Should map grid carefully and"
+  },
+  {
+   "t": 3350,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1A letter2 = L. Good.\n\n4A = LOCKIN? Cross letter5 = 3D letter2. L"
+  },
+  {
+   "t": 3483,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "OCKIN letters L O C K I N. letter5 I. 3D pattern ? I ? ?.\n\n5A (3) When the imposter is acting kinda shady (Among Us). \"SUS\""
+  },
+  {
+   "t": 3541,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " slang. I'll output answer lines only as confident."
+  },
+  {
+   "t": 3625,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 3. letter3 = 6D letter1. If SUS, letter3 S -> 6D starts S. 5A likely SUS.\n\n7A (4) Low-effort AI-generated content flooding"
+  },
+  {
+   "t": 3753,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " feed. \"SLOP\" (4). Crosses letter1=2D letter5. 2D LO"
+  },
+  {
+   "t": 3777,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Should derive.\n\nI'll reconstruct coordinates 12x12.\n\nRows"
+  },
+  {
+   "t": 3888,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "OKSMAXX letter5 S, matches S. letter4 = 3D letter4. SLOP letter4 P -> 3D letter4 P. So"
+  },
+  {
+   "t": 4011,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ":\nr1: \"  1  "
+  },
+  {
+   "t": 4024,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 3D pattern ? I ? P? Wait 3D 4 letters, letter2 I from 4A LOCKIN letter5=I; letter4 P from SL"
+  },
+  {
+   "t": 4175,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "OP. Pattern _ I _ P. Clue \"Someone who does way too much for their crush\" = \"SIMP\" (4). S I M P. Yes. Then 3D = SIMP. Cross"
+  },
+  {
+   "t": 4250,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2  .  . ## ## ## ## ##"
+  },
+  {
+   "t": 4307,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter2=I, letter4=P. Good. 4A LOCKIN letter5 I matches.\n\n10A (11) Doing something slow and cool purely for the clout. Crosses:\n"
+  },
+  {
+   "t": 4482,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "letter1 = 2D letter7. 2D LOOKSMAXX letters? L O O K S M A X X. positions:1 L,2 O,3 O,4 K,5 S,6 M,7 A,8 X,9 X. So"
+  },
+  {
+   "t": 4559,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ## ## ##\" => c1 start1, c"
+  },
+  {
+   "t": 4630,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 10A first letter A.\nletter4 = 11D letter1.\nletter6 = 8D letter3.\nletter9 = 9D letter3.\nletter11 = 6D letter5.\n\nClue 11 letters \"Doing something slow and cool purely for the clout\" ="
+  },
+  {
+   "t": 4719,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Trying BRUV for"
+  },
+  {
+   "t": 4731,
    "model": "grok-4.7",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "YEUJ"
+   "type": "think",
+   "text": " Gen Z slang.\n\nMapping the grid layout"
   },
   {
-   "t": 5758,
+   "t": 4775,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " \"CLOUTCHASING\"? 12? \"CLOUT FARMING\"? 12? \"CHILLFLEX\"?"
+  },
+  {
+   "t": 4816,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 start2, c3., c4., c"
+  },
+  {
+   "t": 4913,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Let's think. \"Doing something slow and cool purely for the clout\" = \"DRIP\"? \"CLOUT"
+  },
+  {
+   "t": 4940,
    "model": "grok-4.7",
    "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". "
+   "text": " and entry positions. 1A is four letters "
   },
   {
-   "t": 5824,
+   "t": 5026,
    "model": "claude-opus-5.5",
    "type": "think",
-   "text": "Pretty sure it's YEET. "
+   "text": " 1-"
   },
   {
-   "t": 5830,
+   "t": 5055,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5-12 black. Across 1A length4"
+  },
+  {
+   "t": 5096,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "\"? Slang maybe \"SWAG\"? 11 letters, first A. \"AURA FARMING\" is"
+  },
+  {
+   "t": 5144,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "across the first row, 2D runs down from the"
+  },
+  {
+   "t": 5232,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 11? AURA FARMING = 11 letters? A U R A (4) + FARMING("
+  },
+  {
+   "t": 5273,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "7) = 11. Doing something slow and cool purely for clout = aura farming? Actually \"aura farming\" doing things for aura/clout. Yes 10A = AURAFARMING (11). Check positions: 1 A matches 2D letter7 A. 4 A: 11D letter1 = A. 6 F? 8D letter3 = F. 9 I"
+  },
+  {
+   "t": 5279,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c1-c4. down 2D c2"
+  },
+  {
+   "t": 5342,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " second column, and 4A spans six cells in"
+  },
+  {
+   "t": 5372,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "across didn't fit, so I'm testing BLUD instead, which would make its second letter L and feed into LOOKSMAXX"
+  },
+  {
+   "t": 5398,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? 9D letter3 = I. 11 G? 6D letter5 = G. Let's see.\n\n6D (6) Brutally, impressively harsh. Cross letter1 = 5A"
+  },
+  {
+   "t": 5541,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter3 = S (if SUS). letter5 = 10A letter11 = G. Pattern S _ _ _ G _. \"SAVAGE\" = 6 letters S A V A G E. Yes "
+  },
+  {
+   "t": 5593,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " length9? rows 1-9? I'll"
+  },
+  {
+   "t": 5687,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "6D = SAVAGE. letter5 G matches. Great.\n\n8D (8) Looking flawless, especially the waist. Cross letter3 = 10A letter6 = F (AURAFARMING letter6 F? A U R A F A R"
+  },
+  {
+   "t": 5823,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " map.\n\nr2: \"##  . ## ##"
+  },
+  {
+   "t": 5828,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " M I N G: positions 1 A,2 U,3 R,4 A,5 F,6 A? Wait count \"AURAFARMING\": A U R A F A R M I N G = 11. Positions:\n1 A\n2 U\n3 R\n4 A\n"
+  },
+  {
+   "t": 5974,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "5 F\n6 A\n7 R\n8 M\n9 I"
+  },
+  {
+   "t": 6049,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  3 ##...\" => c1 black c"
+  },
+  {
+   "t": 6138,
    "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 5830,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
-  },
-  {
-   "t": 5977,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "YEET"
-  },
-  {
-   "t": 5977,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 6041,
-   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "1A",
    "answer": "BLUD"
   },
   {
-   "t": 6041,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". "
+   "t": 6138,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "LOOKSMAXX"
   },
   {
-   "t": 6097,
+   "t": 6298,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". "
+   "text": "2 dot c3 black c4 black c"
   },
   {
-   "t": 6098,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Maybe YEET? "
-  },
-  {
-   "t": 6206,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SLOP. "
-  },
-  {
-   "t": 6233,
+   "t": 6448,
    "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "1A",
-   "answer": "YEET"
+   "entry": "4A",
+   "answer": "LOCKIN"
   },
   {
-   "t": 6233,
+   "t": 6448,
    "model": "gemini-4-argon",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". Have _E_T. "
-  },
-  {
-   "t": 6286,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 6343,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
-  },
-  {
-   "t": 6373,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
-  },
-  {
-   "t": 6488,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "SLOP"
-  },
-  {
-   "t": 6488,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". Have ___P. "
-  },
-  {
-   "t": 6515,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
-  },
-  {
-   "t": 6515,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". Have ____T. "
-  },
-  {
-   "t": 6606,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "BET"
-  },
-  {
-   "t": 6606,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". "
-  },
-  {
-   "t": 6641,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 6641,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". "
-  },
-  {
-   "t": 6807,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's YEET. "
-  },
-  {
-   "t": 6870,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Maybe TWIN? "
-  },
-  {
-   "t": 6876,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SLOP. "
-  },
-  {
-   "t": 6972,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SIMP. "
-  },
-  {
-   "t": 7080,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "YEET"
-  },
-  {
-   "t": 7080,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". "
-  },
-  {
-   "t": 7088,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 7138,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "TWIN"
-  },
-  {
-   "t": 7138,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "12D (3) \"One-word \"okay, deal\"\". Have _E_. "
-  },
-  {
-   "t": 7180,
-   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "3D",
    "answer": "SIMP"
   },
   {
-   "t": 7180,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
-  },
-  {
-   "t": 7245,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 7245,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". Have ___P. "
-  },
-  {
-   "t": 7255,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "SLOP"
-  },
-  {
-   "t": 7255,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". "
-  },
-  {
-   "t": 7274,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SLOP. "
-  },
-  {
-   "t": 7399,
+   "t": 6448,
    "model": "gemini-4-argon",
    "type": "fill",
    "entry": "7A",
    "answer": "SLOP"
   },
   {
-   "t": 7399,
+   "t": 6448,
    "model": "gemini-4-argon",
-   "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". "
-  },
-  {
-   "t": 7417,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 7591,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 7591,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". Have ___P. "
-  },
-  {
-   "t": 7680,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe VIBE? "
-  },
-  {
-   "t": 7706,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's BET. "
-  },
-  {
-   "t": 7771,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SLOP. "
-  },
-  {
-   "t": 7804,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's LOCKIN. "
-  },
-  {
-   "t": 7850,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "BET"
-  },
-  {
-   "t": 7850,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". Have ____W_. "
-  },
-  {
-   "t": 7893,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "1A",
-   "answer": "VIBE"
-  },
-  {
-   "t": 7893,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". Have ____T. "
-  },
-  {
-   "t": 7968,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "7A",
-   "answer": "SLOP"
-  },
-  {
-   "t": 7968,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". Have S_____. "
-  },
-  {
-   "t": 8051,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "4A",
-   "answer": "LOCKIN"
-  },
-  {
-   "t": 8051,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". "
-  },
-  {
-   "t": 8080,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 8132,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SIMP. "
-  },
-  {
-   "t": 8189,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
-  },
-  {
-   "t": 8218,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 8218,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". Have ____I_. "
-  },
-  {
-   "t": 8258,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's LOCKIN. "
-  },
-  {
-   "t": 8390,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "SIMP"
-  },
-  {
-   "t": 8390,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 8502,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 8502,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". Have ____I_. "
-  },
-  {
-   "t": 8534,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
-  },
-  {
-   "t": 8550,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "4A",
-   "answer": "LOCKIN"
-  },
-  {
-   "t": 8550,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "11D (5) \"An LLM with tools and too much confidence\". Have ____J. "
-  },
-  {
-   "t": 8667,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 8753,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe PROMPT? "
-  },
-  {
-   "t": 8765,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's AGENT. "
-  },
-  {
-   "t": 8809,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's LOCKIN. "
-  },
-  {
-   "t": 8873,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
-  },
-  {
-   "t": 8873,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". Have S_____. "
-  },
-  {
-   "t": 8960,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "4A",
-   "answer": "LOCKIN"
-  },
-  {
-   "t": 8960,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". Have _____H__. "
-  },
-  {
-   "t": 8980,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 8980,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". "
-  },
-  {
-   "t": 8990,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "4A",
-   "answer": "PROMPT"
-  },
-  {
-   "t": 8990,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". "
-  },
-  {
-   "t": 9015,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "AGENT"
-  },
-  {
-   "t": 9015,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". Have S_____. "
-  },
-  {
-   "t": 9086,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
-  },
-  {
-   "t": 9134,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
-  },
-  {
-   "t": 9241,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
-  },
-  {
-   "t": 9255,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 9255,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "3D (4) \"Someone who does way too much for their c…\". Have _I_P. "
-  },
-  {
-   "t": 9267,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SNATCHED"
-  },
-  {
-   "t": 9267,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have L_O_S____. "
-  },
-  {
-   "t": 9349,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
-  },
-  {
-   "t": 9429,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SUS. "
-  },
-  {
-   "t": 9517,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 9517,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
-  },
-  {
-   "t": 9568,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "SAVAGE"
-  },
-  {
-   "t": 9568,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "7A (4) \"Low-effort AI-generated content flooding …\". Have ___P. "
-  },
-  {
-   "t": 9630,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 9673,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SIMP. "
-  },
-  {
-   "t": 9774,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's BLUD. "
-  },
-  {
-   "t": 9803,
-   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "5A",
    "answer": "SUS"
   },
   {
-   "t": 9803,
+   "t": 6448,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "SAVAGE"
+  },
+  {
+   "t": 6691,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "4A (6) \"\"Time to ___\": stop scrolling and actuall…\". Have ____I_. "
+   "text": "5 start3 c6-12 black. So "
   },
   {
-   "t": 9923,
-   "model": "gpt-6.1-sol",
+   "t": 6778,
+   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "2D",
-   "answer": "LOOKSMAXX"
+   "entry": "8D",
+   "answer": "SNATCHED"
   },
   {
-   "t": 9923,
-   "model": "gpt-6.1-sol",
+   "t": 6778,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
+  },
+  {
+   "t": 6778,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "AURAFARMING"
+  },
+  {
+   "t": 6778,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "AGENT"
+  },
+  {
+   "t": 6940,
+   "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have A__A_A__I_G. "
+   "text": "2D r1c2-r"
   },
   {
-   "t": 9940,
+   "t": 6991,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
+  },
+  {
+   "t": 6992,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "BET"
+  },
+  {
+   "t": 7055,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "14A",
+   "answer": "YEET"
+  },
+  {
+   "t": 7055,
+   "model": "gemini-4-argon",
+   "type": "done",
+   "usage": {
+    "input": 1049,
+    "output": 93,
+    "reasoning": 0
+   },
+   "costUsd": 0.003028,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 7471,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "? continuous through r11? r12 c2 black. length"
+  },
+  {
+   "t": 7563,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " row three.\n\n5A is three letters"
+  },
+  {
+   "t": 7688,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at columns 10 through"
+  },
+  {
+   "t": 7808,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 12. 6D starts at column"
+  },
+  {
+   "t": 7859,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "? r1..r11 but some? all"
+  },
+  {
+   "t": 8043,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 12. 7A is four letters starting at column "
+  },
+  {
+   "t": 8087,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r2 c2 dot etc. Yet stated "
+  },
+  {
+   "t": 8239,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9. I'll inspect later rows: r3 c2"
+  },
+  {
+   "t": 8274,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "2. 8D and 9D begin at columns 7 and 10. The"
+  },
+  {
+   "t": 8396,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " second column continues"
+  },
+  {
+   "t": 8489,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot, r4 c2 dot,"
+  },
+  {
+   "t": 8749,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r5 c2 start7, r6 c2 dot,"
+  },
+  {
+   "t": 8908,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r7 c2 start10, r8 c2"
+  },
+  {
+   "t": 9146,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot, r9 c2 dot, r10"
+  },
+  {
+   "t": 9353,
    "model": "claude-opus-5.5",
    "type": "think",
-   "text": "Pretty sure it's SLOP. "
+   "text": " for 2-down, then checking how that intersects with 4-across.\n\nWorking"
   },
   {
-   "t": 10054,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "SIMP"
-  },
-  {
-   "t": 10054,
-   "model": "gemini-4-argon",
+   "t": 9358,
+   "model": "claude-opus-5.5",
    "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have E_O_S____. "
+   "text": " through the rest of the grid: LOOKSMAXX gives me SLOP and AURAFARMING, which cascade into SIMP, SUS, SAVAGE, SNATCHED, HOPIUM, OHIO, AGENT, YEET, and BET as I cross-check each intersecting letter.\n\n"
   },
   {
-   "t": 10092,
-   "model": "grok-4.7",
+   "t": 9359,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "1A",
    "answer": "BLUD"
   },
   {
-   "t": 10092,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". "
+   "t": 9360,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "LOOKSMAXX"
   },
   {
-   "t": 10204,
+   "t": 9360,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "LOCKIN"
+  },
+  {
+   "t": 9361,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "7A",
    "answer": "SLOP"
   },
   {
-   "t": 10204,
+   "t": 9361,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "5A (3) \"When the imposter is acting kinda shady (…\". Have __S. "
-  },
-  {
-   "t": 10231,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Maybe OURAFARMING? "
-  },
-  {
-   "t": 10295,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 10341,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's LOCKIN. "
-  },
-  {
-   "t": 10394,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
-  },
-  {
-   "t": 10458,
-   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "10A",
-   "answer": "OURAFARMING"
+   "answer": "AURAFARMING"
   },
   {
-   "t": 10491,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "4A",
-   "answer": "LOCKIN"
-  },
-  {
-   "t": 10491,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "14A (4) \"Throw with reckless abandon\". Have _E_T. "
-  },
-  {
-   "t": 10505,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
-  },
-  {
-   "t": 10505,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "9D (4) \"U.S. state where literally anything curse…\". "
-  },
-  {
-   "t": 10570,
+   "t": 9361,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SUS. "
-  },
-  {
-   "t": 10582,
-   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "2D",
-   "answer": "LOOKSMAXX"
+   "entry": "3D",
+   "answer": "SIMP"
   },
   {
-   "t": 10582,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". Have _____H__. "
-  },
-  {
-   "t": 10691,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's OHIO. "
-  },
-  {
-   "t": 10929,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "OHIO"
-  },
-  {
-   "t": 10929,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have L_O_S____. "
-  },
-  {
-   "t": 10935,
+   "t": 9361,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "5A",
    "answer": "SUS"
   },
   {
-   "t": 10935,
+   "t": 9362,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". "
+   "type": "fill",
+   "entry": "6D",
+   "answer": "SAVAGE"
   },
   {
-   "t": 11032,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's YEET. "
+   "t": 9362,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SNATCHED"
   },
   {
-   "t": 11119,
-   "model": "gpt-6.1-sol",
-   "type": "done",
-   "usage": {
-    "input": 669,
-    "output": 888,
-    "reasoning": 840
-   },
-   "costUsd": 0.010218,
-   "costSource": "estimate",
-   "finishReason": "stop"
+   "t": 9362,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
   },
   {
-   "t": 11153,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
+   "t": 9362,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
   },
   {
-   "t": 11179,
-   "model": "kimi-k3.1-pro",
+   "t": 9367,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "AGENT"
+  },
+  {
+   "t": 9367,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "14A",
    "answer": "YEET"
   },
   {
-   "t": 11179,
+   "t": 9373,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "BET"
+  },
+  {
+   "t": 9373,
+   "model": "claude-opus-5.5",
+   "type": "done",
+   "usage": {
+    "input": 1356,
+    "output": 651,
+    "reasoning": 526
+   },
+   "costUsd": 0.018444,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 9390,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". "
+   "text": " c2 black? r10 \"## ## 12"
   },
   {
-   "t": 11321,
-   "model": "gemini-4-argon",
+   "t": 9645,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
-   "entry": "8D",
-   "answer": "SNATCHED"
+   "entry": "1A",
+   "answer": "BLUD"
   },
   {
-   "t": 11321,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have A__A_A__I_G. "
+   "t": 9645,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "LOCKIN"
   },
   {
-   "t": 11331,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
+   "t": 9646,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "SUS"
   },
   {
-   "t": 11413,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
+   "t": 9646,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SLOP"
   },
   {
-   "t": 11534,
-   "model": "grok-4.7",
+   "t": 9646,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "AURAFARMING"
+  },
+  {
+   "t": 9647,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
+  },
+  {
+   "t": 9657,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "14A",
+   "answer": "YEET"
+  },
+  {
+   "t": 9657,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "2D",
    "answer": "LOOKSMAXX"
   },
   {
-   "t": 11534,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". Have _____H__. "
-  },
-  {
-   "t": 11571,
-   "model": "claude-opus-5.5",
+   "t": 9657,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
+   "entry": "3D",
+   "answer": "SIMP"
   },
   {
-   "t": 11571,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "8D (8) \"Looking flawless, especially the waist\". Have _____H__. "
-  },
-  {
-   "t": 11605,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
-  },
-  {
-   "t": 11676,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's AURAFARMING. "
-  },
-  {
-   "t": 11776,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
-  },
-  {
-   "t": 11848,
-   "model": "gemini-4-argon",
+   "t": 9658,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
-   "entry": "10A",
-   "answer": "AURAFARMING"
+   "entry": "6D",
+   "answer": "SAVAGE"
   },
   {
-   "t": 11895,
-   "model": "kimi-k3.1-pro",
+   "t": 9697,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "8D",
    "answer": "SNATCHED"
   },
   {
-   "t": 11895,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "13A (6) \"Copium's optimistic cousin\". Have H_____. "
+   "t": 9697,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
   },
   {
-   "t": 12050,
+   "t": 9697,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "AGENT"
+  },
+  {
+   "t": 9704,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's SNATCHED. "
+   "text": " down from 2D.\n\n2D is nine letters"
   },
   {
-   "t": 12111,
-   "model": "claude-opus-5.5",
+   "t": 9724,
+   "model": "deepseek-v4.1-flash",
    "type": "fill",
-   "entry": "8D",
-   "answer": "SNATCHED"
+   "entry": "12D",
+   "answer": "BET"
   },
   {
-   "t": 12111,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have I_R_S____. "
-  },
-  {
-   "t": 12328,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's HOPIUM. "
-  },
-  {
-   "t": 12347,
-   "model": "gemini-4-argon",
+   "t": 9724,
+   "model": "deepseek-v4.1-flash",
    "type": "done",
    "usage": {
-    "input": 669,
-    "output": 1006,
-    "reasoning": 958
+    "input": 994,
+    "output": 2964,
+    "reasoning": 2926
    },
-   "costUsd": 0.011398,
+   "costUsd": 0.0009637499999999999,
    "costSource": "estimate",
    "finishReason": "stop"
   },
   {
-   "t": 12408,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe BALLERINA? "
-  },
-  {
-   "t": 12410,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SNATCHED"
-  },
-  {
-   "t": 12410,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have A__A_A__I_G. "
-  },
-  {
-   "t": 12444,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "HOPIUM"
-  },
-  {
-   "t": 12444,
+   "t": 9835,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "6D (6) \"Brutally, impressively harsh\". Have S_____. "
+   "text": " ##  . ## 13...\" => c1"
   },
   {
-   "t": 12616,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "BALLERINA"
-  },
-  {
-   "t": 12616,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have I__A_A__I_G. "
-  },
-  {
-   "t": 12633,
+   "t": 9923,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Pretty sure it's AURAFARMING. "
+   "text": " long, running from row one through row "
   },
   {
-   "t": 12640,
+   "t": 10048,
    "model": "kimi-k3.1-pro",
    "type": "think",
-   "text": "Pretty sure it's SAVAGE. "
+   "text": "-2 black c3 start12 c4 black c5 dot c6 black c7 start13 etc."
   },
   {
-   "t": 12850,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "AURAFARMING"
-  },
-  {
-   "t": 12850,
+   "t": 10143,
    "model": "grok-4.7",
    "type": "think",
-   "text": "Recheck 14A: crossings don't fit. "
+   "text": "nine in column two. 10A starts at row seven"
   },
   {
-   "t": 12910,
+   "t": 10321,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " So 2D r1-r9 =9"
+  },
+  {
+   "t": 10555,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " yes.\n\nr3: c1 start4 c2"
+  },
+  {
+   "t": 10719,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". c3. c4. c5. c"
+  },
+  {
+   "t": 10971,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6. c7-9 black c10 start5"
+  },
+  {
+   "t": 11125,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c11. c12 start6. Across "
+  },
+  {
+   "t": 11353,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4A length6 c1-c6. "
+  },
+  {
+   "t": 11502,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5A length3 c10-c12. Down"
+  },
+  {
+   "t": 11731,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 3D starts r2c5, r"
+  },
+  {
+   "t": 11885,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3c5, r4c5, r"
+  },
+  {
+   "t": 12126,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5c5 =4? r4 c5"
+  },
+  {
+   "t": 12265,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column two.\n\n3D is four letters"
+  },
+  {
+   "t": 12355,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot, r5 c5 dot, r6"
+  },
+  {
+   "t": 12392,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " across rows two through"
+  },
+  {
+   "t": 12628,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " five, intersecting 4A and 7A. 6D is six"
+  },
+  {
+   "t": 12656,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c5 black. yes. 6D r3"
+  },
+  {
+   "t": 12811,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "c12 down r3-r8? r4"
+  },
+  {
+   "t": 12868,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters starting at row three column twelve."
+  },
+  {
+   "t": 13064,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c12 dot, r5 c12 dot,"
+  },
+  {
+   "t": 13212,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r6 c12 dot, r7 c12"
+  },
+  {
+   "t": 13482,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot, r8 c12 dot"
+  },
+  {
+   "t": 13615,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ", r9 c12 black =>6.\n\nr4: \"##"
+  },
+  {
+   "t": 13889,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  . ## ##  . ## ## ## ##"
+  },
+  {
+   "t": 14051,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ## ##  .\" c1 black c2"
+  },
+  {
+   "t": 14290,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot c3-4 black c5 dot c"
+  },
+  {
+   "t": 14539,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6-11 black c12 dot.\n\nr5: \"##"
+  },
+  {
+   "t": 14699,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  7  .  .  . ##"
+  },
+  {
+   "t": 14932,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  8 ## ##  9 ## "
+  },
+  {
+   "t": 15161,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " .\"\nc1 black c2 start7 c3"
+  },
+  {
+   "t": 15168,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n10A is eleven letters"
+  },
+  {
+   "t": 15380,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " across row seven. 6D is confirmed as six"
+  },
+  {
+   "t": 15390,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot c4 dot c5 dot c6 black c"
+  },
+  {
+   "t": 15560,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7 start8 c8-9 black c10"
+  },
+  {
+   "t": 15578,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters, intersecting 5A and 10A. 7A is four"
+  },
+  {
+   "t": 15790,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters and likely means \"SLOP.\" 8D starts"
+  },
+  {
+   "t": 15955,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " start9 c11 black c12 dot.\n7"
+  },
+  {
+   "t": 15998,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at row five column seven."
+  },
+  {
+   "t": 16362,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A c2-c5 length4.\n8D c7"
+  },
+  {
+   "t": 16573,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " starts r5 through r12? r6 c7"
+  },
+  {
+   "t": 16802,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot r7 c7 dot r8 c7"
+  },
+  {
+   "t": 17040,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot r9 c7 dot r10 c7"
+  },
+  {
+   "t": 17189,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n8D is eight letters,"
+  },
+  {
+   "t": 17289,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot? r10 c7 start13 across"
+  },
+  {
+   "t": 17380,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " intersecting 10A and"
+  },
+  {
+   "t": 17516,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ","
+  },
+  {
+   "t": 17544,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 13A. 9D starts at row"
+  },
+  {
+   "t": 17666,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " but down continuous; r11 c7 dot;"
+  },
+  {
+   "t": 17709,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " five column ten."
+  },
+  {
+   "t": 17900,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r12 c7 dot =>8. yes.\n"
+  },
+  {
+   "t": 18054,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9D c10 r5-r8? r"
+  },
+  {
+   "t": 18293,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6 c10 dot r7 c10 dot r"
+  },
+  {
+   "t": 18459,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8 c10 dot r9 c10 black =>"
+  },
+  {
+   "t": 18695,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4.\n\nr6: \"##  . ## ##"
+  },
+  {
+   "t": 18942,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ## ##  . ## ##  . ## "
+  },
+  {
+   "t": 19179,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " .\"\nc1 black c2 dot c3"
+  },
+  {
+   "t": 19406,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "-6 black c7 dot c8"
+  },
+  {
+   "t": 19538,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n9D is four letters"
+  },
+  {
+   "t": 19564,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "-9 black c10 dot c11 black c12 dot.\n\nr"
+  },
+  {
+   "t": 19662,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " across rows five through"
+  },
+  {
+   "t": 19783,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " eight, intersecting"
+  },
+  {
+   "t": 19811,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7: \"## 10  .  . "
+  },
+  {
+   "t": 19911,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 10A. 11D is five letters"
+  },
+  {
+   "t": 19977,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11  .  .  .  . "
+  },
+  {
+   "t": 20034,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starting at row seven"
+  },
+  {
+   "t": 20267,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " .  .  .\"\nc1 black c"
+  },
+  {
+   "t": 20420,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 start10 c3 dot c4 dot c"
+  },
+  {
+   "t": 20661,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5 start11 c6 dot c7 dot c"
+  },
+  {
+   "t": 20890,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8 dot c9 dot c10 dot c11"
+  },
+  {
+   "t": 21262,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot c12 dot. Across "
+  },
+  {
+   "t": 21476,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "10A length11 c2-c12. 11"
+  },
+  {
+   "t": 21662,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D starts r7c5 down? r8 c5 dot r"
+  },
+  {
+   "t": 21896,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9 c5 dot r10 c5 dot r"
+  },
+  {
+   "t": 21924,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column five.\n\n11D is five letters"
+  },
+  {
+   "t": 22051,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " down column five from"
+  },
+  {
+   "t": 22211,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11 c5 black =>4? Wait stated "
+  },
+  {
+   "t": 22273,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " row seven, intersecting 14A. 12D is three letters"
+  },
+  {
+   "t": 22371,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5. r7c5, r8c5, r"
+  },
+  {
+   "t": 22492,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " across row ten column three, intersecting"
+  },
+  {
+   "t": 22618,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 14A."
+  },
+  {
+   "t": 22765,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9c5, r10c5 =4"
+  },
+  {
+   "t": 22920,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Should check r11: \"## 14  ."
+  },
+  {
+   "t": 23157,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  .  . ##  . ##...\" c"
+  },
+  {
+   "t": 23317,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1 black c2 start14 c3 dot c"
+  },
+  {
+   "t": 23549,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4 dot c5 dot c6 black c7"
+  },
+  {
+   "t": 23791,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot. Ah r11 c5 dot,"
+  },
+  {
+   "t": 23939,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " r"
+  },
+  {
+   "t": 24294,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12 c5 black. So 5 yes."
+  },
+  {
+   "t": 24523,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I misread 14 across c2-c5.\n\nr"
+  },
+  {
+   "t": 24767,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8: \"##  . ## ##  . ##"
+  },
+  {
+   "t": 25015,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "  . ## ##  . ## "
+  },
+  {
+   "t": 25194,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " .\"\nc1 black c2 dot c3-4 black c"
+  },
+  {
+   "t": 25374,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n13A is six letters"
+  },
+  {
+   "t": 25491,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5 dot c6 black c7 dot c8"
+  },
+  {
+   "t": 25539,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starting at row ten column seven. It means"
+  },
+  {
+   "t": 25654,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "-9 black c10 dot c11 black c"
+  },
+  {
+   "t": 25714,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " \"Copium's optimistic cousin.\" 14A is four"
+  },
+  {
+   "t": 25866,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters starting at row eleven column two."
+  },
+  {
+   "t": 25899,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12 dot.\nr9: \"##  . ##"
+  },
+  {
+   "t": 26033,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " It means \"Throw with reckless abandon.\"\n\n"
+  },
+  {
+   "t": 26067,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ##  . ##  . ## ## ## ##"
+  },
+  {
+   "t": 26197,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "The first clue is \"London roadman's word for "
+  },
+  {
+   "t": 26307,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ##\"\nc1 black c"
+  },
+  {
+   "t": 26361,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "mate\" and the answer is BRUV."
+  },
+  {
+   "t": 26552,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 dot c3-4 black c5 dot c6 black c"
+  },
+  {
+   "t": 26713,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7 dot c8-12 black.\nr10:"
+  },
+  {
+   "t": 26961,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"## ## 12 ##  . ## "
+  },
+  {
+   "t": 27588,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "13  .  .  .  .  .\"\nc"
+  },
+  {
+   "t": 27870,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1-2 black c3 start12 c4 black c5 dot c6 black c7 start13"
+  },
+  {
+   "t": 28009,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n2D is LOOKSMAXXING."
+  },
+  {
+   "t": 28201,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c8-c12 dots. Across 13A length6"
+  },
+  {
+   "t": 28247,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 4A is LOCKIN."
+  },
+  {
+   "t": 28450,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " c7-c12.\n12D r10c3, r"
+  },
+  {
+   "t": 28608,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11c3, r12c3 =3"
+  },
+  {
+   "t": 28928,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ".\nr11: \"## 14  . "
+  },
+  {
+   "t": 29097,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " .  . ##  . ##...\" c1"
+  },
+  {
+   "t": 29346,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " black c2 start14 c3"
+  },
+  {
+   "t": 29644,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " dot c4 dot c5 dot c6 black c7 dot rest"
+  },
+  {
+   "t": 29839,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " black.\n14A c2-c5 length4"
+  },
+  {
+   "t": 30091,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ".\nr12: \"## ##  . ## ##"
+  },
+  {
+   "t": 30355,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ##  . ##...\" c1-2 black c"
+  },
+  {
+   "t": 30596,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 dot c4-6 black c7 dot rest"
+  },
+  {
+   "t": 30841,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " black.\n\nNow answers slang:\n1A London road"
+  },
+  {
+   "t": 31331,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n5A is three letters"
+  },
+  {
+   "t": 31340,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "man's word for mate (4): FAM? \""
+  },
+  {
+   "t": 31519,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and means \"When the imposter is acting "
+  },
+  {
+   "t": 31672,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "blud\" (mate, roadman slang)"
+  },
+  {
+   "t": 31706,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "kinda shady (Among Us)\"; the answer is SUS. "
+  },
+  {
+   "t": 31886,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "6D is six letters and means \"Brutally, impressively"
+  },
+  {
+   "t": 32010,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = BLUD length4. Could be \"BR"
+  },
+  {
+   "t": 32052,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " harsh\"; the answer is SAVAGE. 3D is four"
+  },
+  {
+   "t": 32245,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters and means \"Someone who does way too much"
+  },
+  {
+   "t": 32277,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "UV\" 4. London roadman's word for"
+  },
+  {
+   "t": 32410,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for their crush\"; the answer is SIMP."
+  },
+  {
+   "t": 32525,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " mate likely BLUD. Cross letter2 = "
+  },
+  {
+   "t": 32782,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2D first. 2D optimize face min"
+  },
+  {
+   "t": 33102,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "-max RPG build = LOOKSMAX? length9"
+  },
+  {
+   "t": 33352,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"LOOKSMAXX\"??"
+  },
+  {
+   "t": 33676,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Looksmaxxing = 11? \"LOOKSMAX\" "
+  },
+  {
+   "t": 33813,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n2D is nine letters"
+  },
+  {
+   "t": 34001,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and starts with R. The second letter is"
+  },
+  {
+   "t": 34069,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8. \"LOOKSMAXXING\" 12"
+  },
+  {
+   "t": 34208,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " O, the fourth is S, and the sixth is S."
+  },
+  {
+   "t": 34382,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Entry 9: \"LOOKSMAXX\"? Count"
+  },
+  {
+   "t": 34384,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The remaining letters are still unknown."
+  },
+  {
+   "t": 34946,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " L O O K S M A X X ="
+  },
+  {
+   "t": 35353,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9. Common looksmaxxing but looksmaxx (9"
+  },
+  {
+   "t": 35593,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "?) \"looksmaxx\" =9 indeed."
+  },
+  {
+   "t": 36087,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Could be \"LOOKSMAXING\" 11"
+  },
+  {
+   "t": 36520,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Should use crosses. 2D length9"
+  },
+  {
+   "t": 36766,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letters positions:\n1 = 1A letter2"
+  },
+  {
+   "t": 37008,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\n3 = 4A letter2\n5"
+  },
+  {
+   "t": 37052,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nReconsidering the "
+  },
+  {
+   "t": 37185,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "first clue: \"London "
+  },
+  {
+   "t": 37241,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = 7A letter1\n7 = "
+  },
+  {
+   "t": 37313,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "roadman's word for mate\""
+  },
+  {
+   "t": 37433,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " might be BLUD, which"
+  },
+  {
+   "t": 37482,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "10A letter1.\nIf LOOKSMAXX: pos"
+  },
+  {
+   "t": 37566,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " would make 2D start"
+  },
+  {
+   "t": 37800,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1 L, pos3 O, pos5 S,"
+  },
+  {
+   "t": 37999,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " pos7 A, pos8 X, pos9"
+  },
+  {
+   "t": 38233,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " X.\nThen 1A letter2 L ->"
+  },
+  {
+   "t": 38475,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " BLUD fits (B L U D)."
+  },
+  {
+   "t": 38639,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Good. 4A letter2 O. \"Time"
+  },
+  {
+   "t": 38874,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " to ___\": stop scrolling and actually focus (2"
+  },
+  {
+   "t": 39109,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " words), 6 letters. \"LOCK IN\""
+  },
+  {
+   "t": 39420,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = LOCKIN (6). letter2 O yes"
+  },
+  {
+   "t": 39580,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". letter5 = I? LOCKIN letters L"
+  },
+  {
+   "t": 39881,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " O C K I N; pos5 I."
+  },
+  {
+   "t": 40114,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 3D letter2 I. 3D someone does"
+  },
+  {
+   "t": 40388,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with L instead of R.\n\nBLUD is the London"
+  },
+  {
+   "t": 40513,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " way too much for crush = SIMP length4"
+  },
+  {
+   "t": 40585,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " roadman slang for mate. This makes 2D start"
+  },
+  {
+   "t": 40702,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". letter2 I yes. letter4 P ="
+  },
+  {
+   "t": 40769,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with L, and LOOKSMAXX fits the nine-letter"
+  },
+  {
+   "t": 40925,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 7A letter4. 7"
+  },
+  {
+   "t": 40962,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " pattern with O in the third position and "
+  },
+  {
+   "t": 41216,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A low effort AI content = SLOP (4). letter"
+  },
+  {
+   "t": 41459,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1 S = 2D letter5 S yes"
+  },
+  {
+   "t": 41768,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". letter4 P = SIMP P. Great"
+  },
+  {
+   "t": 42005,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ".\nSo 2D LOOKSMAXX"
+  },
+  {
+   "t": 42241,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " likely. 10A letter1 = 2D letter"
+  },
+  {
+   "t": 42484,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7 A. 10A \"Doing something slow and"
+  },
+  {
+   "t": 42896,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " cool purely for the clout\" length11. \""
+  },
+  {
+   "t": 43106,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AURA FARMING\" = AURAFARMING =11"
+  },
+  {
+   "t": 43293,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "S in the fifth.\n\nBLUD is confirmed "
+  },
+  {
+   "t": 43346,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "? AURA(4)+FARMING(7"
+  },
+  {
+   "t": 43467,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "as 1A. The spelling "
+  },
+  {
+   "t": 43631,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "LOOKSMAXX fits the nine-letter"
+  },
+  {
+   "t": 43669,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ")=11. Yes. Starts A. letter4"
+  },
+  {
+   "t": 43805,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2D pattern exactly."
+  },
+  {
+   "t": 43915,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " A, letter6 A? AURAFARMING: p"
+  },
+  {
+   "t": 45988,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n10A is eleven letters"
+  },
+  {
+   "t": 46181,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and means \"Doing something slow and cool purely"
+  },
+  {
+   "t": 46364,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for the clout.\" The answer is AURAFARMING."
+  },
+  {
+   "t": 46545,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The first letter matches 2D's seventh letter,"
+  },
+  {
+   "t": 46734,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and the fourth letter aligns with 11D's first"
+  },
+  {
+   "t": 48927,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter.\n\n8D is eight letters"
+  },
+  {
+   "t": 49049,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and starts with a letter"
+  },
+  {
+   "t": 49230,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " whose third position is F. \"Snatched\" was"
+  },
+  {
+   "t": 49456,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " ruled out because its third letter is A, "
+  },
+  {
+   "t": 49581,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "not F. \"Cinched\" is "
+  },
+  {
+   "t": 49755,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "seven letters, so it does not fit. \"Offguard\""
+  },
+  {
+   "t": 52027,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " was also rejected.\n\nAURAFARMING was ruled"
+  },
+  {
+   "t": 52242,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " out for 8D because its sixth letter is "
+  },
+  {
+   "t": 52456,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "A, not F. The third letter of 8D must be"
+  },
+  {
+   "t": 54180,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " F.\n\nAURAFARMING is confirmed"
+  },
+  {
+   "t": 54407,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for 10A. Its sixth letter is A, so 8D's"
+  },
+  {
+   "t": 54636,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " third letter is A. SNATCHED fits 8D because"
+  },
+  {
+   "t": 54859,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " its third letter is A. Its sixth letter"
+  },
+  {
+   "t": 55086,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is E, so 13A starts with E."
+  },
+  {
+   "t": 55865,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nSNATCHED was miscounted;"
+  },
+  {
+   "t": 56060,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " its sixth letter is H, not E. HOPIUM is"
+  },
+  {
+   "t": 56255,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the correct six-letter answer for 13A, starting"
+  },
+  {
+   "t": 56383,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with H to match that"
+  },
+  {
+   "t": 58237,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " position.\n\n9D is OHIO, matching"
+  },
+  {
+   "t": 58366,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the third letter I "
+  },
+  {
+   "t": 58489,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "from AURAFARMING. 11D"
+  },
+  {
+   "t": 58613,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is AGENT, starting "
+  },
+  {
+   "t": 58739,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "with A and ending with"
+  },
+  {
+   "t": 58866,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " T to align with 14A."
+  },
+  {
+   "t": 60667,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 14A is YEET.\n\n12D is BET. The second"
+  },
+  {
+   "t": 60824,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter of 14A is E,"
+  },
+  {
+   "t": 60979,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " so the middle letter"
+  },
+  {
+   "t": 61132,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " of 12D must be E."
+  },
+  {
+   "t": 61199,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "SUS"
+  },
+  {
+   "t": 61200,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SLOP"
+  },
+  {
+   "t": 61435,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "SIMP"
+  },
+  {
+   "t": 61673,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "LOCKIN"
+  },
+  {
+   "t": 61674,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 61939,
    "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "6D",
    "answer": "SAVAGE"
   },
   {
-   "t": 12910,
+   "t": 61941,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "1A (4) \"London roadman's word for mate\". "
-  },
-  {
-   "t": 12911,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's AURAFARMING. "
-  },
-  {
-   "t": 13015,
-   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "10A",
    "answer": "AURAFARMING"
   },
   {
-   "t": 13015,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Recheck 1A: crossings don't fit. "
+   "t": 62159,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "BLUD"
   },
   {
-   "t": 13239,
+   "t": 62167,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "LOCKIN"
+  },
+  {
+   "t": 62189,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's BLUD. "
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
   },
   {
-   "t": 13324,
+   "t": 62194,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "SUS"
+  },
+  {
+   "t": 62229,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SLOP"
+  },
+  {
+   "t": 62271,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "AURAFARMING"
+  },
+  {
+   "t": 62283,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
+  },
+  {
+   "t": 62284,
    "model": "grok-4.7",
    "type": "fill",
    "entry": "14A",
    "answer": "YEET"
   },
   {
-   "t": 13554,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "1A",
-   "answer": "BLUD"
-  },
-  {
-   "t": 13594,
+   "t": 62342,
    "model": "kimi-k3.1-pro",
    "type": "fill",
-   "entry": "1A",
-   "answer": "BLUD"
+   "entry": "8D",
+   "answer": "SNATCHED"
   },
   {
-   "t": 13594,
+   "t": 62343,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "10A (11) \"Doing something slow and cool purely for …\". Have ___A_A__I_G. "
+   "type": "fill",
+   "entry": "13A",
+   "answer": "HOPIUM"
   },
   {
-   "t": 13802,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's AURAFARMING. "
+   "t": 62493,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "LOOKSMAXX"
   },
   {
-   "t": 13937,
+   "t": 62494,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "SIMP"
+  },
+  {
+   "t": 62495,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "SAVAGE"
+  },
+  {
+   "t": 62496,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SNATCHED"
+  },
+  {
+   "t": 62497,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OHIO"
+  },
+  {
+   "t": 62498,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "AGENT"
+  },
+  {
+   "t": 62511,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "BET"
+  },
+  {
+   "t": 62511,
    "model": "grok-4.7",
    "type": "done",
    "usage": {
-    "input": 669,
-    "output": 864,
-    "reasoning": 813
+    "input": 2215,
+    "output": 5439,
+    "reasoning": 5352
    },
-   "costUsd": 0.006522,
+   "costUsd": 0.037064,
    "costSource": "estimate",
    "finishReason": "stop"
   },
   {
-   "t": 14046,
-   "model": "claude-opus-5.5",
-   "type": "done",
-   "usage": {
-    "input": 669,
-    "output": 1057,
-    "reasoning": 1007
-   },
-   "costUsd": 0.023816,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 14053,
+   "t": 62581,
    "model": "kimi-k3.1-pro",
    "type": "fill",
-   "entry": "10A",
-   "answer": "AURAFARMING"
+   "entry": "11D",
+   "answer": "AGENT"
   },
   {
-   "t": 14053,
+   "t": 62744,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "2D (9) \"Optimize your face like it's a min-max RP…\". Have L_O_S_A__. "
+   "type": "fill",
+   "entry": "12D",
+   "answer": "BET"
   },
   {
-   "t": 14544,
+   "t": 62745,
    "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
+   "type": "fill",
+   "entry": "14A",
+   "answer": "YEET"
   },
   {
-   "t": 14858,
+   "t": 63001,
    "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "2D",
    "answer": "LOOKSMAXX"
   },
   {
-   "t": 15231,
+   "t": 63001,
    "model": "kimi-k3.1-pro",
    "type": "done",
    "usage": {
-    "input": 669,
-    "output": 921,
-    "reasoning": 873
+    "input": 1064,
+    "output": 2443,
+    "reasoning": 2337
    },
-   "costUsd": 0.010548,
+   "costUsd": 0.026558,
    "costSource": "estimate",
    "finishReason": "stop"
   }

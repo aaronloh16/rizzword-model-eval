@@ -1,8 +1,7 @@
 {
  "version": 1,
  "puzzleId": "2026-10-27",
- "recordedAt": "2026-10-27T12:00:00.000Z",
- "source": "simulated",
+ "recordedAt": "2026-10-27T05:38:36.476Z",
  "models": [
   {
    "id": "gpt-6.1-sol",
@@ -40,1806 +39,2055 @@
   "maxOutputTokens": 3000,
   "promptVersion": "v1"
  },
+ "source": "live",
  "events": [
   {
-   "t": 51,
-   "model": "claude-opus-5.5",
-   "type": "start"
-  },
-  {
-   "t": 51,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 56,
-   "model": "kimi-k3.1-pro",
-   "type": "start"
-  },
-  {
-   "t": 56,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 73,
-   "model": "deepseek-v4.1-flash",
-   "type": "start"
-  },
-  {
-   "t": 73,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 128,
+   "t": 0,
    "model": "gpt-6.1-sol",
    "type": "start"
   },
   {
-   "t": 128,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 153,
-   "model": "grok-4.7",
+   "t": 4,
+   "model": "claude-opus-5.5",
    "type": "start"
   },
   {
-   "t": 153,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 170,
+   "t": 4,
    "model": "gemini-4-argon",
    "type": "start"
   },
   {
-   "t": 170,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Scanning 14 clues. "
+   "t": 5,
+   "model": "grok-4.7",
+   "type": "start"
   },
   {
-   "t": 303,
+   "t": 5,
+   "model": "kimi-k3.1-pro",
+   "type": "start"
+  },
+  {
+   "t": 6,
+   "model": "deepseek-v4.1-flash",
+   "type": "start"
+  },
+  {
+   "t": 705,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "text": "We"
   },
   {
-   "t": 648,
+   "t": 1102,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
+   "text": " need solve crossword. Need output lines only. Need be careful. Let's parse grid and clues. Need solve Gen Z"
   },
   {
-   "t": 918,
+   "t": 1112,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's ATE. "
+   "text": " slang.\n\nWe need reconstruct grid coordinates. 12x12. Given rows strings? Let's label rows 1-12, cols 1-12. Row representation with leading maybe.\n\nRow1: \" ## ## ##  1 ## ##  2  3  .  . ##  4\"\nNeed parse tokens. Let's map columns. It seems each"
   },
   {
-   "t": 1015,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "ATE"
-  },
-  {
-   "t": 1015,
+   "t": 1232,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". "
+   "text": " cell separated by spaces? The string uses double spaces? Let's list tokens:\nRow1 tokens: \"##\", \"##\", \"##\", \"1\", \"##\", \"##\", \"2\", \"3\", \".\", \".\", \"##\", \"4"
   },
   {
-   "t": 1120,
+   "t": 1361,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "\" maybe 12 columns. Let's index:\nc1 ##\nc2 ##\nc3 ##\nc4 1\nc5 ##\nc6 ##\nc7 2\nc8 3\nc9 .\nc10 .\nc11 ##"
+  },
+  {
+   "t": 1510,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "\nc12 4\nBut clue 2A (4) starts at 2? Actually number 2 at c7 maybe across length?"
+  },
+  {
+   "t": 1605,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "This is a 12x12 crossword"
+  },
+  {
+   "t": 1641,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Need determine entries.\n\nRow2: \" ## ## ##  . ##  5 ##  . ## ## ##  .\"\nTokens: c1 ##, c2 ##, c3 ##, c4 ., c5 ##,"
+  },
+  {
+   "t": 1680,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1229,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe BRCB? "
-  },
-  {
-   "t": 1262,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1339,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "2A",
-   "answer": "BRCB"
+   "answer": "BRUV"
   },
   {
-   "t": 1339,
+   "t": 1777,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
+   "text": " c6 5, c7 ##, c8 ., c9 ##, c10 ##, c11 ##, c12 .\nRow3: \" ## ## ##  . ##  6  .  .  .  7  .  .\"\nc1"
   },
   {
-   "t": 1453,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's BRAT. "
-  },
-  {
-   "t": 1557,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRAT"
-  },
-  {
-   "t": 1557,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". "
-  },
-  {
-   "t": 1612,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1636,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1807,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 1870,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 2000,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 2000,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 2099,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 2159,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 2159,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 2332,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 2464,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 2464,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have S__T_. "
-  },
-  {
-   "t": 2606,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 2608,
+   "t": 1855,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
-  },
-  {
-   "t": 2701,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 2701,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". Have ___O. "
-  },
-  {
-   "t": 2926,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
-  },
-  {
-   "t": 2934,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's ATE. "
-  },
-  {
-   "t": 3078,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". "
-  },
-  {
-   "t": 3083,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "ATE"
-  },
-  {
-   "t": 3083,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
-  },
-  {
-   "t": 3111,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "FOMO"
-  },
-  {
-   "t": 3111,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". Have R___. "
-  },
-  {
-   "t": 3247,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BRAT. "
-  },
-  {
-   "t": 3390,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 3452,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "3D",
    "answer": "RIZZ"
   },
   {
-   "t": 3452,
+   "t": 1904,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". Have ____A. "
+   "text": " ## c2 ## c3 ## c4 . c5 ## c6 6 c7 . c8 . c9 . c10 7 c11 . c12 .\nRow4: \" ## ## ##  . ##  . ##  . ## "
   },
   {
-   "t": 3483,
+   "t": 1949,
    "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "5D",
    "answer": "BRAT"
   },
   {
-   "t": 3483,
+   "t": 2032,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " . ##  .\"\nc1 ## c2 ## c3 ## c4 . c5 ## c6 . c7 ## c8 . c9 ## c10 . c11 ## c12 .\nRow5: \"  8 ##  9  .  .  .  . ##"
+  },
+  {
+   "t": 2034,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " puzzle using Gen Z "
+  },
+  {
+   "t": 2143,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". "
+   "type": "fill",
+   "entry": "6A",
+   "answer": "RIZZLER"
   },
   {
-   "t": 3593,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
-  },
-  {
-   "t": 3693,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 3725,
+   "t": 2152,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
-  },
-  {
-   "t": 3733,
-   "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "10A",
-   "answer": "FOMO"
+   "entry": "9A",
+   "answer": "SALTY"
   },
   {
-   "t": 3733,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
-  },
-  {
-   "t": 3836,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
-  },
-  {
-   "t": 3866,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 3866,
+   "t": 2159,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O____. "
+   "text": " 10  .  .  .\"\nc1 8 c2 ## c3 9 c4 . c5 . c6 . c7 . c8 ## c9 10 c10 . c11 . c12 .\nRow6: \"  . ##  . ## ##"
   },
   {
-   "t": 3941,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 3945,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". "
-  },
-  {
-   "t": 3970,
+   "t": 2256,
    "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "10A",
    "answer": "FOMO"
   },
   {
-   "t": 3970,
+   "t": 2264,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 4119,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "11A",
    "answer": "GHOSTED"
   },
   {
-   "t": 4119,
+   "t": 2279,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z___R. "
+   "text": " ## ## ## ##  . ##  .\"\nc1 . c2 ## c3 . c4 ## c5 ## c6 ## c7 ## c8 ## c9 ## c10 . c11 ## c12 .\nRow7: \" 11  .  . "
   },
   {
-   "t": 4149,
-   "model": "claude-opus-5.5",
+   "t": 2325,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "ATE"
+  },
+  {
+   "t": 2355,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "FINNA"
+  },
+  {
+   "t": 2357,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "PERIODT"
+  },
+  {
+   "t": 2405,
+   "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's ATE. "
+   "text": " .  .  . 12 ## ##  . ##  .\"\nc1 11 c2 . c3 . c4 . c5 . c6 . c7 12 c8 ## c9 ## c10 . c"
   },
   {
-   "t": 4195,
+   "t": 2502,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "LOOKSMAXX"
+  },
+  {
+   "t": 2525,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "11 ## c12 .\nRow8: \"  . ##  . ## ## ##  . ## ##  . ## ##\"\nc1 . c2 ## c3 . c4 ## c5 ## c6 ## c7"
+  },
+  {
+   "t": 2527,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 2528,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 2650,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " . c8 ## c9 ## c10 . c11 ## c12 ##\nRow9: \"  . ##  . ## ## ##  . ## ## 13  .  .\"\nc1 . c2 ## c3 . c4 ##"
+  },
+  {
+   "t": 2728,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "DEMURE"
+  },
+  {
+   "t": 2728,
+   "model": "gpt-6.1-sol",
+   "type": "done",
+   "usage": {
+    "input": 976,
+    "output": 91,
+    "reasoning": 0
+   },
+   "costUsd": 0.002862,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 2778,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " c5 ## c6 ## c7 . c8 ## c9 ## c10 13 c11 . c12 .\nRow10: \" ## ## ## ## ## ##  . ## ##  . ## ##\"\nc1 ## c2 ## c3 ##"
+  },
+  {
+   "t": 2919,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " c4 ## c5 ## c6 ## c7 . c8 ## c9 ## c10 . c11 ## c12 ##\nRow11: \" ## ## ## ## ## ##  . ## ##  . ## ##\"\nsame c"
+  },
+  {
+   "t": 3080,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "7 ., c10 .\nRow12: \" ## ## ## ## ## ##  . ## ## ## ## ##\"\nc7 .\n\nNeed identify across/down slots by numbers. Given clues list"
+  },
+  {
+   "t": 3140,
    "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "ATE"
+  },
+  {
+   "t": 3140,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "DEMURE"
+  },
+  {
+   "t": 3221,
+   "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's ATE. "
+   "text": " numbers:\nAcross: 2A(4), 6A(7), 9A(5), 10A(4), 11A(7), 13A(3)\nDown: 1D(5),"
+  },
+  {
+   "t": 3341,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 3D(4), 4D(7), 5D(4), 7D(9), 8D(5), 9D(5), 12D(6)\n\nNeed locate starts"
+  },
+  {
+   "t": 3461,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ":\nNumber 1 at row1 c4 likely down 1D length 5? Let's see c4 row1,2,3,4? row"
+  },
+  {
+   "t": 3531,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 3531,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "GHOSTED"
+  },
+  {
+   "t": 3531,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 3531,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "BRAT"
+  },
+  {
+   "t": 3587,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1 c4=1, row2 c4=., row3 c4=., row4 c4=., row5 c4=. row6 c4 ##. So 1D length 5 rows1"
+  },
+  {
+   "t": 3714,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "-5 c4? Actually row1 c4, row2 c4, row3 c4, row4 c4, row5 c4 all non-## = 5. Yes 1"
+  },
+  {
+   "t": 3792,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "FINNA"
+  },
+  {
+   "t": 3792,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 3792,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "RIZZ"
+  },
+  {
+   "t": 3792,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BRUV"
+  },
+  {
+   "t": 3841,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "D = col4 rows1-5 length5.\n\nNumber 2 at row1 c7, across? row1 c7=2, c8=3"
+  },
+  {
+   "t": 3967,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? Wait c8 is number 3 not empty? Hmm row1 c7=2, c8=3, c9=., c10=. Maybe 2A length 4? c7-c10"
+  },
+  {
+   "t": 4028,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "RIZZLER"
+  },
+  {
+   "t": 4028,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "PERIODT"
+  },
+  {
+   "t": 4028,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "FOMO"
+  },
+  {
+   "t": 4071,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "LOOKSMAXX"
+  },
+  {
+   "t": 4071,
+   "model": "gemini-4-argon",
+   "type": "done",
+   "usage": {
+    "input": 1048,
+    "output": 93,
+    "reasoning": 0
+   },
+   "costUsd": 0.003026,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 4107,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " = 2,3,.,. But c8 has number 3, so across entry starting at c7 length 4 includes c8 with number 3 (start"
   },
   {
    "t": 4242,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
+   "text": " of down 3D at c8 row1?). Yes c8 is a cell with number 3 (start of 3D down)."
   },
   {
-   "t": 4304,
+   "t": 4383,
    "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 2A clue (4): British for \"bro\" likely BRUV? length 4? \"bruv"
+  },
+  {
+   "t": 4535,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "\" British for bro. So 2A = BRUV. c7 B, c8 R, c9 U, c10 V. Then 3D starts at row1 c8"
+  },
+  {
+   "t": 4638,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "slang.\n\nMapping the 12x12 "
+  },
+  {
+   "t": 4656,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? Down length 4 rows1-4 c8: row1 c8=R, row2 c8=., row3 c8=., row4 c8=., row5 c8 ##. Length 4."
+  },
+  {
+   "t": 4782,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "grid and entry starts."
+  },
+  {
+   "t": 4793,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Clue 3D (4) Charisma stat = RIZZ. Crosses: letter1 = 2A letter2 = R. letter3 ="
+  },
+  {
+   "t": 4917,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 6A letter3. So 3D = RIZZ? R at c8 row1, I row2 c8, Z row3 c8, Z row4 c8. Then 6A letter3 = Z. Good"
+  },
+  {
+   "t": 4926,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Row 1 has clues 1D,"
+  },
+  {
+   "t": 5039,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ".\n\nNumber 4 at row1 c12. Down 4D length 7? col12 rows1-7? row1 c12=4, row2 c12=., row3"
+  },
+  {
+   "t": 5075,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2A, 3D, and 4D. Now"
+  },
+  {
+   "t": 5182,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " c12=., row4 c12=., row5 c12=., row6 c12=., row7 c12=., row8 c12 ##. Length7. Clue 4D (7) End of discussion, with extra consonant"
+  },
+  {
+   "t": 5209,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " checking row 2."
+  },
+  {
+   "t": 5321,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " = PERIODT? \"periodt\" length7? P E R I O D T =7. Yes. Crosses letter3=6A letter7;"
+  },
+  {
+   "t": 5441,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter5=10A letter4. So 4D = PERIODT. c12 row1 P, row2 E, row3 R, row4 I, row5 O, row6 D, row7 T. Then"
+  },
+  {
+   "t": 5565,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 10A letter4 = O. 6A letter7 = R.\n\nNumber 5 at row2 c6. Down? 5D length4. col6 rows2-5?"
+  },
+  {
+   "t": 5689,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " row2 c6=5, row3 c6=6? Wait row3 c6=6 is number 6 across start? Hmm c6"
+  },
+  {
+   "t": 5813,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " row3 has 6, so down from row2 c6: row2 c6=5, row3 c6=6 (cell with number), row4 c6="
+  },
+  {
+   "t": 5951,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "., row5 c6=., row6 c6 ##. Length 4? rows2-5 = 4 cells. Clue 5D (4) Lime-green"
+  },
+  {
+   "t": 6086,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " summer 2024 aesthetic = BRAT. Yes. So 5D = BRAT. c6 row2 B, row3 c6 R, row4 c6 A, row5 c6 T. Crosses: letter2 = 6A"
+  },
+  {
+   "t": 6218,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter1 -> 6A letter1 = R. letter4 = 9A letter4 -> 9A letter4 = T.\n\nNumber 6 at row3 c6 across"
+  },
+  {
+   "t": 7008,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRow 2 has 5D starting"
+  },
+  {
+   "t": 7169,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 6. Row 3 "
+  },
+  {
+   "t": 7320,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "has 6A (7 letters) starting"
+  },
+  {
+   "t": 7472,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 6 and 7D "
+  },
+  {
+   "t": 7624,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "at column 10. Now checking"
+  },
+  {
+   "t": 7814,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " row 4."
+  },
+  {
+   "t": 8088,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "I"
+  },
+  {
+   "t": 8477,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " need solve fast accurate. Should map grid and"
+  },
+  {
+   "t": 8725,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " clues. Should answer lines easiest. Should have all"
+  },
+  {
+   "t": 9037,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " across/down 12? Entries listed 2A 6"
+  },
+  {
+   "t": 9233,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A 9A 10A 11A 13"
+  },
+  {
+   "t": 9518,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A; down 1D 3D 4"
+  },
+  {
+   "t": 9694,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRow 5 has 8D starting"
+  },
+  {
+   "t": 9821,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 1 and 10A"
+  },
+  {
+   "t": 9848,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D 5D 7D 8D 9"
+  },
+  {
+   "t": 9945,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starting at column "
+  },
+  {
+   "t": 10065,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9. Row 6 is mostly black"
+  },
+  {
+   "t": 10085,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D 12D =14. Should infer slang"
+  },
+  {
+   "t": 10191,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " squares. Row 7 has "
+  },
+  {
+   "t": 10316,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "11A starting at column"
+  },
+  {
+   "t": 10337,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ".\n\n2A British for \"bro\" length4"
+  },
+  {
+   "t": 10438,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 1 and 12D starting "
+  },
+  {
+   "t": 10565,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "at column 7."
+  },
+  {
+   "t": 10567,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = MATE? British for bro = MATE"
+  },
+  {
+   "t": 10990,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Cross letter2 = 3D letter1"
+  },
+  {
+   "t": 11218,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ": A. 3D charisma stat gets"
+  },
+  {
+   "t": 11523,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " number fr fr length4 = RIZZ? But"
+  },
+  {
+   "t": 11693,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRow 8 has 13A starting"
+  },
+  {
+   "t": 11834,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 10. Rows "
+  },
+  {
+   "t": 11968,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9 through 12 are mostly"
+  },
+  {
+   "t": 11994,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter1 would R not A. Perhaps 2"
+  },
+  {
+   "t": 12101,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " black squares with "
+  },
+  {
+   "t": 12128,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "2"
+  },
+  {
+   "t": 12234,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "only one or two empty"
+  },
+  {
+   "t": 12245,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A \"BRUV\" British bro length4, letter"
+  },
+  {
+   "t": 12371,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " cells."
+  },
+  {
+   "t": 12433,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "A is MATE, and I'm testing AURA for 3D since it fits as a charisma stat with letter1 matching A. For 6A, a seven-letter answer about \"unspoken game\" mak"
+  },
+  {
+   "t": 12507,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 R = RIZZ. Yes 2"
+  },
+  {
+   "t": 12673,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "es me think of RIZZ"
+  },
+  {
+   "t": 12919,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A BRUV. 3D RIZZ, letter"
+  },
+  {
+   "t": 13149,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 Z crosses 6A letter3 Z.\n\n"
+  },
+  {
+   "t": 13380,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6A one with unspoken game, or kid"
+  },
+  {
+   "t": 13624,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " viral clip length7 = RIZZLER? \""
+  },
+  {
+   "t": 13780,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Rizzler\" 7. One with un"
+  },
+  {
+   "t": 14113,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "spoken game = RIZZLER; kid viral"
+  },
+  {
+   "t": 14450,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nConfirmed 12D is 6"
+  },
+  {
+   "t": 14545,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " clip \"The Rizzler\". Pattern R ?"
+  },
+  {
+   "t": 14579,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters down column"
+  },
+  {
+   "t": 14705,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 7, 4D is 7 letters "
+  },
+  {
+   "t": 14833,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Z ? ? ? ?. Cross letter1 =5"
+  },
+  {
+   "t": 14950,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "down column 12, and 7D is 9 letters down"
+  },
+  {
+   "t": 14991,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D letter2. 5D lime-green summer"
+  },
+  {
+   "t": 15076,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 10. Now solving"
+  },
+  {
+   "t": 15198,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " clues: 2A (4 letters)"
+  },
+  {
+   "t": 15224,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 2024 aesthetic length4 = BRAT. Letter"
+  },
+  {
+   "t": 15330,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is \"Bruv\"."
+  },
+  {
+   "t": 15474,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 R, so 6A letter1 R yes"
+  },
+  {
+   "t": 15944,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". Letter3 Z yes. Letter5 =7"
+  },
+  {
+   "t": 16273,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D letter1, RIZZLER letters R"
+  },
+  {
+   "t": 16509,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I Z Z L E R letter5 L."
+  },
+  {
+   "t": 16909,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 7D optimize face min-max RPG build length"
+  },
+  {
+   "t": 16982,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n3D is RIZZ. 2A is "
+  },
+  {
+   "t": 17144,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9 = LOOKSMAXX? \"looksmaxx\" 9"
+  },
+  {
+   "t": 17297,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "BRUV. Now solving 6A."
+  },
+  {
+   "t": 17478,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "? L O O K S M A X X"
+  },
+  {
+   "t": 17713,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " =9. Starts L yes. Letter7 4"
+  },
+  {
+   "t": 18033,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D letter3 = R. 4D end discussion"
+  },
+  {
+   "t": 18308,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " extra consonant emphasis length7 = PERIODDT? P"
+  },
+  {
+   "t": 18562,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " E R I O D D T =8? \""
+  },
+  {
+   "t": 18733,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "PERIODT\" 7: P E R"
+  },
+  {
+   "t": 18913,
+   "model": "deepseek-v4.1-flash",
+   "type": "done",
+   "usage": {
+    "input": 999,
+    "output": 6000,
+    "reasoning": 3362
+   },
+   "costUsd": 0.001874925,
+   "costSource": "estimate",
+   "finishReason": "length"
+  },
+  {
+   "t": 19047,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I O D T, letter3 R yes."
+  },
+  {
+   "t": 19300,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter5 O =10A letter4. "
+  },
+  {
+   "t": 19533,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "10A anxiety everyone better party abbr = F"
+  },
+  {
+   "t": 19880,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "OMO, letter2 O, letter4 O."
+  },
+  {
+   "t": 20048,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n5D is BRAT. 6A letter"
+  },
+  {
+   "t": 20076,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 7D letter3 O =10A letter"
+  },
+  {
+   "t": 20221,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 1 is R and letter 3"
+  },
+  {
+   "t": 20349,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2 O yes. LOOKSMAXX letters L O"
+  },
+  {
+   "t": 20405,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is Z. The clue for "
+  },
+  {
+   "t": 20505,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " O K S M A X X. 13"
+  },
+  {
+   "t": 20569,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "LER, the kid from the viral clip, though I need to check the letter3 crossing works out.\n\nR"
+  },
+  {
+   "t": 20575,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "echecking crossings, BRUV fits 2A with letter2 matching 3D's R, and RIZZ works for 3D with letter3 Z matching RIZZLER's third letter. For 5D I'm trying BRAT, with letter2 R aligning to 6A and letter4 T feeding into SALTY at 9A. For 1D, letter5 need"
+  },
+  {
+   "t": 20578,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "6A is still being solved."
+  },
+  {
+   "t": 20579,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "s to match 9A's second letter A, pointing toward FINNA. Then 7D starting with L from 6A's fifth letter suggests LOOKSMAXX, a nine-letter word, with its letter3 O crossing FOMO at 10A and letter7 A crossing ATE at 13A. Finally for 4D, a seven-letter word with"
+  },
+  {
+   "t": 20586,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": " R in position three and O in position five lands on PERIOD.\n\nFor 8D, lone wolf clue, I'm testing SIGMA, with its letter3 G crossing GHOSTED at 11A's first letter. 9D needs S first and O third, giving SHOOK, and 12D starts with D for DEMURE."
+  },
+  {
+   "t": 20589,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "\n\n"
+  },
+  {
+   "t": 20589,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BRUV"
+  },
+  {
+   "t": 20589,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "RIZZ"
+  },
+  {
+   "t": 20590,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "6A",
    "answer": "RIZZLER"
   },
   {
-   "t": 4304,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". Have D_____. "
-  },
-  {
-   "t": 4414,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 4430,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "ATE"
-  },
-  {
-   "t": 4430,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". "
-  },
-  {
-   "t": 4432,
+   "t": 20590,
    "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "13A",
-   "answer": "ATE"
+   "entry": "5D",
+   "answer": "BRAT"
   },
   {
-   "t": 4432,
+   "t": 20590,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". "
+   "type": "fill",
+   "entry": "9A",
+   "answer": "SALTY"
   },
   {
-   "t": 4437,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
+   "t": 20590,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "FINNA"
   },
   {
-   "t": 4445,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
+   "t": 20590,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "LOOKSMAXX"
   },
   {
-   "t": 4513,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's DEMURE. "
-  },
-  {
-   "t": 4543,
-   "model": "kimi-k3.1-pro",
+   "t": 20590,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "10A",
    "answer": "FOMO"
   },
   {
-   "t": 4543,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
-  },
-  {
-   "t": 4582,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 4582,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". Have R___. "
-  },
-  {
-   "t": 4590,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "DEMURE"
-  },
-  {
-   "t": 4590,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 4814,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 4832,
+   "t": 20591,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 4963,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
-  },
-  {
-   "t": 4979,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 4979,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Recheck 2A: crossings don't fit. "
-  },
-  {
-   "t": 5019,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's BRAT. "
-  },
-  {
-   "t": 5063,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's ATE. "
-  },
-  {
-   "t": 5104,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 5189,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 5189,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 5341,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRAT"
-  },
-  {
-   "t": 5341,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". "
-  },
-  {
-   "t": 5342,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "FOMO"
-  },
-  {
-   "t": 5342,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 5361,
-   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "13A",
    "answer": "ATE"
   },
   {
-   "t": 5361,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". "
-  },
-  {
-   "t": 5431,
-   "model": "gpt-6.1-sol",
+   "t": 20599,
+   "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "3D",
-   "answer": "RIZZ"
+   "entry": "4D",
+   "answer": "PERIODT"
   },
   {
-   "t": 5431,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 5444,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 5615,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 5721,
-   "model": "gpt-6.1-sol",
+   "t": 20602,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "8D",
    "answer": "SIGMA"
   },
   {
-   "t": 5721,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have ___T_. "
-  },
-  {
-   "t": 5740,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 5741,
+   "t": 20602,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 5826,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 5850,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 5860,
-   "model": "deepseek-v4.1-flash",
-   "type": "done",
-   "usage": {
-    "input": 662,
-    "output": 340,
-    "reasoning": 0
-   },
-   "costUsd": 0.00015165,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 5962,
-   "model": "kimi-k3.1-pro",
    "type": "fill",
-   "entry": "3D",
-   "answer": "RIZZ"
+   "entry": "11A",
+   "answer": "GHOSTED"
   },
   {
-   "t": 5962,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". "
-  },
-  {
-   "t": 6029,
+   "t": 20602,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "9D",
    "answer": "SHOOK"
   },
   {
-   "t": 6029,
+   "t": 20610,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". Have R___. "
-  },
-  {
-   "t": 6056,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 6056,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
-  },
-  {
-   "t": 6105,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 6133,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "RIZZ"
-  },
-  {
-   "t": 6133,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "10A (4) \"Anxiety that everyone else is at the bett…\". "
-  },
-  {
-   "t": 6348,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's BRAT. "
-  },
-  {
-   "t": 6375,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 6391,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 6408,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's FOMO. "
-  },
-  {
-   "t": 6473,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 6473,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". Have ____A. "
-  },
-  {
-   "t": 6522,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "RIZZ"
-  },
-  {
-   "t": 6522,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
-  },
-  {
-   "t": 6560,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRAT"
-  },
-  {
-   "t": 6560,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 6639,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 6639,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "5D (4) \"Lime-green summer of 2024 aesthetic\". "
-  },
-  {
-   "t": 6754,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 6772,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "10A",
-   "answer": "FOMO"
-  },
-  {
-   "t": 6772,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "13A (3) \"\"She ___ and left no crumbs\"\". "
-  },
-  {
-   "t": 6886,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BRAT. "
-  },
-  {
-   "t": 6927,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Maybe BRJT? "
-  },
-  {
-   "t": 6994,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 7120,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 7120,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". "
-  },
-  {
-   "t": 7121,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 7121,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". "
-  },
-  {
-   "t": 7175,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRAT"
-  },
-  {
-   "t": 7175,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 7200,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRJT"
-  },
-  {
-   "t": 7200,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 7269,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's ATE. "
-  },
-  {
-   "t": 7360,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's DEMURE. "
-  },
-  {
-   "t": 7458,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 7532,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 7560,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "ATE"
-  },
-  {
-   "t": 7560,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 7568,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 7600,
-   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "12D",
    "answer": "DEMURE"
   },
   {
-   "t": 7600,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". Have S____. "
-  },
-  {
-   "t": 7729,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 7729,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "3D (4) \"Charisma stat that gets you the number, f…\". Have R___. "
-  },
-  {
-   "t": 7825,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 7825,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have S__T_. "
-  },
-  {
-   "t": 7901,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 7901,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 7983,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 8082,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 8180,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 8225,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's RIZZ. "
-  },
-  {
-   "t": 8290,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 8290,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". Have _R__. "
-  },
-  {
-   "t": 8385,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 8385,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O___D. "
-  },
-  {
-   "t": 8448,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 8448,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". Have ____A. "
-  },
-  {
-   "t": 8474,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 8475,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 8513,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "RIZZ"
-  },
-  {
-   "t": 8513,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". Have ____O__. "
-  },
-  {
-   "t": 8673,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 8719,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 8795,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 8795,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "2A (4) \"British for \"bro\"\". Have _R__. "
-  },
-  {
-   "t": 8796,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 8796,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "8D (5) \"Lone-wolf grindset archetype who doesn't …\". "
-  },
-  {
-   "t": 8873,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "11A",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 8873,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z____. "
-  },
-  {
-   "t": 8903,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 8903,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". "
-  },
-  {
-   "t": 8943,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 9056,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SIGMA. "
-  },
-  {
-   "t": 9119,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 9228,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "2A",
-   "answer": "BRUV"
-  },
-  {
-   "t": 9228,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have SA_T_. "
-  },
-  {
-   "t": 9234,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 9234,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "9D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 9344,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
-  },
-  {
-   "t": 9358,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Maybe COPIUM? "
-  },
-  {
-   "t": 9379,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "8D",
-   "answer": "SIGMA"
-  },
-  {
-   "t": 9379,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have S__T_. "
-  },
-  {
-   "t": 9400,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 9617,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "COPIUM"
-  },
-  {
-   "t": 9617,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O___C. "
-  },
-  {
-   "t": 9647,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "6A",
-   "answer": "RIZZLER"
-  },
-  {
-   "t": 9647,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". Have __R_O__. "
-  },
-  {
-   "t": 9748,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 9748,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". "
-  },
-  {
-   "t": 9775,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 9780,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 9820,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 9935,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 9948,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 9948,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "1D (5) \"About to (Southern-inflected)\". Have ____A. "
-  },
-  {
-   "t": 10017,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 10017,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 10042,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 10042,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z____. "
-  },
-  {
-   "t": 10051,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "11A",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 10051,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z____. "
-  },
-  {
-   "t": 10218,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's DEMURE. "
-  },
-  {
-   "t": 10227,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's FINNA. "
-  },
-  {
-   "t": 10374,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 10415,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "DEMURE"
-  },
-  {
-   "t": 10415,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "9A (5) \"Bitter about taking an L\". Have SA_T_. "
-  },
-  {
-   "t": 10519,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
-  },
-  {
-   "t": 10569,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
-  },
-  {
-   "t": 10577,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "1D",
-   "answer": "FINNA"
-  },
-  {
-   "t": 10577,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". "
-  },
-  {
-   "t": 10678,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "6A",
-   "answer": "RIZZLER"
-  },
-  {
-   "t": 10678,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "12D (6) \"Very mindful, very cutesy (2024 summer wo…\". "
-  },
-  {
-   "t": 10703,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 10783,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SALTY. "
-  },
-  {
-   "t": 10864,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "6A",
-   "answer": "RIZZLER"
-  },
-  {
-   "t": 10864,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". Have __R_O__. "
-  },
-  {
-   "t": 10880,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's DEMURE. "
-  },
-  {
-   "t": 10944,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "9A",
-   "answer": "SALTY"
-  },
-  {
-   "t": 10944,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O___D. "
-  },
-  {
-   "t": 11083,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 11117,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's DEMURE. "
-  },
-  {
-   "t": 11232,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "DEMURE"
-  },
-  {
-   "t": 11232,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z____. "
-  },
-  {
-   "t": 11337,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 11337,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 11354,
-   "model": "gpt-6.1-sol",
-   "type": "done",
-   "usage": {
-    "input": 662,
-    "output": 768,
-    "reasoning": 721
-   },
-   "costUsd": 0.009004,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 11359,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 11389,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "DEMURE"
-  },
-  {
-   "t": 11389,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O___D. "
-  },
-  {
-   "t": 11661,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 11665,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "11A",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 11665,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "6A (7) \"One with unspoken game, or the kid from t…\". Have R_Z___R. "
-  },
-  {
-   "t": 11779,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 11788,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
-  },
-  {
-   "t": 11943,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 12095,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's RIZZLER. "
-  },
-  {
-   "t": 12139,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "6A",
-   "answer": "RIZZLER"
-  },
-  {
-   "t": 12139,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". Have __R_O__. "
-  },
-  {
-   "t": 12249,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "11A",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 12249,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "4D (7) \"End of discussion, with an extra consonan…\". Have __R_O__. "
-  },
-  {
-   "t": 12355,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "6A",
-   "answer": "RIZZLER"
-  },
-  {
-   "t": 12355,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 12369,
+   "t": 20610,
    "model": "claude-opus-5.5",
    "type": "done",
    "usage": {
-    "input": 662,
-    "output": 1000,
-    "reasoning": 953
-   },
-   "costUsd": 0.022648,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 12404,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 12415,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's PERIODT. "
-  },
-  {
-   "t": 12533,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 12608,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 12608,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 12677,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 12754,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "PERIODT"
-  },
-  {
-   "t": 12754,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "7D (9) \"Optimize your face like it's a min-max RP…\". Have L_O___A__. "
-  },
-  {
-   "t": 13073,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 13169,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's LOOKSMAXX. "
-  },
-  {
-   "t": 13279,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 13279,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "11A (7) \"Left on read... permanently\". Have G_O___D. "
-  },
-  {
-   "t": 13280,
-   "model": "gemini-4-argon",
-   "type": "done",
-   "usage": {
-    "input": 662,
-    "output": 843,
-    "reasoning": 796
-   },
-   "costUsd": 0.009754,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 13450,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "LOOKSMAXX"
-  },
-  {
-   "t": 13450,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Recheck 5D: crossings don't fit. "
-  },
-  {
-   "t": 13803,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 13955,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "11A",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 14167,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "5D",
-   "answer": "BRAT"
-  },
-  {
-   "t": 14582,
-   "model": "grok-4.7",
-   "type": "done",
-   "usage": {
-    "input": 662,
-    "output": 759,
-    "reasoning": 712
-   },
-   "costUsd": 0.005878,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 14844,
-   "model": "kimi-k3.1-pro",
-   "type": "done",
-   "usage": {
-    "input": 662,
+    "input": 1367,
     "output": 902,
-    "reasoning": 853
+    "reasoning": 776
    },
-   "costUsd": 0.010344,
+   "costUsd": 0.023508,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 20697,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A letter1 =7D letter7 A."
+  },
+  {
+   "t": 21273,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"She ___ and left no crumbs\" = A"
+  },
+  {
+   "t": 21432,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "TE. length3 ATE. good.\n\n9"
+  },
+  {
+   "t": 21758,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A bitter about taking an L length5 = SAL"
+  },
+  {
+   "t": 22007,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "TY. Cross letter1 9D letter1"
+  },
+  {
+   "t": 22168,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " S; letter2 1D letter5 A"
+  },
+  {
+   "t": 22522,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "; letter4 5D letter4 T. SAL"
+  },
+  {
+   "t": 22844,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "TY S A L T Y fits. 1"
+  },
+  {
+   "t": 22895,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRIZZLER fits the 7-letter"
+  },
+  {
+   "t": 23023,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D About to Southern-inflected length5 = FIN"
+  },
+  {
+   "t": 23045,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " length and the letter"
+  },
+  {
+   "t": 23193,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " constraints for 6A."
+  },
+  {
+   "t": 23285,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "NA (F I N N A) letter5"
+  },
+  {
+   "t": 23335,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The clue may have two"
+  },
+  {
+   "t": 23465,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " definitions."
+  },
+  {
+   "t": 23733,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " A. 5D BRAT yes. "
+  },
+  {
+   "t": 23952,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9D absolutely stunned length5 = SHOOK? S H O O K, letter1 S, letter"
+  },
+  {
+   "t": 24361,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 O =11A letter3. 11"
+  },
+  {
+   "t": 24614,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A Left on read... permanently length7 = G"
+  },
+  {
+   "t": 24866,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "HOSTED. G H O S T E D"
+  },
+  {
+   "t": 25291,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". letter1=8D letter3, letter"
+  },
+  {
+   "t": 25578,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 O matches SHOOK O, letter7 D ="
+  },
+  {
+   "t": 25916,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12D letter1. 8D lone-w"
+  },
+  {
+   "t": 26170,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "olf grindset archetype doesn't need pack length5"
+  },
+  {
+   "t": 26347,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " = SIGMA, letter3 G yes. "
+  },
+  {
+   "t": 26668,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12D very mindful very cutesy 202"
+  },
+  {
+   "t": 26924,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4 summer word length6 = DEMURE, letter"
+  },
+  {
+   "t": 27301,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1 D. All good.\n\nKimi will output"
+  },
+  {
+   "t": 27638,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " easiest first as confident, lines only. Could output"
+  },
+  {
+   "t": 28016,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " all now. Should verify grid weird entries perhaps "
+  },
+  {
+   "t": 28263,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11A 7 \"GHOSTED\" yes"
+  },
+  {
+   "t": 28628,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 7D \"LOOKSMAXX\" 9"
+  },
+  {
+   "t": 28876,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 2A BRUV. 4D PERIOD"
+  },
+  {
+   "t": 29212,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "T. 6A RIZZLER. Answer"
+  },
+  {
+   "t": 29469,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " uppercase no spaces.\n\nOrdering easiest first perhaps 10"
+  },
+  {
+   "t": 29706,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A FOMO, 3D RIZ"
+  },
+  {
+   "t": 29856,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRIZZLER fits the grid."
+  },
+  {
+   "t": 29947,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Z etc. No matter. Make sure 12"
+  },
+  {
+   "t": 30010,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Column 8 of row 3 is"
+  },
+  {
+   "t": 30140,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Z, matching 3D's third"
+  },
+  {
+   "t": 30209,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D perhaps DEMURE 6 yes. 9"
+  },
+  {
+   "t": 30273,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter. Column 6 of"
+  },
+  {
+   "t": 30407,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " row 2 is B, and column"
+  },
+  {
+   "t": 30474,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D SHOOK. 13A ATE. "
+  },
+  {
+   "t": 30533,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 6 of row 3 is R, matching"
+  },
+  {
+   "t": 30674,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5D's second letter."
+  },
+  {
+   "t": 30692,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1D FINNA. 8D SIGMA"
+  },
+  {
+   "t": 30806,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The full 7-letter word"
+  },
+  {
+   "t": 30935,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is R I Z Z L E R."
+  },
+  {
+   "t": 31085,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". 5D BRAT. All.\n\nCould"
+  },
+  {
+   "t": 31087,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " output all lines."
+  },
+  {
+   "t": 31353,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "FOMO"
+  },
+  {
+   "t": 31354,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "RIZZ"
+  },
+  {
+   "t": 31531,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BRUV"
+  },
+  {
+   "t": 31784,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "BRAT"
+  },
+  {
+   "t": 31785,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "RIZZLER"
+  },
+  {
+   "t": 32045,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "PERIODT"
+  },
+  {
+   "t": 32196,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "LOOKSMAXX"
+  },
+  {
+   "t": 32197,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "ATE"
+  },
+  {
+   "t": 32555,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n9A letter 4 matches"
+  },
+  {
+   "t": 32710,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "FINNA"
+  },
+  {
+   "t": 32717,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5D letter 4 at T. Column"
+  },
+  {
+   "t": 32783,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 32785,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 32864,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 32866,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "GHOSTED"
+  },
+  {
+   "t": 32877,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 9 has no down entry,"
+  },
+  {
+   "t": 33043,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " so 6A’s fourth letter"
+  },
+  {
+   "t": 33157,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "DEMURE"
+  },
+  {
+   "t": 33157,
+   "model": "kimi-k3.1-pro",
+   "type": "done",
+   "usage": {
+    "input": 1069,
+    "output": 957,
+    "reasoning": 851
+   },
+   "costUsd": 0.011708,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 33187,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is unconstrained."
+  },
+  {
+   "t": 35107,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n4D is PERIODT. The"
+  },
+  {
+   "t": 35296,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " seventh letter of 6A"
+  },
+  {
+   "t": 35493,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is T."
+  },
+  {
+   "t": 38147,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRIZZLER fits all letter"
+  },
+  {
+   "t": 38277,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " constraints for 6A."
+  },
+  {
+   "t": 38419,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The fifth letter of"
+  },
+  {
+   "t": 38656,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 6A is L, so 7D starts with L. Now solving"
+  },
+  {
+   "t": 38778,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the clue for 7D."
+  },
+  {
+   "t": 41187,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe word \"looksmaxxing\""
+  },
+  {
+   "t": 41338,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " fits the 9-letter clue"
+  },
+  {
+   "t": 41538,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for 7D. It starts with L, matching the fifth"
+  },
+  {
+   "t": 41764,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter of 6A. The third letter of 7D must match"
+  },
+  {
+   "t": 41996,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the second letter of 10A."
+  },
+  {
+   "t": 44150,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n10A is FOMO. Its second"
+  },
+  {
+   "t": 44280,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter is O, matching"
+  },
+  {
+   "t": 44414,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 7D’s third letter. "
+  },
+  {
+   "t": 44537,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "The fourth letter of"
+  },
+  {
+   "t": 44667,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 10A must equal 4D’s"
+  },
+  {
+   "t": 44791,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " fifth letter."
+  },
+  {
+   "t": 47315,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe fourth letter "
+  },
+  {
+   "t": 47540,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "of 10A is O, matching 4D’s fifth letter. "
+  },
+  {
+   "t": 47737,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "This confirms 10A is FOMO. The seventh letter"
+  },
+  {
+   "t": 47944,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " of 7D is A, matching the first letter of"
+  },
+  {
+   "t": 48161,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 13A. The word for 7D is LOOKSMAXX."
+  },
+  {
+   "t": 49900,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n13A is ATE. The clue"
+  },
+  {
+   "t": 50094,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " \"She ate and left no"
+  },
+  {
+   "t": 50272,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " crumbs\" fits. 6A is"
+  },
+  {
+   "t": 50449,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " confirmed as RIZZLER."
+  },
+  {
+   "t": 52719,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe clue for 6A is"
+  },
+  {
+   "t": 52850,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " accepted as RIZZLER"
+  },
+  {
+   "t": 53000,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " despite the awkward"
+  },
+  {
+   "t": 53123,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " wording. Now solving"
+  },
+  {
+   "t": 53243,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 9A: \"Bitter about taking"
+  },
+  {
+   "t": 53391,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " an L\" is SALTY, a five-letter"
+  },
+  {
+   "t": 55927,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " word that crosses 9D.\n\n9A is SALTY. Its fourth"
+  },
+  {
+   "t": 56048,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter is T, matching"
+  },
+  {
+   "t": 56172,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5D's fourth letter."
+  },
+  {
+   "t": 56297,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The second letter of"
+  },
+  {
+   "t": 56417,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 9A is A, which equals"
+  },
+  {
+   "t": 56654,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 1D's fifth letter. 1D is FINNA. 9D is SHOOK,"
+  },
+  {
+   "t": 58524,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starting with S.\n\n8D is SIGMA. Its third"
+  },
+  {
+   "t": 58657,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter is G, so 11A"
+  },
+  {
+   "t": 58882,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " starts with G. 11A is GHOSTED. The third"
+  },
+  {
+   "t": 59007,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter of 9D is O, "
+  },
+  {
+   "t": 59146,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "matching 11A's third"
+  },
+  {
+   "t": 59348,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter and 8D's third letter. SHOOK fits "
+  },
+  {
+   "t": 60602,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "the clue for 9D.\n\n12D is DEMURE. It "
+  },
+  {
+   "t": 60743,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "starts with D, matching"
+  },
+  {
+   "t": 60880,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the seventh letter "
+  },
+  {
+   "t": 61023,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "of 11A. All answers "
+  },
+  {
+   "t": 61154,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "are now mapped."
+  },
+  {
+   "t": 66535,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BRUV"
+  },
+  {
+   "t": 66582,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "RIZZ"
+  },
+  {
+   "t": 66627,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "BRAT"
+  },
+  {
+   "t": 66663,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "RIZZLER"
+  },
+  {
+   "t": 66692,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "PERIODT"
+  },
+  {
+   "t": 66749,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "FOMO"
+  },
+  {
+   "t": 66783,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "LOOKSMAXX"
+  },
+  {
+   "t": 66811,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "ATE"
+  },
+  {
+   "t": 66820,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "SALTY"
+  },
+  {
+   "t": 66822,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "FINNA"
+  },
+  {
+   "t": 66824,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 66827,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "SIGMA"
+  },
+  {
+   "t": 66830,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "GHOSTED"
+  },
+  {
+   "t": 66873,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "DEMURE"
+  },
+  {
+   "t": 66874,
+   "model": "grok-4.7",
+   "type": "done",
+   "usage": {
+    "input": 2217,
+    "output": 5148,
+    "reasoning": 5061
+   },
+   "costUsd": 0.035322,
    "costSource": "estimate",
    "finishReason": "stop"
   }

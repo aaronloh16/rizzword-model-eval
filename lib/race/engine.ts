@@ -1,4 +1,18 @@
-import { gateway, streamText } from "ai";
+import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
+import { gateway, streamText, type LanguageModel } from "ai";
+
+// AI Gateway is the default. OpenRouter works too (same models, a few
+// provider slugs differ) for people who only have an OpenRouter key.
+const OPENROUTER_SLUGS: Record<string, string> = { spacexai: "x-ai", zai: "z-ai", alibaba: "qwen" };
+const openrouter =
+  process.env.OPENROUTER_API_KEY && !process.env.AI_GATEWAY_API_KEY && !process.env.VERCEL_OIDC_TOKEN
+    ? createOpenAICompatible({ name: "openrouter", baseURL: "https://openrouter.ai/api/v1", apiKey: process.env.OPENROUTER_API_KEY })
+    : null;
+function languageModel(gatewayId: string): LanguageModel {
+  if (!openrouter) return gateway(gatewayId);
+  const [provider, rest] = gatewayId.split("/");
+  return openrouter(`${OPENROUTER_SLUGS[provider] ?? provider}/${rest}`);
+}
 import type { ModelConfig } from "../models";
 import { estimateCost } from "../models";
 import type { Puzzle } from "../puzzle/types";
@@ -93,11 +107,13 @@ async function runLane({
 
   try {
     const result = streamText({
-      model: gateway(model.gatewayId),
+      model: languageModel(model.gatewayId),
       instructions: INSTRUCTIONS,
       prompt,
       reasoning: settings.reasoning,
-      maxOutputTokens: settings.maxOutputTokens,
+      // OpenRouter counts reasoning against max tokens and takes effort in its own field
+      maxOutputTokens: openrouter ? settings.maxOutputTokens * 2 : settings.maxOutputTokens,
+      providerOptions: openrouter ? { openrouter: { reasoning: { effort: settings.reasoning } } } : undefined,
       maxRetries: 1,
       abortSignal: laneSignal,
     });

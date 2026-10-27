@@ -1,5 +1,5 @@
 /**
- * Record a REAL race through Vercel AI Gateway and commit it as a replay.
+ * Record a REAL race through Vercel AI Gateway (or OpenRouter) and commit it as a replay.
  *
  *   AI_GATEWAY_API_KEY=... pnpm race:record                 # today's (latest) puzzle, daily lineup
  *   pnpm race:record --date 2026-10-27 --models gpt-6-luna,claude-haiku-5.5
@@ -60,8 +60,8 @@ if (ceiling > Number(values["max-usd"])) {
   console.error("Refusing: worst case exceeds --max-usd.");
   process.exit(1);
 }
-if (!process.env.AI_GATEWAY_API_KEY && !process.env.VERCEL_OIDC_TOKEN) {
-  console.error("Set AI_GATEWAY_API_KEY (or run `vercel env pull` for an OIDC token).");
+if (!process.env.AI_GATEWAY_API_KEY && !process.env.VERCEL_OIDC_TOKEN && !process.env.OPENROUTER_API_KEY) {
+  console.error("Set AI_GATEWAY_API_KEY (or OPENROUTER_API_KEY, or run `vercel env pull` for an OIDC token).");
   process.exit(1);
 }
 

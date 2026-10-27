@@ -1,8 +1,7 @@
 {
  "version": 1,
  "puzzleId": "2026-10-23",
- "recordedAt": "2026-10-23T12:00:00.000Z",
- "source": "simulated",
+ "recordedAt": "2026-10-27T05:42:35.626Z",
  "models": [
   {
    "id": "gpt-6.1-sol",
@@ -40,1795 +39,2351 @@
   "maxOutputTokens": 3000,
   "promptVersion": "v1"
  },
+ "source": "live",
  "events": [
   {
-   "t": 48,
-   "model": "kimi-k3.1-pro",
-   "type": "start"
-  },
-  {
-   "t": 48,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 110,
-   "model": "claude-opus-5.5",
-   "type": "start"
-  },
-  {
-   "t": 110,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 149,
+   "t": 0,
    "model": "gpt-6.1-sol",
    "type": "start"
   },
   {
-   "t": 149,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 149,
-   "model": "gemini-4-argon",
-   "type": "start"
-  },
-  {
-   "t": 149,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 166,
-   "model": "grok-4.7",
-   "type": "start"
-  },
-  {
-   "t": 166,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 168,
-   "model": "deepseek-v4.1-flash",
-   "type": "start"
-  },
-  {
-   "t": 168,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Scanning 14 clues. "
-  },
-  {
-   "t": 436,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 837,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 912,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 1078,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "MID"
-  },
-  {
-   "t": 1078,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". "
-  },
-  {
-   "t": 1151,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 1192,
+   "t": 4,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "type": "start"
   },
   {
-   "t": 1234,
+   "t": 4,
+   "model": "gemini-4-argon",
+   "type": "start"
+  },
+  {
+   "t": 5,
    "model": "grok-4.7",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
+   "type": "start"
   },
   {
-   "t": 1337,
+   "t": 5,
+   "model": "kimi-k3.1-pro",
+   "type": "start"
+  },
+  {
+   "t": 5,
    "model": "deepseek-v4.1-flash",
+   "type": "start"
+  },
+  {
+   "t": 429,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "We"
+  },
+  {
+   "t": 572,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " need solve crossword. Need output answers. Need parse grid. Need solve Gen Z slang.\n\nLet's reconstruct entries lengths.\n\nAcross:\n1A (3"
+  },
+  {
+   "t": 700,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ") \"Twitch emote word for hype\" likely POG"
+  },
+  {
+   "t": 868,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "? POGGERS? 3 letters. Twitch emote hype: POG. Also \"pog\" 3. Cross 3=2D1"
+  },
+  {
+   "t": 1023,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ".\n5A (7) \"Talking nonstop with zero substance\" likely YAPPING (7). Yes yapping.\n8A (8) \"Start of a wooden log's name: ___ Tung Sahur\" Brainrot Italian brainrot: Tralalero"
+  },
+  {
+   "t": 1143,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Tralala, Tung Tung Sahur? Actually \"Tung Tung Sahur\" wooden log? Start? ___ Tung Sahur. Might be \"TRALALA\"? Wait Tung Sahur is character? \"Tung Tung Tung Sahur\" is a wooden"
+  },
+  {
+   "t": 1304,
+   "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "1A",
    "answer": "POG"
   },
   {
-   "t": 1337,
+   "t": 1321,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
+   "text": " log with bat? Prefix maybe \"TUNG\"? Entry "
   },
   {
-   "t": 1481,
+   "t": 1442,
    "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's NOCAP. "
+   "text": "8A length 8, \"___ Tung Sahur\" start of a wooden log's name. Italian brainrot \"Tung Tung Tung Sahur\" is wooden log? The name is \"Tung Tung Tung Sahur\" (three Tung). \""
   },
   {
-   "t": 1555,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 1555,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". Have G___. "
-  },
-  {
-   "t": 1711,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1762,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe GYET? "
-  },
-  {
-   "t": 1887,
+   "t": 1462,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 1944,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "GYET"
-  },
-  {
-   "t": 1944,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 2026,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Start with the gimmes, then lean on crossings. "
-  },
-  {
-   "t": 2057,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's FANUM. "
-  },
-  {
-   "t": 2247,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 2247,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
-  },
-  {
-   "t": 2348,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 2541,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 2541,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". "
-  },
-  {
-   "t": 2755,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 2816,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 2836,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 2840,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 2840,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 3045,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 3107,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 3167,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "MID"
-  },
-  {
-   "t": 3167,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". "
-  },
-  {
-   "t": 3170,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BRUV"
-  },
-  {
-   "t": 3170,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 3340,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 3349,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 3424,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's GYAT. "
-  },
-  {
-   "t": 3530,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 3530,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _K___D_. "
-  },
-  {
-   "t": 3578,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "GYAT"
-  },
-  {
-   "t": 3578,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". Have __G. "
-  },
-  {
-   "t": 3611,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BRUV"
-  },
-  {
-   "t": 3611,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 3680,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 3747,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 3747,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _E__I__. "
-  },
-  {
-   "t": 3834,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 4011,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's FANUM. "
-  },
-  {
-   "t": 4039,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 4157,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "1A",
-   "answer": "POG"
-  },
-  {
-   "t": 4157,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
-  },
-  {
-   "t": 4171,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "5A",
    "answer": "YAPPING"
   },
   {
-   "t": 4171,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U_G__N_. "
-  },
-  {
-   "t": 4206,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". "
-  },
-  {
-   "t": 4317,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 4317,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". "
-  },
-  {
-   "t": 4376,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 4436,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "TUNGTUNG"
-  },
-  {
-   "t": 4436,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". Have __G___G. "
-  },
-  {
-   "t": 4452,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's NOCAP. "
-  },
-  {
-   "t": 4495,
+   "t": 1483,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 4661,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe MOGGINZ? "
-  },
-  {
-   "t": 4668,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 4678,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 4784,
-   "model": "deepseek-v4.1-flash",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "MOGGINZ"
-  },
-  {
-   "t": 4784,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
-  },
-  {
-   "t": 4811,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 4811,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 4840,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". "
-  },
-  {
-   "t": 4888,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 4892,
-   "model": "deepseek-v4.1-flash",
-   "type": "think",
-   "text": "Maybe TOUCHGWASA? "
-  },
-  {
-   "t": 4947,
-   "model": "deepseek-v4.1-flash",
    "type": "fill",
    "entry": "13A",
-   "answer": "TOUCHGWASA"
+   "answer": "TOUCHGRASS"
   },
   {
-   "t": 4993,
+   "t": 1502,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "14A",
+   "answer": "SKIBIDI"
+  },
+  {
+   "t": 1568,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Start of a wooden log's name: ___ Tung Sahur\" Maybe \"TRALALERO\"? No. Let's hold.\n\n13A (10) Advice for chronically online (2 words). Could be \"TO"
+  },
+  {
+   "t": 1572,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "GYAT"
+  },
+  {
+   "t": 1585,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "MOGGING"
+  },
+  {
+   "t": 1660,
    "model": "gpt-6.1-sol",
    "type": "fill",
    "entry": "4D",
    "answer": "MID"
   },
   {
-   "t": 4993,
+   "t": 1672,
    "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 5002,
-   "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "1A",
-   "answer": "POG"
+   "entry": "6D",
+   "answer": "BRUV"
   },
   {
-   "t": 5002,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 5040,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "1A",
-   "answer": "POG"
-  },
-  {
-   "t": 5040,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
-  },
-  {
-   "t": 5327,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 5336,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 5466,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 5555,
+   "t": 1707,
    "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "UCH GRASS\" (10 incl? TOUCHGRASS =10) advice. Yes 13A = TOUCHGRASS (2 words).\n14A (7) ___ toilet: singing porcelain"
+  },
+  {
+   "t": 1776,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "FANUM"
+  },
+  {
+   "t": 1787,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "GHOSTED"
+  },
+  {
+   "t": 1829,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " menace with banger theme. Brainrot \"Skibidi Toilet\" (7). SKIBIDI. Yes.\n\nDown:\n2D (4) Exclamation of shock at someone's... silhouette. Maybe"
+  },
+  {
+   "t": 1852,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "10D",
+   "answer": "NOCAP"
+  },
+  {
+   "t": 1899,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "I"
+  },
+  {
+   "t": 1900,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "RATIO"
+  },
+  {
+   "t": 1947,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 1949,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " \"GYAT\" (4) exclamation at someone's butt? \"GYATT\" 4. Exclamation of shock at silhouette: GYAT? Actually \"GYATT"
+  },
+  {
+   "t": 2107,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "\" length 5? GYATT=5. 2D 4, cross 1A3. If 1A POG, 2D1=P, 2D3=5A2 ="
+  },
+  {
+   "t": 2154,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " need solve quickly. Should parse. Across:\n"
+  },
+  {
+   "t": 2294,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " A from YAPPING. Pattern P?A? for 4 letters. \"PAPA\"? \"OH MY\"? Exclamation shock at silhouette: \"DAMN\" 4. Cross 1A3 =? If 1A P"
+  },
+  {
+   "t": 2403,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1A Twitch emote word hype length3 ="
+  },
+  {
+   "t": 2411,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALAN"
+  },
+  {
+   "t": 2455,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "OG, 2D1=P, no. 5A YAPPING letter2=A = 2D3. 2D pattern P A ? ? Actually 2D letter3 = A. A 4-letter exclamation of shock at silhouette could be \"GYAT\" if letter3=A"
+  },
+  {
+   "t": 2607,
+   "model": "gpt-6.1-sol",
    "type": "done",
    "usage": {
-    "input": 682,
-    "output": 328,
+    "input": 993,
+    "output": 95,
     "reasoning": 0
    },
-   "costUsd": 0.00014954999999999998,
+   "costUsd": 0.002936,
    "costSource": "estimate",
    "finishReason": "stop"
   },
   {
-   "t": 5568,
-   "model": "gpt-6.1-sol",
+   "t": 2608,
+   "model": "deepseek-v4.1-flash",
    "type": "think",
-   "text": "Pretty sure it's FANUM. "
+   "text": ", letter1=G. But 1A3=2D1, so 1A3=G -> 1A = ? ? G. Twitch hype emote 3: \"POG\" ends G! Ah 1A=POG. Then 2D1=P,"
   },
   {
-   "t": 5581,
+   "t": 2757,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " not G. But if 1A = POG, 2D1=P. 4-letter exclamation with P?A? \"POG?\" no. Wait crossing: 2D letter1 = 1A letter3. If 1A POG, letter3=G,"
+  },
+  {
+   "t": 2797,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " POG? \"POG\" hype. crosses "
+  },
+  {
+   "t": 2894,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " so 2D starts G. 2D letter3 = 5A letter2 = A. Pattern G ? A ?. \"GYAT\" G Y A T. Yes! 1A letter3 = G so 1A is POG? POG ends G yes. 2D=GYAT. Nice. 5A YAPPING letter2 A"
+  },
+  {
+   "t": 3036,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ". Great.\n\n3D (7) Outshining everyone nearby with sheer facial structure. \"MEWING\" 6? \"AURA\"??? \"MOGGING\" (7) = outshining with looks,"
+  },
+  {
+   "t": 3046,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2D first letter G? 2D ex"
+  },
+  {
+   "t": 3190,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " especially facial structure. Yes 3D=MOGGING. Crosses 5A letter7 = G? YAPPING letters: Y A P P I N G, letter7=G. 3D letter3 = 5A7 = G. MOGGING letters M O G"
+  },
+  {
+   "t": 3327,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " G I N G, letter3=G. letter7=G =8A letter8. So 8A letter8 = G.\n4D (3) Aggressively average; neither fire nor trash. \"MID\" (3). Cross 5A letter5"
+  },
+  {
+   "t": 3366,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "clamation shock at someone's... silhouette length4 = GY"
+  },
+  {
+   "t": 3449,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " = I? YAPPING letter5=I. 4D letter2 = I. MID letter2=I. Good.\n\n6D (4) British for \"bro\". \"BRUV\" (4). Cross 8A letter2 = 6D letter3. If"
+  },
+  {
+   "t": 3570,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "This is a 13x13 crossword"
+  },
+  {
+   "t": 3593,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " 6D=BRUV, letter3=U. So 8A second letter U.\n7D (5) ___ tax: when friend steals bite of food. \"BITE TAX\"? The blank before tax maybe \"BITE\" (5?"
+  },
+  {
+   "t": 3616,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT? GYAT. Then 1A"
+  },
+  {
+   "t": 3726,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " BITE=4) or \"FRIEND TAX\"? \"Bite tax\" 7? Entry 7D length5. Cross 13A letter3 = 7D letter4. 13A=TOUCHGR"
+  },
+  {
+   "t": 3741,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " puzzle using Gen Z "
+  },
+  {
+   "t": 3827,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " third G"
+  },
+  {
+   "t": 3875,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "ASS. Letter3=U (T O U C H G R A S S actually positions: T1 O2 U3 C4 H5 G6 R7 A8 S9 S10). 7D letter4=U. 5-letter ___ tax:"
+  },
+  {
+   "t": 3928,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "slang."
+  },
+  {
+   "t": 4038,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " \"BRO tax\"? \"FRIEND TAX\" no. \"SNACK TAX\" (5,4). \"BITE TAX\" is 4,3. \"FRIES"
+  },
+  {
+   "t": 4076,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " yes POG.\n5A talking nonstop zero"
+  },
+  {
+   "t": 4186,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " TAX\"? Common: \"sibling tax\"? \"Taste tax\"? \"Biriyani tax\"? In slang \"Bite tax\" when someone"
+  },
+  {
+   "t": 4205,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "I'm test"
+  },
+  {
+   "t": 4330,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " steals a bite. The entry length 5 could be \"BITE?\" Wait clue \"__ tax\" with blank length 5, answer 5 letters"
+  },
+  {
+   "t": 4435,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "ing crossing words"
+  },
+  {
+   "t": 4472,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " all maybe \"BROTAX\" no. Let's list: \"FRIEND\" tax? phrase \"friend tax\" = friend steals food? \""
+  },
+  {
+   "t": 4517,
    "model": "gemini-4-argon",
    "type": "fill",
    "entry": "1A",
    "answer": "POG"
   },
   {
-   "t": 5581,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 5586,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 5586,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 5609,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 5649,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "MID"
-  },
-  {
-   "t": 5649,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". Have G___. "
-  },
-  {
-   "t": 5716,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 5716,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 5772,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 5829,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 5829,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 5991,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's GYAT. "
-  },
-  {
-   "t": 6068,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Maybe BLUD? "
-  },
-  {
-   "t": 6077,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BRUV"
-  },
-  {
-   "t": 6077,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
-  },
-  {
-   "t": 6136,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 6181,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BLUD"
-  },
-  {
-   "t": 6181,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 6253,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 6367,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "GYAT"
-  },
-  {
-   "t": 6367,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
-  },
-  {
-   "t": 6394,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BRUV"
-  },
-  {
-   "t": 6394,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
-  },
-  {
-   "t": 6491,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 6491,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "6D (4) \"British for \"bro\"\". "
-  },
-  {
-   "t": 6537,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 6623,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's FANUM. "
-  },
-  {
-   "t": 6669,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's NOCAP. "
-  },
-  {
-   "t": 6733,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 6733,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 6746,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 6848,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 6848,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". "
-  },
-  {
-   "t": 6896,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's BRUV. "
-  },
-  {
-   "t": 7005,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 7005,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
-  },
-  {
-   "t": 7043,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 7043,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 7084,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's MOGGING. "
-  },
-  {
-   "t": 7084,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 7087,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "6D",
-   "answer": "BRUV"
-  },
-  {
-   "t": 7087,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". "
-  },
-  {
-   "t": 7236,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's NOCAP. "
-  },
-  {
-   "t": 7266,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "4D",
-   "answer": "MID"
-  },
-  {
-   "t": 7266,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 7405,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "MOGGING"
-  },
-  {
-   "t": 7405,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 7407,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 7489,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Maybe SHOOI? "
-  },
-  {
-   "t": 7491,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 7491,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". Have G___. "
-  },
-  {
-   "t": 7646,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's GYAT. "
-  },
-  {
-   "t": 7698,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 7698,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
-  },
-  {
-   "t": 7709,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's FANUM. "
-  },
-  {
-   "t": 7851,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOI"
-  },
-  {
-   "t": 7851,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "2D (4) \"Exclamation of shock at someone's... silh…\". Have G___. "
-  },
-  {
-   "t": 7962,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's GYAT. "
-  },
-  {
-   "t": 7967,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 7967,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _A__I_G. "
-  },
-  {
-   "t": 8004,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "GYAT"
-  },
-  {
-   "t": 8004,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "1A (3) \"Twitch emote word for hype\". Have __G. "
-  },
-  {
-   "t": 8070,
+   "t": 4517,
    "model": "gemini-4-argon",
    "type": "fill",
    "entry": "2D",
    "answer": "GYAT"
   },
   {
-   "t": 8070,
+   "t": 4539,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " substance 7 = YAPPING (7). crosses"
+  },
+  {
+   "t": 4602,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "BITE TAX\" likely \"BITE\" length4 not 5. 7D length 5, pattern ? ? ? U ?. Could be \"SAUCE\"?"
+  },
+  {
+   "t": 4745,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " Hmm.\n\n9D (7) Left on read... permanently. \"GHOSTED\" (7). Cross 8A letter4 = 9D letter1 = G. So 8A 4th letter G. 13A"
+  },
+  {
+   "t": 4877,
    "model": "gemini-4-argon",
-   "type": "think",
-   "text": "4D (3) \"Aggressively average; neither fire nor tr…\". "
-  },
-  {
-   "t": 8240,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 8242,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's GYAT. "
-  },
-  {
-   "t": 8333,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 8493,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's POG. "
-  },
-  {
-   "t": 8543,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 8543,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _K_____. "
-  },
-  {
-   "t": 8601,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's MID. "
-  },
-  {
-   "t": 8610,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "2D",
-   "answer": "GYAT"
-  },
-  {
-   "t": 8610,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _A__I__. "
-  },
-  {
-   "t": 8647,
-   "model": "grok-4.7",
    "type": "fill",
    "entry": "5A",
    "answer": "YAPPING"
   },
   {
-   "t": 8647,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". "
+   "t": 4877,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "4D",
+   "answer": "MID"
   },
   {
-   "t": 8746,
-   "model": "gpt-6.1-sol",
+   "t": 4877,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "MOGGING"
+  },
+  {
+   "t": 4877,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "BRUV"
+  },
+  {
+   "t": 4877,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "FANUM"
+  },
+  {
+   "t": 4878,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " letter9 = 9D letter4. TOUCHGRASS pos9=S. GHOSTED letters G H O S T E D, pos4=S. Good. 14A letter6 = 9D letter7 = D. 14A=SKIBID"
+  },
+  {
+   "t": 4894,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter2 A =2D letter3 A in"
+  },
+  {
+   "t": 5005,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "I letters S K I B I D I, pos6=D. Good.\n10D (5) Completely serious, no lie (2 words). \"NO CAP\" (5 incl? NOCAP=5) ="
+  },
+  {
+   "t": 5133,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " GYAT yes. letter5 I =4"
+  },
+  {
+   "t": 5159,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "RATIO"
+  },
+  {
+   "t": 5159,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 5159,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "TOUCHGRASS"
+  },
+  {
+   "t": 5162,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": " against the grid constraints: POG for 1A, GYAT for 2D, checking YAPPING and MID f"
+  },
+  {
+   "t": 5251,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": " serious no lie. Cross 8A letter7 = 10D letter1 = N. So 8A 7th letter N.\n11D (5) When your reply gets more likes than the post. \"RATIO\" (5). Cross 13A letter1 = 11D letter3"
+  },
+  {
+   "t": 5302,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D letter2. 4D aggressively average neither"
+  },
+  {
+   "t": 5398,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": ". 13A T=11D pos"
+  },
+  {
+   "t": 5405,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "14A",
+   "answer": "SKIBIDI"
+  },
+  {
+   "t": 5406,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "GHOSTED"
+  },
+  {
+   "t": 5406,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10D",
+   "answer": "NOCAP"
+  },
+  {
+   "t": 5422,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TUNGTUNG"
+  },
+  {
+   "t": 5422,
+   "model": "gemini-4-argon",
+   "type": "done",
+   "usage": {
+    "input": 1064,
+    "output": 93,
+    "reasoning": 0
+   },
+   "costUsd": 0.003058,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 5515,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "3. RATIO p"
+  },
+  {
+   "t": 5550,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " fire nor trash length3 = MID? letter2"
+  },
+  {
+   "t": 5793,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " I yes. letter7 G=3D letter"
+  },
+  {
+   "t": 6112,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3.\n3D outshining everyone nearby sheer facial"
+  },
+  {
+   "t": 6485,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nMapping the 13x13 "
+  },
+  {
+   "t": 6515,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " structure length7 = MOGGING (7) letter"
+  },
+  {
+   "t": 6657,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "grid and entry starts."
+  },
+  {
+   "t": 6693,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3 G, letter7 G. yes.\n8"
+  },
+  {
+   "t": 6829,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Row 1 contains 1A (3"
+  },
+  {
+   "t": 7002,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letters), 2D, and 3D."
+  },
+  {
+   "t": 7051,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A start wooden log name ___ Tung Sahur"
+  },
+  {
+   "t": 7436,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 8 = TUNGTUNG? Actual \""
+  },
+  {
+   "t": 7604,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Tung Tung Tung Sahur\" "
+  },
+  {
+   "t": 7747,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "it the intersecting letters, and considering MOGGING for 3D before exploring \"Tung Tung Tung Sahur\" as a candidate for 8A.\n\nContinuing the gr"
+  },
+  {
+   "t": 7751,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "id fill, TUNGTUNG satisfies the eighth letter, BRUV works for 6D, GHOSTED fits 9D, and NOCAP slots into 10D. I'm then checking TOUCHGRASS against 9D, RATIO for 11D, FANUM for 7D, and SHOOK with SKIBIDI confirming their shared letters line up correctly."
+  },
+  {
+   "t": 7752,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "\n\n"
+  },
+  {
+   "t": 7752,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "1A",
    "answer": "POG"
   },
   {
-   "t": 8746,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "11D (5) \"When your reply gets more likes than the …\". "
+   "t": 7752,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "GYAT"
   },
   {
-   "t": 8750,
-   "model": "gemini-4-argon",
+   "t": 7753,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "5A",
+   "answer": "YAPPING"
+  },
+  {
+   "t": 7753,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "4D",
    "answer": "MID"
   },
   {
-   "t": 8750,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "12D (5) \"Absolutely stunned\". "
-  },
-  {
-   "t": 8788,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 8914,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "YAPPING"
-  },
-  {
-   "t": 8914,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
-  },
-  {
-   "t": 8928,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 8999,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's RATIO. "
-  },
-  {
-   "t": 9151,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's NOCAP. "
-  },
-  {
-   "t": 9192,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 9193,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 9193,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". Have ______D. "
-  },
-  {
-   "t": 9258,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "11D",
-   "answer": "RATIO"
-  },
-  {
-   "t": 9258,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _A__I__. "
-  },
-  {
-   "t": 9261,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 9261,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". Have __G____. "
-  },
-  {
-   "t": 9310,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SHOOK. "
-  },
-  {
-   "t": 9378,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 9378,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _K___D_. "
-  },
-  {
-   "t": 9465,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's MOGGING. "
-  },
-  {
-   "t": 9481,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "12D",
-   "answer": "SHOOK"
-  },
-  {
-   "t": 9481,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _K_____. "
-  },
-  {
-   "t": 9501,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 9655,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 9677,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "MOGGING"
-  },
-  {
-   "t": 9677,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _I_____. "
-  },
-  {
-   "t": 9739,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 9771,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 9771,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". "
-  },
-  {
-   "t": 9817,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "YAPPING"
-  },
-  {
-   "t": 9817,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". Have __G____. "
-  },
-  {
-   "t": 9946,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 9948,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 9948,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U_G__NG. "
-  },
-  {
-   "t": 10043,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 10243,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 10243,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". Have ______D. "
-  },
-  {
-   "t": 10305,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Maybe MOOGING? "
-  },
-  {
-   "t": 10320,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 10320,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U____NG. "
-  },
-  {
-   "t": 10335,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's MOGGING. "
-  },
-  {
-   "t": 10472,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 10476,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 10503,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 10523,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "MOOGING"
-  },
-  {
-   "t": 10523,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "14A (7) \"___ toilet: singing porcelain menace with…\". Have _K_____. "
-  },
-  {
-   "t": 10672,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 10672,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U_G__N_. "
-  },
-  {
-   "t": 10708,
+   "t": 7753,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "3D",
    "answer": "MOGGING"
   },
   {
-   "t": 10708,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _A__I_G. "
-  },
-  {
-   "t": 10716,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's SKIBIDI. "
-  },
-  {
-   "t": 10805,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "TUNGTUNG"
-  },
-  {
-   "t": 10805,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". Have G_____D. "
-  },
-  {
-   "t": 10864,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "TUNGTUNG"
-  },
-  {
-   "t": 10864,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
-  },
-  {
-   "t": 10981,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 10989,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 11032,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 11046,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "14A",
-   "answer": "SKIBIDI"
-  },
-  {
-   "t": 11046,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "10D (5) \"Completely serious, no lie (2 words)\". "
-  },
-  {
-   "t": 11134,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "TUNGTUNG"
-  },
-  {
-   "t": 11134,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "7D (5) \"___ tax: when your friend steals a bite o…\". "
-  },
-  {
-   "t": 11147,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "5A",
-   "answer": "YAPPING"
-  },
-  {
-   "t": 11147,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U_G__NG. "
-  },
-  {
-   "t": 11151,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 11151,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
-  },
-  {
-   "t": 11377,
-   "model": "grok-4.7",
-   "type": "think",
-   "text": "Pretty sure it's TOUCHGRASS. "
-  },
-  {
-   "t": 11402,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's NOCAP. "
-  },
-  {
-   "t": 11426,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's FANUM. "
-  },
-  {
-   "t": 11506,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 11536,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "10D",
-   "answer": "NOCAP"
-  },
-  {
-   "t": 11536,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "9D (7) \"Left on read... permanently\". Have ______D. "
-  },
-  {
-   "t": 11582,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Pretty sure it's TOUCHGRASS. "
-  },
-  {
-   "t": 11621,
-   "model": "grok-4.7",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "TOUCHGRASS"
-  },
-  {
-   "t": 11642,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "7D",
-   "answer": "FANUM"
-  },
-  {
-   "t": 11642,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "3D (7) \"Outshining everyone nearby with sheer fac…\". Have ______G. "
-  },
-  {
-   "t": 11677,
+   "t": 7753,
    "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "8A",
    "answer": "TUNGTUNG"
   },
   {
-   "t": 11677,
+   "t": 7753,
    "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
-  },
-  {
-   "t": 11795,
-   "model": "kimi-k3.1-pro",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "TOUCHGRASS"
-  },
-  {
-   "t": 11795,
-   "model": "kimi-k3.1-pro",
-   "type": "think",
-   "text": "Recheck 6D: crossings don't fit. "
-  },
-  {
-   "t": 11821,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's MOGGING. "
-  },
-  {
-   "t": 11824,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's GHOSTED. "
-  },
-  {
-   "t": 12116,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "9D",
-   "answer": "GHOSTED"
-  },
-  {
-   "t": 12116,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "8A (8) \"Start of a wooden log's name: ___ Tung Sa…\". Have _U_G__NG. "
-  },
-  {
-   "t": 12117,
-   "model": "gemini-4-argon",
-   "type": "fill",
-   "entry": "3D",
-   "answer": "MOGGING"
-  },
-  {
-   "t": 12117,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "5A (7) \"Talking nonstop with zero substance\". Have _A__I_G. "
-  },
-  {
-   "t": 12239,
-   "model": "claude-opus-5.5",
-   "type": "think",
-   "text": "Pretty sure it's TOUCHGRASS. "
-  },
-  {
-   "t": 12287,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's TUNGTUNG. "
-  },
-  {
-   "t": 12309,
-   "model": "grok-4.7",
-   "type": "done",
-   "usage": {
-    "input": 682,
-    "output": 763,
-    "reasoning": 715
-   },
-   "costUsd": 0.005942,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 12351,
-   "model": "claude-opus-5.5",
-   "type": "fill",
-   "entry": "13A",
-   "answer": "TOUCHGRASS"
-  },
-  {
-   "t": 12492,
-   "model": "gpt-6.1-sol",
-   "type": "fill",
-   "entry": "8A",
-   "answer": "TUNGTUNG"
-  },
-  {
-   "t": 12492,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
-  },
-  {
-   "t": 12535,
-   "model": "kimi-k3.1-pro",
    "type": "fill",
    "entry": "6D",
    "answer": "BRUV"
   },
   {
-   "t": 12693,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Pretty sure it's YAPPING. "
-  },
-  {
-   "t": 12775,
+   "t": 7753,
    "model": "claude-opus-5.5",
-   "type": "done",
-   "usage": {
-    "input": 682,
-    "output": 933,
-    "reasoning": 885
-   },
-   "costUsd": 0.021388,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 12817,
-   "model": "kimi-k3.1-pro",
-   "type": "done",
-   "usage": {
-    "input": 682,
-    "output": 958,
-    "reasoning": 907
-   },
-   "costUsd": 0.010944,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 12972,
-   "model": "gemini-4-argon",
    "type": "fill",
-   "entry": "5A",
-   "answer": "YAPPING"
+   "entry": "9D",
+   "answer": "GHOSTED"
   },
   {
-   "t": 12972,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "13A (10) \"Advice for the chronically online (2 word…\". Have T_U_H___S_. "
+   "t": 7754,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "10D",
+   "answer": "NOCAP"
   },
   {
-   "t": 13054,
-   "model": "gpt-6.1-sol",
-   "type": "think",
-   "text": "Pretty sure it's TOUCHGRASS. "
-  },
-  {
-   "t": 13235,
-   "model": "gpt-6.1-sol",
+   "t": 7754,
+   "model": "claude-opus-5.5",
    "type": "fill",
    "entry": "13A",
    "answer": "TOUCHGRASS"
   },
   {
-   "t": 13536,
-   "model": "gemini-4-argon",
-   "type": "think",
-   "text": "Maybe TOUCHGRDSS? "
-  },
-  {
-   "t": 13831,
-   "model": "gpt-6.1-sol",
-   "type": "done",
-   "usage": {
-    "input": 682,
-    "output": 942,
-    "reasoning": 894
-   },
-   "costUsd": 0.010784,
-   "costSource": "estimate",
-   "finishReason": "stop"
-  },
-  {
-   "t": 13855,
-   "model": "gemini-4-argon",
+   "t": 7754,
+   "model": "claude-opus-5.5",
    "type": "fill",
-   "entry": "13A",
-   "answer": "TOUCHGRDSS"
+   "entry": "11D",
+   "answer": "RATIO"
   },
   {
-   "t": 14178,
-   "model": "gemini-4-argon",
+   "t": 7754,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "FANUM"
+  },
+  {
+   "t": 7754,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "12D",
+   "answer": "SHOOK"
+  },
+  {
+   "t": 7764,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "14A",
+   "answer": "SKIBIDI"
+  },
+  {
+   "t": 7764,
+   "model": "claude-opus-5.5",
    "type": "done",
    "usage": {
-    "input": 682,
-    "output": 889,
-    "reasoning": 841
+    "input": 1407,
+    "output": 525,
+    "reasoning": 398
    },
-   "costUsd": 0.010254,
+   "costUsd": 0.016128,
    "costSource": "estimate",
    "finishReason": "stop"
+  },
+  {
+   "t": 7960,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8 letters TUNGTUNG. letter2 U="
+  },
+  {
+   "t": 8185,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6D letter3, letter4 G=9D letter1"
+  },
+  {
+   "t": 8435,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ", letter7 N=10D letter1,"
+  },
+  {
+   "t": 8763,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter8 G =3D letter7. good.\n"
+  },
+  {
+   "t": 9005,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n2D runs down column"
+  },
+  {
+   "t": 9007,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6D British for bro length4 ="
+  },
+  {
+   "t": 9142,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 8 starting at row 1."
+  },
+  {
+   "t": 9276,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5A is seven letters"
+  },
+  {
+   "t": 9331,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " MATE? letter3 T but 8A letter2"
+  },
+  {
+   "t": 9409,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " from row 3. The clue"
+  },
+  {
+   "t": 9538,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " says 5A letter 2 crosses"
+  },
+  {
+   "t": 9576,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " U mismatch. \"BRUV\" letter3 U yes"
+  },
+  {
+   "t": 9672,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2D letter 3."
+  },
+  {
+   "t": 9928,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". BRUV.\n9D left on read permanently"
+  },
+  {
+   "t": 10256,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 7 = GHOSTED, letter1 G,"
+  },
+  {
+   "t": 10504,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter4 S, letter7 D.\n10D"
+  },
+  {
+   "t": 10871,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " completely serious no lie (2 words) length5 = ON"
+  },
+  {
+   "t": 11121,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "GOD? \"ON GOD\" 5 letters"
+  },
+  {
+   "t": 11477,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ONGOD, letter1 O but 8A"
+  },
+  {
+   "t": 11560,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n5A letter 5 crosses"
+  },
+  {
+   "t": 11681,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 4D letter 2 at row "
+  },
+  {
+   "t": 11753,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letter7 N mismatch. \"NO CAP\" 5 NOC"
+  },
+  {
+   "t": 11902,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "3 column 11. 5A letter 7 crosses 3D letter"
+  },
+  {
+   "t": 12002,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AP first N yes.\n13A advice"
+  },
+  {
+   "t": 12138,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 3 at row 3 column 13. Row 4 places 4D at "
+  },
+  {
+   "t": 12340,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 11 and 3D at "
+  },
+  {
+   "t": 12341,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " chronically online 2 words length10 = TOUCHGR"
+  },
+  {
+   "t": 12552,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "ASS (10"
+  },
+  {
+   "t": 12559,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 13. Row 5 starts 6D at row 5 column "
+  },
+  {
+   "t": 12790,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "). crosses 1 T=11D letter3"
+  },
+  {
+   "t": 13033,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ", 3 U=7D letter4,"
+  },
+  {
+   "t": 13197,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 5 H=12D letter2, 9"
+  },
+  {
+   "t": 13523,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " S=9D letter4? Wait 9"
+  },
+  {
+   "t": 13688,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "D GHOSTED letter4 S yes.\n14"
+  },
+  {
+   "t": 13955,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "A ___ toilet singing porcelain menace banger theme "
+  },
+  {
+   "t": 14040,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "7.\n\nRow 6 places 6D at"
+  },
+  {
+   "t": 14165,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 7 and 3D at "
+  },
+  {
+   "t": 14284,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7 = SKIBIDI. letter2 K="
+  },
+  {
+   "t": 14287,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 13. Row 7 starts"
+  },
+  {
+   "t": 14530,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 7D, 8A, 9D, and 10D. 8A is eight letters"
+  },
+  {
+   "t": 14531,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12D letter5, letter6 D=9D letter7"
+  },
+  {
+   "t": 14768,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " from row 7 columns 6 to 13. The clues say"
+  },
+  {
+   "t": 14776,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " yes.\n7D ___ tax friend steals bite food"
+  },
+  {
+   "t": 14890,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 8A letter 2 crosses"
+  },
+  {
+   "t": 15011,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 6D letter 3, 8A letter"
+  },
+  {
+   "t": 15253,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 4 crosses 9D letter 1, and 8A letter 7 "
+  },
+  {
+   "t": 15293,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " 5 = FAT? \"FAT tax\"?"
+  },
+  {
+   "t": 15377,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "crosses 10D letter 1."
+  },
+  {
+   "t": 16073,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"FRIEND tax\"? Common \"fat tax\"?"
+  },
+  {
+   "t": 16268,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRow 7 confirms 8A "
+  },
+  {
+   "t": 16400,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "letter 8 crosses 3D "
+  },
+  {
+   "t": 16463,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"food tax\"? \"the food tax\" length4. \"FAT tax\" 3. \""
+  },
+  {
+   "t": 16535,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "letter 7. Row 8 places"
+  },
+  {
+   "t": 16606,
+   "model": "deepseek-v4.1-flash",
+   "type": "done",
+   "usage": {
+    "input": 1017,
+    "output": 6000,
+    "reasoning": 6000
+   },
+   "costUsd": 0.0018762750000000002,
+   "costSource": "estimate",
+   "finishReason": "length"
+  },
+  {
+   "t": 16670,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 11D at column 1, 7D"
+  },
+  {
+   "t": 16710,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "DAD tax\" 3. \"fartax\"? "
+  },
+  {
+   "t": 16797,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 3, 6D at "
+  },
+  {
+   "t": 16928,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 7, 9D at column"
+  },
+  {
+   "t": 17047,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5 \"FAT??\" Could be \"F"
+  },
+  {
+   "t": 17060,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 9, and 10D at column"
+  },
+  {
+   "t": 17193,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 12. Row 9 places 11D"
+  },
+  {
+   "t": 17288,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT\" no. \"Snack tax\"? \"F"
+  },
+  {
+   "t": 17322,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " at column 1, 7D at "
+  },
+  {
+   "t": 17456,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 3, 12D at column"
+  },
+  {
+   "t": 17583,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5, 9D at column 9, "
+  },
+  {
+   "t": 17625,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT tax\" meme? \"FAT TAX"
+  },
+  {
+   "t": 17715,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "and 10D at column 12."
+  },
+  {
+   "t": 17848,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Row 10 starts 13A at"
+  },
+  {
+   "t": 17869,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\" 6. \"FAT??\" \"F"
+  },
+  {
+   "t": 17982,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 1.\n\n13A is ten letters"
+  },
+  {
+   "t": 18123,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " from row 10 columns"
+  },
+  {
+   "t": 18208,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT tax\" 6 incl space? Slot "
+  },
+  {
+   "t": 18247,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 1 to 10. It crosses"
+  },
+  {
+   "t": 18392,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 11D letter 1 at row"
+  },
+  {
+   "t": 18460,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5. \"FAT?X\". \"F"
+  },
+  {
+   "t": 18526,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 10 column 1, 7D letter"
+  },
+  {
+   "t": 18662,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 3 at row 10 column "
+  },
+  {
+   "t": 18708,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT tax\" no. \"food tax\" "
+  },
+  {
+   "t": 18910,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "3, 12D letter 5 at row 10 column 5, and 9D"
+  },
+  {
+   "t": 19030,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7. \"dad tax\" 6. \"friend"
+  },
+  {
+   "t": 19035,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " letter 4 at row 10 "
+  },
+  {
+   "t": 19164,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 9. Row 11 begins"
+  },
+  {
+   "t": 19275,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tax\" 9. \"fat tax\" "
+  },
+  {
+   "t": 19296,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with a blank cell."
+  },
+  {
+   "t": 19543,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nRow 11 places 7D at"
+  },
+  {
+   "t": 19608,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6. Gen Z \"FAT tax\" perhaps \""
+  },
+  {
+   "t": 19676,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " column 3, 12D at column"
+  },
+  {
+   "t": 19815,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 5, 9D at column 9, "
+  },
+  {
+   "t": 19948,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "and 10D at column 12."
+  },
+  {
+   "t": 20015,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\" 5 if FATTAX =6"
+  },
+  {
+   "t": 20077,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Row 12 ends 11D at "
+  },
+  {
+   "t": 20207,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 1 and 12D at "
+  },
+  {
+   "t": 20262,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". \"FAT?\": \"FAT tax\""
+  },
+  {
+   "t": 20352,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "column 5. Row 13 starts"
+  },
+  {
+   "t": 20509,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " no.\n\"___ tax: when your friend steals"
+  },
+  {
+   "t": 20612,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 14A at column 4. It crosses 12D letter "
+  },
+  {
+   "t": 20744,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "5 and 9D letter 7."
+  },
+  {
+   "t": 20758,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " a bite of your food\" = \""
+  },
+  {
+   "t": 20920,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\"?"
+  },
+  {
+   "t": 21199,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"Food tax\". \"SIB tax\"? Common"
+  },
+  {
+   "t": 21357,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"the food tax\", \"fat tax\", \""
+  },
+  {
+   "t": 21710,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "dad tax\", \"friend tax\". Could be \""
+  },
+  {
+   "t": 22010,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nPOG is the three-letter"
+  },
+  {
+   "t": 22033,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\" 5? Perhaps \"F"
+  },
+  {
+   "t": 22154,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " answer for 1A. GYAT"
+  },
+  {
+   "t": 22280,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is the four-letter "
+  },
+  {
+   "t": 22360,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "ATAX\"? \"FAT tax\" weird."
+  },
+  {
+   "t": 22404,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "answer for 2D. YAPPING"
+  },
+  {
+   "t": 22542,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is the seven-letter"
+  },
+  {
+   "t": 22610,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"FAT?X\". \"FAT tax\""
+  },
+  {
+   "t": 22678,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " answer for 5A."
+  },
+  {
+   "t": 22930,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " letters F A T space T A X =6"
+  },
+  {
+   "t": 23171,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " excluding space. \"FAT tax\" length "
+  },
+  {
+   "t": 23485,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6. \"FAT tax\" not 5"
+  },
+  {
+   "t": 23735,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ".\n\"FAT tax\" perhaps \"FAT"
+  },
+  {
+   "t": 24061,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n4D is MID. 3D is MOGGING."
+  },
+  {
+   "t": 24067,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tax\" no. \"FAT tax\" known \"fat"
+  },
+  {
+   "t": 24284,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 8A is TUNG TUNG TUNG"
+  },
+  {
+   "t": 24313,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tax\" friend takes bite? \"FAT tax"
+  },
+  {
+   "t": 24493,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " SAHUR."
+  },
+  {
+   "t": 24715,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\" 6.\n\"FAT?\": \"F"
+  },
+  {
+   "t": 24965,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?X\" five. \"FATAX"
+  },
+  {
+   "t": 25203,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\" no.\n\"FAT tax\" perhaps \"FAT tax"
+  },
+  {
+   "t": 25555,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\" not.\n\"FAT tax\" no. \""
+  },
+  {
+   "t": 25851,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\" irrelevant. Could be \"F"
+  },
+  {
+   "t": 26106,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?\": \"FAT?\". \"F"
+  },
+  {
+   "t": 26439,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?\".\n\"FAT tax\" hmm.\n"
+  },
+  {
+   "t": 26741,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe clue for 8A is"
+  },
+  {
+   "t": 26825,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\nPerhaps \"FAT tax\""
+  },
+  {
+   "t": 26956,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " \"Start of a wooden log's name: ___ Tung"
+  },
+  {
+   "t": 27076,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " intended \"FAT?\": \"FAT?"
+  },
+  {
+   "t": 27164,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Sahur.\" The previous guess of TUNG TUNG "
+  },
+  {
+   "t": 27374,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "TUNG SAHUR does not fit this phrasing, so"
+  },
+  {
+   "t": 27403,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\".\nActually slang \"FAT tax\" = \"F"
+  },
+  {
+   "t": 27577,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the correct start word is still unknown."
+  },
+  {
+   "t": 27632,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT tax\". \"FAT tax\" six.\n"
+  },
+  {
+   "t": 28048,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT tax\" 5 if \"F"
+  },
+  {
+   "t": 28296,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "ATTX\"? no.\nCould be \"FAT"
+  },
+  {
+   "t": 28590,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "?\": \"FAT?\".\nOther: \"SIB"
+  },
+  {
+   "t": 28750,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tax\","
+  },
+  {
+   "t": 29163,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"bro tax\" 6, \"BF tax\","
+  },
+  {
+   "t": 29408,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"GF tax\". \"FAT?\".\n\""
+  },
+  {
+   "t": 29667,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\" ignore.\n\n11D reply gets"
+  },
+  {
+   "t": 29997,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " more likes than post = RATIO (5"
+  },
+  {
+   "t": 30242,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "), letter3 T = TOUCHGRASS letter1"
+  },
+  {
+   "t": 30481,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " T yes. RATIO.\n12D absolutely"
+  },
+  {
+   "t": 30639,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " stunned 5 = SHOOK? letter2 H ="
+  },
+  {
+   "t": 30873,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " TOUCHGRASS letter5 H yes, letter"
+  },
+  {
+   "t": 31001,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nTUNGTUNG is now the"
+  },
+  {
+   "t": 31124,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5 K=SKIBIDI letter2 K."
+  },
+  {
+   "t": 31126,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " leading candidate for"
+  },
+  {
+   "t": 31359,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 8A. It is eight letters and ends with G, matching"
+  },
+  {
+   "t": 31452,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " SHOOK.\n7D crosses letter4 = TO"
+  },
+  {
+   "t": 31596,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the MOGGING cross. The clue wording still"
+  },
+  {
+   "t": 31689,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "UCHGRASS letter3 U. Pattern ???U"
+  },
+  {
+   "t": 31718,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " does not fit this answer."
+  },
+  {
+   "t": 32396,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "? length5. \"FAT?\": ???"
+  },
+  {
+   "t": 32577,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "U?. \"FAT?\": no. \""
+  },
+  {
+   "t": 32841,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT?\". \"FAT?\".\n\"FAT?\": \"FAT?\".\nCould"
+  },
+  {
+   "t": 33047,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " be \"FAT?\": \"FAT?\".\n"
+  },
+  {
+   "t": 33295,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT tax\" no. \"FAT"
+  },
+  {
+   "t": 33609,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nBRUV is the four-letter"
+  },
+  {
+   "t": 33626,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "?\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 33747,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " answer for 6D. It fits"
+  },
+  {
+   "t": 33874,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\nWord \"FAT?"
+  },
+  {
+   "t": 33975,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the clue \"British for 'bro'\" and satisfies"
+  },
+  {
+   "t": 34106,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the cross with 8A letter"
+  },
+  {
+   "t": 34187,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\": \"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 34425,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Perhaps \"FAT?\".\nCommon \"FAT"
+  },
+  {
+   "t": 34584,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "?\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 34819,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Think \"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 34980,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 35215,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 35370,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 35612,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Perhaps answer \"FAT?\": no. \""
+  },
+  {
+   "t": 35843,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT?\".\n\"FAT?\".\nCould"
+  },
+  {
+   "t": 36082,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 2.\n\nThe clue for 8A is"
+  },
+  {
+   "t": 36087,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " be \"FAT?\".\n\"FAT?"
+  },
+  {
+   "t": 36217,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " now resolved. \"Tung"
+  },
+  {
+   "t": 36319,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\".\nI'll stop loop. Phrase \"FAT tax"
+  },
+  {
+   "t": 36347,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Tung Tung Sahur\" is"
+  },
+  {
+   "t": 36471,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the full name of the"
+  },
+  {
+   "t": 36615,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " wooden log, so the "
+  },
+  {
+   "t": 36714,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\" vs \"friend tax\". \"FAT tax\"."
+  },
+  {
+   "t": 36866,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "blank is filled by \"Tung Tung\" — TUNGTUNG."
+  },
+  {
+   "t": 36874,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Five letters with fourth U: \"FAT?\":"
+  },
+  {
+   "t": 37213,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"FAT?\". \"FAT?\"."
+  },
+  {
+   "t": 37359,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Could be \"FAT?\". \"FAT"
+  },
+  {
+   "t": 37768,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "?\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 37991,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n\"FAT?\".\n\"F"
+  },
+  {
+   "t": 38227,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?\".\nPerhaps \"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 38472,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nGHOSTED is the seven-letter"
+  },
+  {
+   "t": 38479,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 38594,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " answer for 9D. It begins"
+  },
+  {
+   "t": 38635,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Should respond. \"FAT?\".\n\"F"
+  },
+  {
+   "t": 38715,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with G and ends with"
+  },
+  {
+   "t": 38836,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " D, matching the crosses"
+  },
+  {
+   "t": 38879,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 39063,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " with 8A and 14A. The five-letter answer "
+  },
+  {
+   "t": 39099,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\nCould be \"FAT?\".\n"
+  },
+  {
+   "t": 39254,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 39304,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "for 10D is being considered as NO CAP."
+  },
+  {
+   "t": 39493,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 39722,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 39951,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Actually \"FAT?\".\n\"FAT?"
+  },
+  {
+   "t": 40109,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 40354,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"F"
+  },
+  {
+   "t": 40865,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AT?\".\n\"FAT?\".\nThis is weird repetition."
+  },
+  {
+   "t": 41097,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Reset: \"___ tax\" stealing food = \""
+  },
+  {
+   "t": 41285,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nNOCAP is the five-letter"
+  },
+  {
+   "t": 41327,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\"? \"FAT tax\". \""
+  },
+  {
+   "t": 41433,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " answer for 10D. The"
+  },
+  {
+   "t": 41559,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " clue for 13A is \"Advice"
+  },
+  {
+   "t": 41692,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for the chronically"
+  },
+  {
+   "t": 41734,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT tax\". Another common phrase is \"the"
+  },
+  {
+   "t": 41837,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " online (2 words)\" and"
+  },
+  {
+   "t": 41972,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " it crosses 11D, 7D,"
+  },
+  {
+   "t": 42104,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " tax\" or \"food tax\", \"snack tax\","
+  },
+  {
+   "t": 42116,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " 12D, and 9D. The answer"
+  },
+  {
+   "t": 42248,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " is TOUCHGRASS."
+  },
+  {
+   "t": 42287,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " \"dad tax\", \"mom tax\". Five letters"
+  },
+  {
+   "t": 42567,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ": MOMTAX 6, DADT"
+  },
+  {
+   "t": 42875,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "AX 6, FAT TAX 6, BRO"
+  },
+  {
+   "t": 43111,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " TAX 6, SIS TAX "
+  },
+  {
+   "t": 43243,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6"
+  },
+  {
+   "t": 43479,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": ". \"FAT?\": \"FAT?\"."
+  },
+  {
+   "t": 43481,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n11D is RATIO. The "
+  },
+  {
+   "t": 43694,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "clue \"When your reply gets more likes than"
+  },
+  {
+   "t": 43795,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " Could be \"FAT?\".\nPerhaps just \""
+  },
+  {
+   "t": 43885,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " the post\" fits a five-letter word with letter 3 "
+  },
+  {
+   "t": 44007,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "as T.\n\n7D is still unresolved."
+  },
+  {
+   "t": 44116,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT?\".\nFive letter word ending? pattern"
+  },
+  {
+   "t": 44188,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " The clue about food tax and a friend stealing"
+  },
+  {
+   "t": 44354,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " ???U? suggests \"FAT?\": \""
+  },
+  {
+   "t": 44389,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " a bite needs a five-letter answer."
+  },
+  {
+   "t": 44596,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "FAT?\". \"FAT?\".\nCould"
+  },
+  {
+   "t": 44830,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": " be \"FAT?\".\n\"FAT?"
+  },
+  {
+   "t": 44989,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\".\n\"FAT?\".\n\"FAT?\".\n"
+  },
+  {
+   "t": 45225,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "\"FAT?\".\n\"FA"
+  },
+  {
+   "t": 48372,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\n12D is SHOOK. 14A "
+  },
+  {
+   "t": 48574,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "is SKIBIDI. The clue"
+  },
+  {
+   "t": 48777,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for 7D is still unresolved."
+  },
+  {
+   "t": 51819,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nThe five-letter answer"
+  },
+  {
+   "t": 51954,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " for 7D must have its"
+  },
+  {
+   "t": 52095,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " fourth letter as U."
+  },
+  {
+   "t": 52247,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " Candidates like CRUMB,"
+  },
+  {
+   "t": 52502,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " LUNCH, and SNACK do not fit this constraint."
+  },
+  {
+   "t": 68206,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "\n\nTOUCHGRASS is confirmed"
+  },
+  {
+   "t": 68328,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " as the answer for 13A."
+  },
+  {
+   "t": 68462,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " It fits all four crossings"
+  },
+  {
+   "t": 68747,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " and satisfies the clue about advice for the"
+  },
+  {
+   "t": 72084,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " chronically online.\n\nThe fourth letter "
+  },
+  {
+   "t": 72249,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "of 7D must be U. Candidates"
+  },
+  {
+   "t": 72430,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " like GRUB and MUNCH"
+  },
+  {
+   "t": 72569,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": " do not fit this constraint."
+  },
+  {
+   "t": 75020,
+   "model": "grok-4.7",
+   "type": "done",
+   "usage": {
+    "input": 0,
+    "output": 0,
+    "reasoning": 0
+   },
+   "costUsd": 0,
+   "costSource": "estimate"
+  },
+  {
+   "t": 75022,
+   "model": "kimi-k3.1-pro",
+   "type": "done",
+   "usage": {
+    "input": 0,
+    "output": 0,
+    "reasoning": 0
+   },
+   "costUsd": 0,
+   "costSource": "estimate"
   }
  ]
 }
