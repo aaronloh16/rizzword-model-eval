@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-27",
+ "issue": 8,
+ "title": "Delulu Is the Solulu",
+ "rows": 12,
+ "cols": 12,
+ "entries": [
+  {
+   "id": "2A",
+   "number": 2,
+   "direction": "across",
+   "row": 0,
+   "col": 6,
+   "answer": "BRUV",
+   "clue": "British for \"bro\""
+  },
+  {
+   "id": "6A",
+   "number": 6,
+   "direction": "across",
+   "row": 2,
+   "col": 5,
+   "answer": "RIZZLER",
+   "clue": "One with unspoken game, or the kid from the viral clip"
+  },
+  {
+   "id": "9A",
+   "number": 9,
+   "direction": "across",
+   "row": 4,
+   "col": 2,
+   "answer": "SALTY",
+   "clue": "Bitter about taking an L"
+  },
+  {
+   "id": "10A",
+   "number": 10,
+   "direction": "across",
+   "row": 4,
+   "col": 8,
+   "answer": "FOMO",
+   "clue": "Anxiety that everyone else is at the better party (abbr.)"
+  },
+  {
+   "id": "11A",
+   "number": 11,
+   "direction": "across",
+   "row": 6,
+   "col": 0,
+   "answer": "GHOSTED",
+   "clue": "Left on read... permanently"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 8,
+   "col": 9,
+   "answer": "ATE",
+   "clue": "\"She ___ and left no crumbs\""
+  },
+  {
+   "id": "1D",
+   "number": 1,
+   "direction": "down",
+   "row": 0,
+   "col": 3,
+   "answer": "FINNA",
+   "clue": "About to (Southern-inflected)"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 0,
+   "col": 7,
+   "answer": "RIZZ",
+   "clue": "Charisma stat that gets you the number, fr fr"
+  },
+  {
+   "id": "4D",
+   "number": 4,
+   "direction": "down",
+   "row": 0,
+   "col": 11,
+   "answer": "PERIODT",
+   "clue": "End of discussion, with an extra consonant for emphasis"
+  },
+  {
+   "id": "5D",
+   "number": 5,
+   "direction": "down",
+   "row": 1,
+   "col": 5,
+   "answer": "BRAT",
+   "clue": "Lime-green summer of 2024 aesthetic"
+  },
+  {
+   "id": "7D",
+   "number": 7,
+   "direction": "down",
+   "row": 2,
+   "col": 9,
+   "answer": "LOOKSMAXX",
+   "clue": "Optimize your face like it's a min-max RPG build"
+  },
+  {
+   "id": "8D",
+   "number": 8,
+   "direction": "down",
+   "row": 4,
+   "col": 0,
+   "answer": "SIGMA",
+   "clue": "Lone-wolf grindset archetype who doesn't need the pack"
+  },
+  {
+   "id": "9D",
+   "number": 9,
+   "direction": "down",
+   "row": 4,
+   "col": 2,
+   "answer": "SHOOK",
+   "clue": "Absolutely stunned"
+  },
+  {
+   "id": "12D",
+   "number": 12,
+   "direction": "down",
+   "row": 6,
+   "col": 6,
+   "answer": "DEMURE",
+   "clue": "Very mindful, very cutesy (2024 summer word)"
+  }
+ ]
+}

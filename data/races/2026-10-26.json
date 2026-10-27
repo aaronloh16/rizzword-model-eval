@@ -1,0 +1,1886 @@
+{
+ "version": 1,
+ "puzzleId": "2026-10-26",
+ "recordedAt": "2026-10-26T12:00:00.000Z",
+ "source": "simulated",
+ "models": [
+  {
+   "id": "gpt-6.1-sol",
+   "name": "GPT-6.1 Sol",
+   "gatewayId": "openai/gpt-6.1-sol"
+  },
+  {
+   "id": "claude-opus-5.5",
+   "name": "Claude Opus 5.5",
+   "gatewayId": "anthropic/claude-opus-5.5"
+  },
+  {
+   "id": "gemini-4-argon",
+   "name": "Gemini 4 Argon",
+   "gatewayId": "google/gemini-4-argon"
+  },
+  {
+   "id": "grok-4.7",
+   "name": "Grok 4.7",
+   "gatewayId": "spacexai/grok-4.7"
+  },
+  {
+   "id": "kimi-k3.1-pro",
+   "name": "Kimi K3.1 Pro",
+   "gatewayId": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+   "id": "deepseek-v4.1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "gatewayId": "deepseek/deepseek-v4.1-flash"
+  }
+ ],
+ "settings": {
+  "reasoning": "low",
+  "maxOutputTokens": 3000,
+  "promptVersion": "v1"
+ },
+ "events": [
+  {
+   "t": 52,
+   "model": "claude-opus-5.5",
+   "type": "start"
+  },
+  {
+   "t": 52,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 72,
+   "model": "gemini-4-argon",
+   "type": "start"
+  },
+  {
+   "t": 72,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 80,
+   "model": "grok-4.7",
+   "type": "start"
+  },
+  {
+   "t": 80,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 133,
+   "model": "deepseek-v4.1-flash",
+   "type": "start"
+  },
+  {
+   "t": 133,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 146,
+   "model": "gpt-6.1-sol",
+   "type": "start"
+  },
+  {
+   "t": 146,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 156,
+   "model": "kimi-k3.1-pro",
+   "type": "start"
+  },
+  {
+   "t": 156,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 769,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1057,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1393,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1477,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1722,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 1962,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1963,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's DRIP. "
+  },
+  {
+   "t": 2136,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 2136,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 2283,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 2423,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 2454,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 2454,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 2611,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's OPP. "
+  },
+  {
+   "t": 2688,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPP"
+  },
+  {
+   "t": 2688,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 2691,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 2738,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's OPP. "
+  },
+  {
+   "t": 2790,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's AURA. "
+  },
+  {
+   "t": 2858,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURA"
+  },
+  {
+   "t": 2858,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 2937,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 2947,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPP"
+  },
+  {
+   "t": 2947,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 3047,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 3047,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have ______D. "
+  },
+  {
+   "t": 3149,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's CHOPPED. "
+  },
+  {
+   "t": 3222,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPPED"
+  },
+  {
+   "t": 3222,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". "
+  },
+  {
+   "t": 3374,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 3400,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's DELULU. "
+  },
+  {
+   "t": 3496,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 3565,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULU"
+  },
+  {
+   "t": 3565,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". Have _____E_. "
+  },
+  {
+   "t": 3572,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 3627,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 3627,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 3641,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 3770,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 3823,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's OPP. "
+  },
+  {
+   "t": 3838,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 3838,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 3897,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 3897,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 3977,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPP"
+  },
+  {
+   "t": 3977,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 4062,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 4119,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 4144,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 4144,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have P_____. "
+  },
+  {
+   "t": 4247,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 4292,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 4335,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 4335,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 4378,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's OPP. "
+  },
+  {
+   "t": 4421,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 4421,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". Have C____O__. "
+  },
+  {
+   "t": 4491,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPP"
+  },
+  {
+   "t": 4491,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 4501,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's DRIP. "
+  },
+  {
+   "t": 4529,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 4529,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 4587,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's CRASHOUT. "
+  },
+  {
+   "t": 4644,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 4644,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ___C____O. "
+  },
+  {
+   "t": 4778,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 4778,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 4781,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's CROCODILO. "
+  },
+  {
+   "t": 4826,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 4847,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 4942,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 4942,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R_N____E. "
+  },
+  {
+   "t": 5003,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 5100,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 5107,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 5125,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's AURA. "
+  },
+  {
+   "t": 5193,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 5193,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 5193,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 5193,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 5342,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 5342,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 5352,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 5352,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 5417,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 5441,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's AURA. "
+  },
+  {
+   "t": 5467,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURA"
+  },
+  {
+   "t": 5467,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have P_____. "
+  },
+  {
+   "t": 5579,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 5653,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 5714,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURA"
+  },
+  {
+   "t": 5714,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 5782,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's DRIP. "
+  },
+  {
+   "t": 5911,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Maybe DPP? "
+  },
+  {
+   "t": 5934,
+   "model": "deepseek-v4.1-flash",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 349,
+    "reasoning": 0
+   },
+   "costUsd": 0.00015735,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 5962,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 5962,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 5993,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 5993,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 6159,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "DPP"
+  },
+  {
+   "t": 6159,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 6172,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Maybe OHIO? "
+  },
+  {
+   "t": 6188,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's AURA. "
+  },
+  {
+   "t": 6288,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 6443,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "OHIO"
+  },
+  {
+   "t": 6443,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 6444,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 6493,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 6543,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 6543,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". "
+  },
+  {
+   "t": 6560,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURA"
+  },
+  {
+   "t": 6560,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". "
+  },
+  {
+   "t": 6665,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 6665,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 6870,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Maybe SLOP? "
+  },
+  {
+   "t": 6946,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Maybe DELULS? "
+  },
+  {
+   "t": 6960,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 7038,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 7043,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 7043,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "13A (3) \"The enemy, in drill-rap parlance\". "
+  },
+  {
+   "t": 7101,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Maybe AURI? "
+  },
+  {
+   "t": 7118,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 7118,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". "
+  },
+  {
+   "t": 7200,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULS"
+  },
+  {
+   "t": 7200,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". Have _____E_. "
+  },
+  {
+   "t": 7281,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Maybe OPE? "
+  },
+  {
+   "t": 7295,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURI"
+  },
+  {
+   "t": 7295,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 7401,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 7401,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 7481,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 7535,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPE"
+  },
+  {
+   "t": 7535,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4A (4) \"Show off\". "
+  },
+  {
+   "t": 7552,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's CRASHOUT. "
+  },
+  {
+   "t": 7618,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 7656,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 7656,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have ______D. "
+  },
+  {
+   "t": 7706,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 7732,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 7732,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". Have _E____. "
+  },
+  {
+   "t": 7888,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 7888,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have __O___O. "
+  },
+  {
+   "t": 7967,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's FLEX. "
+  },
+  {
+   "t": 8047,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 8047,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "11D (4) \"Fire outfit, or swagger in general\". "
+  },
+  {
+   "t": 8143,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's CHOPPED. "
+  },
+  {
+   "t": 8265,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's DELULU. "
+  },
+  {
+   "t": 8291,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's CHOPPED. "
+  },
+  {
+   "t": 8323,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "FLEX"
+  },
+  {
+   "t": 8323,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9D (3) \"Roblox death noise, or a sympathetic reac…\". "
+  },
+  {
+   "t": 8455,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPPED"
+  },
+  {
+   "t": 8455,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". Have C____O__. "
+  },
+  {
+   "t": 8579,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's DRIP. "
+  },
+  {
+   "t": 8584,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULU"
+  },
+  {
+   "t": 8584,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have P_____. "
+  },
+  {
+   "t": 8612,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPPED"
+  },
+  {
+   "t": 8612,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have O_____. "
+  },
+  {
+   "t": 8738,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's OOF. "
+  },
+  {
+   "t": 8772,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 8779,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Maybe BRAINROT? "
+  },
+  {
+   "t": 8875,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 8875,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have P_____. "
+  },
+  {
+   "t": 8890,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 8890,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R_N____E. "
+  },
+  {
+   "t": 8899,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 8899,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". "
+  },
+  {
+   "t": 8959,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "9D",
+   "answer": "OOF"
+  },
+  {
+   "t": 8959,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1A (4) \"Invisible points: +1000 for clutch plays,…\". "
+  },
+  {
+   "t": 9151,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 9357,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 9378,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's DELULU. "
+  },
+  {
+   "t": 9422,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 9511,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's AURA. "
+  },
+  {
+   "t": 9527,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 9527,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R_N_____. "
+  },
+  {
+   "t": 9632,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "AURA"
+  },
+  {
+   "t": 9632,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12A (6) \"What you type before the model starts yap…\". Have P_____. "
+  },
+  {
+   "t": 9636,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 9636,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 9651,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 9651,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". "
+  },
+  {
+   "t": 9733,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 9756,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULU"
+  },
+  {
+   "t": 9756,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R______E. "
+  },
+  {
+   "t": 9826,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's CRASHOUT. "
+  },
+  {
+   "t": 9935,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 9935,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". Have C_______. "
+  },
+  {
+   "t": 9955,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 10025,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's PROMPT. "
+  },
+  {
+   "t": 10052,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 10162,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 10162,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". "
+  },
+  {
+   "t": 10273,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 10273,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ___C____O. "
+  },
+  {
+   "t": 10300,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 10300,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ___C____O. "
+  },
+  {
+   "t": 10358,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "PROMPT"
+  },
+  {
+   "t": 10358,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3D (6) \"Delusional, but make it cute (\"is the sol…\". "
+  },
+  {
+   "t": 10399,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's CRASHOUT. "
+  },
+  {
+   "t": 10519,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's CROCODILO. "
+  },
+  {
+   "t": 10533,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 10533,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ________O. "
+  },
+  {
+   "t": 10594,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's DELULU. "
+  },
+  {
+   "t": 10645,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 10645,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 10683,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's DELULU. "
+  },
+  {
+   "t": 10724,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's CROCODILO. "
+  },
+  {
+   "t": 10752,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's CROCODILO. "
+  },
+  {
+   "t": 10805,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULU"
+  },
+  {
+   "t": 10805,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R_______. "
+  },
+  {
+   "t": 10870,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "DELULU"
+  },
+  {
+   "t": 10870,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have ______S. "
+  },
+  {
+   "t": 10886,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 10886,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have C_O__ED. "
+  },
+  {
+   "t": 11059,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 11083,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 11083,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Recheck 6D: crossings don't fit. "
+  },
+  {
+   "t": 11141,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's CHOPPED. "
+  },
+  {
+   "t": 11190,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 11326,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 11326,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". Have C__N_E_. "
+  },
+  {
+   "t": 11338,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPPED"
+  },
+  {
+   "t": 11338,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". Have _____E_. "
+  },
+  {
+   "t": 11380,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Maybe CHOPPEN? "
+  },
+  {
+   "t": 11438,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 11438,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "10A (7) \"Looks-wise, absolutely not it (opposite o…\". Have __O__ED. "
+  },
+  {
+   "t": 11488,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 11710,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPPEN"
+  },
+  {
+   "t": 11710,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 11763,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 11794,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 11963,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 11963,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Recheck 11D: crossings don't fit. "
+  },
+  {
+   "t": 11990,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Maybe CHOPOED? "
+  },
+  {
+   "t": 11995,
+   "model": "gpt-6.1-sol",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 1017,
+    "reasoning": 964
+   },
+   "costUsd": 0.011574,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 12120,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 12120,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5D (6) \"Secretly or kind of; opposite of highkey\". Have L_____. "
+  },
+  {
+   "t": 12176,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "CHOPOED"
+  },
+  {
+   "t": 12176,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "6A (7) \"Slur for robots that went viral in 2025\". Have C__N_E_. "
+  },
+  {
+   "t": 12282,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 12535,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's LOWKEY. "
+  },
+  {
+   "t": 12573,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 12594,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 12609,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's CLANKER. "
+  },
+  {
+   "t": 12665,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "LOWKEY"
+  },
+  {
+   "t": 12665,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2D (8) \"Living ___ in your head (2 words)\". Have R_N____E. "
+  },
+  {
+   "t": 12881,
+   "model": "grok-4.7",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 806,
+    "reasoning": 757
+   },
+   "costUsd": 0.00624,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 12932,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's RENTFREE. "
+  },
+  {
+   "t": 12970,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 12970,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ___C____D. "
+  },
+  {
+   "t": 13048,
+   "model": "gemini-4-argon",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 865,
+    "reasoning": 812
+   },
+   "costUsd": 0.010054,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 13272,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's CROCODILO. "
+  },
+  {
+   "t": 13275,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "RENTFREE"
+  },
+  {
+   "t": 13275,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6D (8) \"Spectacular emotional meltdown, often ove…\". Have C____O__. "
+  },
+  {
+   "t": 13487,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 13487,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 13559,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's CRASHOUT. "
+  },
+  {
+   "t": 13645,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 13808,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "6D",
+   "answer": "CRASHOUT"
+  },
+  {
+   "t": 13808,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8A (9) \"___ Tralala: the shark in Nikes\". Have _R_L__E_O. "
+  },
+  {
+   "t": 13881,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 13881,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Recheck 13A: crossings don't fit. "
+  },
+  {
+   "t": 14249,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's TRALALERO. "
+  },
+  {
+   "t": 14498,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "13A",
+   "answer": "OPP"
+  },
+  {
+   "t": 14535,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "8A",
+   "answer": "TRALALERO"
+  },
+  {
+   "t": 14535,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7D (9) \"Bombardiro ___: a bomber plane with a rep…\". Have ___C____O. "
+  },
+  {
+   "t": 14951,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Maybe BALLERINA? "
+  },
+  {
+   "t": 15015,
+   "model": "claude-opus-5.5",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 808,
+    "reasoning": 756
+   },
+   "costUsd": 0.018968,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 15058,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "BALLERINA"
+  },
+  {
+   "t": 15058,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Recheck 11D: crossings don't fit. "
+  },
+  {
+   "t": 15640,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "11D",
+   "answer": "DRIP"
+  },
+  {
+   "t": 15640,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Recheck 7D: crossings don't fit. "
+  },
+  {
+   "t": 16141,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "7D",
+   "answer": "CROCODILO"
+  },
+  {
+   "t": 16807,
+   "model": "kimi-k3.1-pro",
+   "type": "done",
+   "usage": {
+    "input": 702,
+    "output": 864,
+    "reasoning": 807
+   },
+   "costUsd": 0.010044,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  }
+ ]
+}

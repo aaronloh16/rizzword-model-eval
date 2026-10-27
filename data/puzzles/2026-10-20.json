@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-20",
+ "issue": 1,
+ "title": "Rizz Check",
+ "rows": 12,
+ "cols": 12,
+ "entries": [
+  {
+   "id": "1A",
+   "number": 1,
+   "direction": "across",
+   "row": 0,
+   "col": 0,
+   "answer": "BLUD",
+   "clue": "London roadman's word for mate"
+  },
+  {
+   "id": "4A",
+   "number": 4,
+   "direction": "across",
+   "row": 2,
+   "col": 0,
+   "answer": "LOCKIN",
+   "clue": "\"Time to ___\": stop scrolling and actually focus (2 words)"
+  },
+  {
+   "id": "5A",
+   "number": 5,
+   "direction": "across",
+   "row": 2,
+   "col": 9,
+   "answer": "SUS",
+   "clue": "When the imposter is acting kinda shady (Among Us)"
+  },
+  {
+   "id": "7A",
+   "number": 7,
+   "direction": "across",
+   "row": 4,
+   "col": 1,
+   "answer": "SLOP",
+   "clue": "Low-effort AI-generated content flooding the feed"
+  },
+  {
+   "id": "10A",
+   "number": 10,
+   "direction": "across",
+   "row": 6,
+   "col": 1,
+   "answer": "AURAFARMING",
+   "clue": "Doing something slow and cool purely for the clout"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 9,
+   "col": 6,
+   "answer": "HOPIUM",
+   "clue": "Copium's optimistic cousin"
+  },
+  {
+   "id": "14A",
+   "number": 14,
+   "direction": "across",
+   "row": 10,
+   "col": 1,
+   "answer": "YEET",
+   "clue": "Throw with reckless abandon"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 0,
+   "col": 1,
+   "answer": "LOOKSMAXX",
+   "clue": "Optimize your face like it's a min-max RPG build"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 1,
+   "col": 4,
+   "answer": "SIMP",
+   "clue": "Someone who does way too much for their crush"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 2,
+   "col": 11,
+   "answer": "SAVAGE",
+   "clue": "Brutally, impressively harsh"
+  },
+  {
+   "id": "8D",
+   "number": 8,
+   "direction": "down",
+   "row": 4,
+   "col": 6,
+   "answer": "SNATCHED",
+   "clue": "Looking flawless, especially the waist"
+  },
+  {
+   "id": "9D",
+   "number": 9,
+   "direction": "down",
+   "row": 4,
+   "col": 9,
+   "answer": "OHIO",
+   "clue": "U.S. state where literally anything cursed can happen"
+  },
+  {
+   "id": "11D",
+   "number": 11,
+   "direction": "down",
+   "row": 6,
+   "col": 4,
+   "answer": "AGENT",
+   "clue": "An LLM with tools and too much confidence"
+  },
+  {
+   "id": "12D",
+   "number": 12,
+   "direction": "down",
+   "row": 9,
+   "col": 2,
+   "answer": "BET",
+   "clue": "One-word \"okay, deal\""
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-26",
+ "issue": 7,
+ "title": "Sigma Grindset",
+ "rows": 13,
+ "cols": 13,
+ "entries": [
+  {
+   "id": "1A",
+   "number": 1,
+   "direction": "across",
+   "row": 0,
+   "col": 3,
+   "answer": "AURA",
+   "clue": "Invisible points: +1000 for clutch plays, -500 for tripping"
+  },
+  {
+   "id": "4A",
+   "number": 4,
+   "direction": "across",
+   "row": 1,
+   "col": 9,
+   "answer": "FLEX",
+   "clue": "Show off"
+  },
+  {
+   "id": "6A",
+   "number": 6,
+   "direction": "across",
+   "row": 2,
+   "col": 2,
+   "answer": "CLANKER",
+   "clue": "Slur for robots that went viral in 2025"
+  },
+  {
+   "id": "8A",
+   "number": 8,
+   "direction": "across",
+   "row": 5,
+   "col": 4,
+   "answer": "TRALALERO",
+   "clue": "___ Tralala: the shark in Nikes"
+  },
+  {
+   "id": "10A",
+   "number": 10,
+   "direction": "across",
+   "row": 7,
+   "col": 0,
+   "answer": "CHOPPED",
+   "clue": "Looks-wise, absolutely not it (opposite of mogging)"
+  },
+  {
+   "id": "12A",
+   "number": 12,
+   "direction": "across",
+   "row": 10,
+   "col": 6,
+   "answer": "PROMPT",
+   "clue": "What you type before the model starts yapping"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 12,
+   "col": 0,
+   "answer": "OPP",
+   "clue": "The enemy, in drill-rap parlance"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 0,
+   "col": 5,
+   "answer": "RENTFREE",
+   "clue": "Living ___ in your head (2 words)"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 1,
+   "col": 7,
+   "answer": "DELULU",
+   "clue": "Delusional, but make it cute (\"is the solulu\")"
+  },
+  {
+   "id": "5D",
+   "number": 5,
+   "direction": "down",
+   "row": 1,
+   "col": 10,
+   "answer": "LOWKEY",
+   "clue": "Secretly or kind of; opposite of highkey"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 2,
+   "col": 2,
+   "answer": "CRASHOUT",
+   "clue": "Spectacular emotional meltdown, often over something tiny"
+  },
+  {
+   "id": "7D",
+   "number": 7,
+   "direction": "down",
+   "row": 4,
+   "col": 0,
+   "answer": "CROCODILO",
+   "clue": "Bombardiro ___: a bomber plane with a reptile head"
+  },
+  {
+   "id": "9D",
+   "number": 9,
+   "direction": "down",
+   "row": 5,
+   "col": 12,
+   "answer": "OOF",
+   "clue": "Roblox death noise, or a sympathetic reaction to an L"
+  },
+  {
+   "id": "11D",
+   "number": 11,
+   "direction": "down",
+   "row": 7,
+   "col": 6,
+   "answer": "DRIP",
+   "clue": "Fire outfit, or swagger in general"
+  }
+ ]
+}

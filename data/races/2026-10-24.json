@@ -1,0 +1,1847 @@
+{
+ "version": 1,
+ "puzzleId": "2026-10-24",
+ "recordedAt": "2026-10-24T12:00:00.000Z",
+ "source": "simulated",
+ "models": [
+  {
+   "id": "gpt-6.1-sol",
+   "name": "GPT-6.1 Sol",
+   "gatewayId": "openai/gpt-6.1-sol"
+  },
+  {
+   "id": "claude-opus-5.5",
+   "name": "Claude Opus 5.5",
+   "gatewayId": "anthropic/claude-opus-5.5"
+  },
+  {
+   "id": "gemini-4-argon",
+   "name": "Gemini 4 Argon",
+   "gatewayId": "google/gemini-4-argon"
+  },
+  {
+   "id": "grok-4.7",
+   "name": "Grok 4.7",
+   "gatewayId": "spacexai/grok-4.7"
+  },
+  {
+   "id": "kimi-k3.1-pro",
+   "name": "Kimi K3.1 Pro",
+   "gatewayId": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+   "id": "deepseek-v4.1-flash",
+   "name": "DeepSeek V4.1 Flash",
+   "gatewayId": "deepseek/deepseek-v4.1-flash"
+  }
+ ],
+ "settings": {
+  "reasoning": "low",
+  "maxOutputTokens": 3000,
+  "promptVersion": "v1"
+ },
+ "events": [
+  {
+   "t": 44,
+   "model": "deepseek-v4.1-flash",
+   "type": "start"
+  },
+  {
+   "t": 44,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 118,
+   "model": "gemini-4-argon",
+   "type": "start"
+  },
+  {
+   "t": 118,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 146,
+   "model": "claude-opus-5.5",
+   "type": "start"
+  },
+  {
+   "t": 146,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 155,
+   "model": "grok-4.7",
+   "type": "start"
+  },
+  {
+   "t": 155,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 163,
+   "model": "kimi-k3.1-pro",
+   "type": "start"
+  },
+  {
+   "t": 163,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 170,
+   "model": "gpt-6.1-sol",
+   "type": "start"
+  },
+  {
+   "t": 170,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Scanning 14 clues. "
+  },
+  {
+   "t": 576,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1375,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 1378,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1644,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 1765,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 1765,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". "
+  },
+  {
+   "t": 1916,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's SIMP. "
+  },
+  {
+   "t": 1957,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 1996,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 1996,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 2137,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 2215,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 2344,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 2344,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 2460,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 2485,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 2641,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 2641,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". "
+  },
+  {
+   "t": 2666,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Start with the gimmes, then lean on crossings. "
+  },
+  {
+   "t": 2901,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 2971,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 2971,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have S__P. "
+  },
+  {
+   "t": 3061,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 3176,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 3176,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 3212,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". "
+  },
+  {
+   "t": 3347,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 3496,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 3496,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". "
+  },
+  {
+   "t": 3589,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Maybe CLANKER? "
+  },
+  {
+   "t": 3635,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 3673,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 3673,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 3859,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 3929,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 3929,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have C____E. "
+  },
+  {
+   "t": 3994,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 3994,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 4176,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's CRINGE. "
+  },
+  {
+   "t": 4302,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "CRINGE"
+  },
+  {
+   "t": 4302,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 4499,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 4567,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's BLUD. "
+  },
+  {
+   "t": 4673,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 4722,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 4722,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I______. "
+  },
+  {
+   "t": 4753,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 4753,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 4891,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Maybe MLUQ? "
+  },
+  {
+   "t": 4891,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 5064,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 5064,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have B_K_N_OT. "
+  },
+  {
+   "t": 5088,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". "
+  },
+  {
+   "t": 5119,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 5151,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 5274,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "MLUQ"
+  },
+  {
+   "t": 5274,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 5300,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 5300,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have ___P. "
+  },
+  {
+   "t": 5305,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 5305,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have _L_E_O_E. "
+  },
+  {
+   "t": 5403,
+   "model": "deepseek-v4.1-flash",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 5457,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 5484,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 5490,
+   "model": "deepseek-v4.1-flash",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 5579,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 5694,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 5694,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". Have S___. "
+  },
+  {
+   "t": 5713,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 5713,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 5743,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 5743,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 5791,
+   "model": "deepseek-v4.1-flash",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 336,
+    "reasoning": 0
+   },
+   "costUsd": 0.00015255000000000002,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 5967,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 6063,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 6132,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 6220,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 6220,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 6221,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's SIMP. "
+  },
+  {
+   "t": 6240,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 6439,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 6439,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 6461,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 6489,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 6489,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 6489,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". "
+  },
+  {
+   "t": 6530,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 6530,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 6621,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 6621,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". "
+  },
+  {
+   "t": 6854,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 6877,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 6889,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's SIMP. "
+  },
+  {
+   "t": 6977,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 7013,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 7013,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have S___. "
+  },
+  {
+   "t": 7067,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 7068,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 7068,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 7095,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 7095,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". "
+  },
+  {
+   "t": 7096,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 7096,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 7180,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 7226,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 7273,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 7273,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 7301,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 7347,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 7347,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 7370,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 7370,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 7538,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 7591,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 7591,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 7647,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's BLUD. "
+  },
+  {
+   "t": 7652,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 7755,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's BLUD. "
+  },
+  {
+   "t": 7798,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 7798,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have _____E. "
+  },
+  {
+   "t": 7946,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's BLUD. "
+  },
+  {
+   "t": 7985,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 7985,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". "
+  },
+  {
+   "t": 7992,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's CRINGE. "
+  },
+  {
+   "t": 8035,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 8035,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 8108,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 8108,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 8295,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 8298,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 8298,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have C____E. "
+  },
+  {
+   "t": 8325,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "CRINGE"
+  },
+  {
+   "t": 8325,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 8380,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's SIMP. "
+  },
+  {
+   "t": 8397,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 8407,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 8407,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 8503,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 8503,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "12A (4) \"Throw with reckless abandon\". "
+  },
+  {
+   "t": 8549,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 8549,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have ___P. "
+  },
+  {
+   "t": 8593,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 8730,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Maybe MRINPE? "
+  },
+  {
+   "t": 8838,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 8902,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 8936,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 8936,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "4A (3) \"Background character energy; just repeats…\". Have _PC. "
+  },
+  {
+   "t": 8975,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's YEET. "
+  },
+  {
+   "t": 9012,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 9012,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "2A (4) \"London roadman's word for mate\". "
+  },
+  {
+   "t": 9046,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 9046,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". "
+  },
+  {
+   "t": 9053,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "MRINPE"
+  },
+  {
+   "t": 9053,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". "
+  },
+  {
+   "t": 9102,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "12A",
+   "answer": "YEET"
+  },
+  {
+   "t": 9102,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have S__P. "
+  },
+  {
+   "t": 9397,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Maybe SLAY? "
+  },
+  {
+   "t": 9457,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's NPC. "
+  },
+  {
+   "t": 9461,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's BLUD. "
+  },
+  {
+   "t": 9512,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 9545,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SLAY"
+  },
+  {
+   "t": 9545,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "1D (4) \"Low-effort AI-generated content flooding …\". Have S__P. "
+  },
+  {
+   "t": 9589,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "4A",
+   "answer": "NPC"
+  },
+  {
+   "t": 9589,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have M_____OT. "
+  },
+  {
+   "t": 9600,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's BIGBACK. "
+  },
+  {
+   "t": 9658,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 9658,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "11A (4) \"What you call your bestie even if you loo…\". "
+  },
+  {
+   "t": 9750,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 9750,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "10A (3) \"One-word \"okay, deal\"\". "
+  },
+  {
+   "t": 9811,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's SLOP. "
+  },
+  {
+   "t": 9838,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "BIGBACK"
+  },
+  {
+   "t": 9838,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have B_A___OT. "
+  },
+  {
+   "t": 9948,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1D",
+   "answer": "SLOP"
+  },
+  {
+   "t": 9948,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 9982,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's TWIN. "
+  },
+  {
+   "t": 10040,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 10165,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 10223,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 10223,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". Have ____A__. "
+  },
+  {
+   "t": 10269,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 10269,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have _I___O_E. "
+  },
+  {
+   "t": 10287,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's BET. "
+  },
+  {
+   "t": 10290,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "11A",
+   "answer": "TWIN"
+  },
+  {
+   "t": 10290,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". "
+  },
+  {
+   "t": 10506,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 10602,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "10A",
+   "answer": "BET"
+  },
+  {
+   "t": 10602,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "9A (4) \"U.S. state where literally anything curse…\". "
+  },
+  {
+   "t": 10621,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 10621,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have C____E. "
+  },
+  {
+   "t": 10748,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 10751,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's BIGBACK. "
+  },
+  {
+   "t": 10755,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's BIGBACK. "
+  },
+  {
+   "t": 10811,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's CRINGE. "
+  },
+  {
+   "t": 10901,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "BIGBACK"
+  },
+  {
+   "t": 10901,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have _I___O_E. "
+  },
+  {
+   "t": 10906,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's OHIO. "
+  },
+  {
+   "t": 10923,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "CRINGE"
+  },
+  {
+   "t": 10923,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I______. "
+  },
+  {
+   "t": 11026,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "BIGBACK"
+  },
+  {
+   "t": 11026,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have C____E. "
+  },
+  {
+   "t": 11059,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "9A",
+   "answer": "OHIO"
+  },
+  {
+   "t": 11059,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "1A (4) \"Someone who does way too much for their c…\". Have S___. "
+  },
+  {
+   "t": 11076,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 11076,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I__E__N. "
+  },
+  {
+   "t": 11112,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 11194,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 11195,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's CRINGE. "
+  },
+  {
+   "t": 11239,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's SIMP. "
+  },
+  {
+   "t": 11316,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 11316,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I__E__N. "
+  },
+  {
+   "t": 11484,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 11484,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have ___E_O_E. "
+  },
+  {
+   "t": 11536,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 11565,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "CRINGE"
+  },
+  {
+   "t": 11565,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have _I___O_E. "
+  },
+  {
+   "t": 11607,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 11607,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "5D (6) \"Secondhand embarrassment, as an adjective\". Have C____E. "
+  },
+  {
+   "t": 11674,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 11774,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 11915,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 11915,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 12055,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 12055,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". Have _I_____. "
+  },
+  {
+   "t": 12060,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 12131,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 12131,
+   "model": "claude-opus-5.5",
+   "type": "think",
+   "text": "Recheck 2A: crossings don't fit. "
+  },
+  {
+   "t": 12168,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's CRINGE. "
+  },
+  {
+   "t": 12378,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 12378,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I__E___. "
+  },
+  {
+   "t": 12387,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "5D",
+   "answer": "CRINGE"
+  },
+  {
+   "t": 12387,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 12441,
+   "model": "claude-opus-5.5",
+   "type": "fill",
+   "entry": "2A",
+   "answer": "BLUD"
+  },
+  {
+   "t": 12475,
+   "model": "grok-4.7",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 12492,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's BIGBACK. "
+  },
+  {
+   "t": 12547,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 12596,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "BIGBACK"
+  },
+  {
+   "t": 12596,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have B_A_N_OT. "
+  },
+  {
+   "t": 12672,
+   "model": "grok-4.7",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 12673,
+   "model": "claude-opus-5.5",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 814,
+    "reasoning": 766
+   },
+   "costUsd": 0.01904,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 12676,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 12756,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 12804,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 12804,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "6A (7) \"Person who always orders the extra large …\". "
+  },
+  {
+   "t": 12900,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 12900,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "8D (6) \"Viral heel-tap touchdown dance\". Have __I___. "
+  },
+  {
+   "t": 13037,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 13037,
+   "model": "kimi-k3.1-pro",
+   "type": "think",
+   "text": "Recheck 1A: crossings don't fit. "
+  },
+  {
+   "t": 13213,
+   "model": "grok-4.7",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 1035,
+    "reasoning": 989
+   },
+   "costUsd": 0.00759,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 13266,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Maybe CLANKER? "
+  },
+  {
+   "t": 13320,
+   "model": "kimi-k3.1-pro",
+   "type": "fill",
+   "entry": "1A",
+   "answer": "SIMP"
+  },
+  {
+   "t": 13354,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's GRIDDY. "
+  },
+  {
+   "t": 13550,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "6A",
+   "answer": "CLANKER"
+  },
+  {
+   "t": 13550,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "3D (8) \"Ship an app by just asking the model nice…\". Have _L___O_E. "
+  },
+  {
+   "t": 13557,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "8D",
+   "answer": "GRIDDY"
+  },
+  {
+   "t": 13557,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have B_A_N_OT. "
+  },
+  {
+   "t": 13703,
+   "model": "kimi-k3.1-pro",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 981,
+    "reasoning": 933
+   },
+   "costUsd": 0.01119,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 14044,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's VIBECODE. "
+  },
+  {
+   "t": 14103,
+   "model": "gpt-6.1-sol",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 14339,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "3D",
+   "answer": "VIBECODE"
+  },
+  {
+   "t": 14339,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "7A (8) \"Two numbers kids yelled all of 2025 (spel…\". Have _I__E___. "
+  },
+  {
+   "t": 14369,
+   "model": "gpt-6.1-sol",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 14790,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's SIXSEVEN. "
+  },
+  {
+   "t": 14998,
+   "model": "gpt-6.1-sol",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 815,
+    "reasoning": 769
+   },
+   "costUsd": 0.00953,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  },
+  {
+   "t": 15042,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "7A",
+   "answer": "SIXSEVEN"
+  },
+  {
+   "t": 15042,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "2D (8) \"What happens after six hours of short-for…\". Have B_K_N_OT. "
+  },
+  {
+   "t": 15535,
+   "model": "gemini-4-argon",
+   "type": "think",
+   "text": "Pretty sure it's BRAINROT. "
+  },
+  {
+   "t": 15792,
+   "model": "gemini-4-argon",
+   "type": "fill",
+   "entry": "2D",
+   "answer": "BRAINROT"
+  },
+  {
+   "t": 16087,
+   "model": "gemini-4-argon",
+   "type": "done",
+   "usage": {
+    "input": 690,
+    "output": 929,
+    "reasoning": 883
+   },
+   "costUsd": 0.01067,
+   "costSource": "estimate",
+   "finishReason": "stop"
+  }
+ ]
+}

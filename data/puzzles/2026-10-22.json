@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-22",
+ "issue": 3,
+ "title": "Certified Ohio Moment",
+ "rows": 12,
+ "cols": 13,
+ "entries": [
+  {
+   "id": "3A",
+   "number": 3,
+   "direction": "across",
+   "row": 1,
+   "col": 0,
+   "answer": "RENTFREE",
+   "clue": "Living ___ in your head (2 words)"
+  },
+  {
+   "id": "6A",
+   "number": 6,
+   "direction": "across",
+   "row": 3,
+   "col": 3,
+   "answer": "PATAPIM",
+   "clue": "Brr Brr ___: a forest creature with big feet"
+  },
+  {
+   "id": "8A",
+   "number": 8,
+   "direction": "across",
+   "row": 5,
+   "col": 6,
+   "answer": "RIZZLER",
+   "clue": "One with unspoken game, or the kid from the viral clip"
+  },
+  {
+   "id": "9A",
+   "number": 9,
+   "direction": "across",
+   "row": 7,
+   "col": 3,
+   "answer": "OOF",
+   "clue": "Roblox death noise, or a sympathetic reaction to an L"
+  },
+  {
+   "id": "11A",
+   "number": 11,
+   "direction": "across",
+   "row": 8,
+   "col": 5,
+   "answer": "ICK",
+   "clue": "Sudden turnoff that ruins a crush forever"
+  },
+  {
+   "id": "12A",
+   "number": 12,
+   "direction": "across",
+   "row": 9,
+   "col": 2,
+   "answer": "STAN",
+   "clue": "Obsessive fan, after an Eminem song"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 11,
+   "col": 3,
+   "answer": "TEA",
+   "clue": "Gossip; \"spill the ___\""
+  },
+  {
+   "id": "1D",
+   "number": 1,
+   "direction": "down",
+   "row": 0,
+   "col": 1,
+   "answer": "DEMURE",
+   "clue": "Very mindful, very cutesy (2024 summer word)"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 0,
+   "col": 5,
+   "answer": "BRAT",
+   "clue": "Lime-green summer of 2024 aesthetic"
+  },
+  {
+   "id": "4D",
+   "number": 4,
+   "direction": "down",
+   "row": 2,
+   "col": 8,
+   "answer": "RIZZ",
+   "clue": "Charisma stat that gets you the number, fr fr"
+  },
+  {
+   "id": "5D",
+   "number": 5,
+   "direction": "down",
+   "row": 2,
+   "col": 11,
+   "answer": "BASED",
+   "clue": "Unbothered and true to yourself, even if unpopular"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 3,
+   "col": 3,
+   "answer": "PERIODT",
+   "clue": "End of discussion, with an extra consonant for emphasis"
+  },
+  {
+   "id": "7D",
+   "number": 7,
+   "direction": "down",
+   "row": 3,
+   "col": 6,
+   "answer": "AURA",
+   "clue": "Invisible points: +1000 for clutch plays, -500 for tripping"
+  },
+  {
+   "id": "10D",
+   "number": 10,
+   "direction": "down",
+   "row": 7,
+   "col": 5,
+   "answer": "FINNA",
+   "clue": "About to (Southern-inflected)"
+  }
+ ]
+}

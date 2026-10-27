@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-23",
+ "issue": 4,
+ "title": "Let Him Cook",
+ "rows": 13,
+ "cols": 13,
+ "entries": [
+  {
+   "id": "1A",
+   "number": 1,
+   "direction": "across",
+   "row": 0,
+   "col": 5,
+   "answer": "POG",
+   "clue": "Twitch emote word for hype"
+  },
+  {
+   "id": "5A",
+   "number": 5,
+   "direction": "across",
+   "row": 2,
+   "col": 6,
+   "answer": "YAPPING",
+   "clue": "Talking nonstop with zero substance"
+  },
+  {
+   "id": "8A",
+   "number": 8,
+   "direction": "across",
+   "row": 6,
+   "col": 5,
+   "answer": "TUNGTUNG",
+   "clue": "Start of a wooden log's name: ___ Tung Sahur"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 9,
+   "col": 0,
+   "answer": "TOUCHGRASS",
+   "clue": "Advice for the chronically online (2 words)"
+  },
+  {
+   "id": "14A",
+   "number": 14,
+   "direction": "across",
+   "row": 12,
+   "col": 3,
+   "answer": "SKIBIDI",
+   "clue": "___ toilet: singing porcelain menace with a banger theme"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 0,
+   "col": 7,
+   "answer": "GYAT",
+   "clue": "Exclamation of shock at someone's... silhouette"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 0,
+   "col": 12,
+   "answer": "MOGGING",
+   "clue": "Outshining everyone nearby with sheer facial structure"
+  },
+  {
+   "id": "4D",
+   "number": 4,
+   "direction": "down",
+   "row": 1,
+   "col": 10,
+   "answer": "MID",
+   "clue": "Aggressively average; neither fire nor trash"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 4,
+   "col": 6,
+   "answer": "BRUV",
+   "clue": "British for \"bro\""
+  },
+  {
+   "id": "7D",
+   "number": 7,
+   "direction": "down",
+   "row": 6,
+   "col": 2,
+   "answer": "FANUM",
+   "clue": "___ tax: when your friend steals a bite of your food"
+  },
+  {
+   "id": "9D",
+   "number": 9,
+   "direction": "down",
+   "row": 6,
+   "col": 8,
+   "answer": "GHOSTED",
+   "clue": "Left on read... permanently"
+  },
+  {
+   "id": "10D",
+   "number": 10,
+   "direction": "down",
+   "row": 6,
+   "col": 11,
+   "answer": "NOCAP",
+   "clue": "Completely serious, no lie (2 words)"
+  },
+  {
+   "id": "11D",
+   "number": 11,
+   "direction": "down",
+   "row": 7,
+   "col": 0,
+   "answer": "RATIO",
+   "clue": "When your reply gets more likes than the post"
+  },
+  {
+   "id": "12D",
+   "number": 12,
+   "direction": "down",
+   "row": 8,
+   "col": 4,
+   "answer": "SHOOK",
+   "clue": "Absolutely stunned"
+  }
+ ]
+}

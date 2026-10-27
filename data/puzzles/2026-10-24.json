@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-24",
+ "issue": 5,
+ "title": "No Cap Zone",
+ "rows": 12,
+ "cols": 12,
+ "entries": [
+  {
+   "id": "1A",
+   "number": 1,
+   "direction": "across",
+   "row": 0,
+   "col": 1,
+   "answer": "SIMP",
+   "clue": "Someone who does way too much for their crush"
+  },
+  {
+   "id": "2A",
+   "number": 2,
+   "direction": "across",
+   "row": 1,
+   "col": 8,
+   "answer": "BLUD",
+   "clue": "London roadman's word for mate"
+  },
+  {
+   "id": "4A",
+   "number": 4,
+   "direction": "across",
+   "row": 3,
+   "col": 0,
+   "answer": "NPC",
+   "clue": "Background character energy; just repeats the same lines"
+  },
+  {
+   "id": "6A",
+   "number": 6,
+   "direction": "across",
+   "row": 3,
+   "col": 4,
+   "answer": "BIGBACK",
+   "clue": "Person who always orders the extra large (2 words)"
+  },
+  {
+   "id": "7A",
+   "number": 7,
+   "direction": "across",
+   "row": 5,
+   "col": 1,
+   "answer": "SIXSEVEN",
+   "clue": "Two numbers kids yelled all of 2025 (spelled out, 2 words)"
+  },
+  {
+   "id": "9A",
+   "number": 9,
+   "direction": "across",
+   "row": 7,
+   "col": 5,
+   "answer": "OHIO",
+   "clue": "U.S. state where literally anything cursed can happen"
+  },
+  {
+   "id": "10A",
+   "number": 10,
+   "direction": "across",
+   "row": 8,
+   "col": 1,
+   "answer": "BET",
+   "clue": "One-word \"okay, deal\""
+  },
+  {
+   "id": "11A",
+   "number": 11,
+   "direction": "across",
+   "row": 8,
+   "col": 8,
+   "answer": "TWIN",
+   "clue": "What you call your bestie even if you look nothing alike"
+  },
+  {
+   "id": "12A",
+   "number": 12,
+   "direction": "across",
+   "row": 9,
+   "col": 4,
+   "answer": "YEET",
+   "clue": "Throw with reckless abandon"
+  },
+  {
+   "id": "1D",
+   "number": 1,
+   "direction": "down",
+   "row": 0,
+   "col": 1,
+   "answer": "SLOP",
+   "clue": "Low-effort AI-generated content flooding the feed"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 1,
+   "col": 8,
+   "answer": "BRAINROT",
+   "clue": "What happens after six hours of short-form scrolling"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 2,
+   "col": 5,
+   "answer": "VIBECODE",
+   "clue": "Ship an app by just asking the model nicely"
+  },
+  {
+   "id": "5D",
+   "number": 5,
+   "direction": "down",
+   "row": 3,
+   "col": 2,
+   "answer": "CRINGE",
+   "clue": "Secondhand embarrassment, as an adjective"
+  },
+  {
+   "id": "8D",
+   "number": 8,
+   "direction": "down",
+   "row": 6,
+   "col": 10,
+   "answer": "GRIDDY",
+   "clue": "Viral heel-tap touchdown dance"
+  }
+ ]
+}

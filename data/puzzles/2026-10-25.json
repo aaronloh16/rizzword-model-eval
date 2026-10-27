@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-25",
+ "issue": 6,
+ "title": "Main Character Hours",
+ "rows": 13,
+ "cols": 11,
+ "entries": [
+  {
+   "id": "1A",
+   "number": 1,
+   "direction": "across",
+   "row": 0,
+   "col": 3,
+   "answer": "GOAT",
+   "clue": "Greatest of all time, or a farm animal emoji"
+  },
+  {
+   "id": "4A",
+   "number": 4,
+   "direction": "across",
+   "row": 3,
+   "col": 3,
+   "answer": "GLAZING",
+   "clue": "Hyping someone up way too hard"
+  },
+  {
+   "id": "5A",
+   "number": 5,
+   "direction": "across",
+   "row": 4,
+   "col": 0,
+   "answer": "UNC",
+   "clue": "Anyone over 25 who says their back hurts"
+  },
+  {
+   "id": "7A",
+   "number": 7,
+   "direction": "across",
+   "row": 5,
+   "col": 5,
+   "answer": "AGENT",
+   "clue": "An LLM with tools and too much confidence"
+  },
+  {
+   "id": "8A",
+   "number": 8,
+   "direction": "across",
+   "row": 6,
+   "col": 0,
+   "answer": "BOOMER",
+   "clue": "\"OK, ___\" (dismissive generational comeback)"
+  },
+  {
+   "id": "9A",
+   "number": 9,
+   "direction": "across",
+   "row": 7,
+   "col": 5,
+   "answer": "MEWING",
+   "clue": "Tongue-on-the-roof-of-your-mouth jawline technique"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 9,
+   "col": 0,
+   "answer": "LOCKIN",
+   "clue": "\"Time to ___\": stop scrolling and actually focus (2 words)"
+  },
+  {
+   "id": "14A",
+   "number": 14,
+   "direction": "across",
+   "row": 12,
+   "col": 0,
+   "answer": "SNATCHED",
+   "clue": "Looking flawless, especially the waist"
+  },
+  {
+   "id": "2D",
+   "number": 2,
+   "direction": "down",
+   "row": 0,
+   "col": 5,
+   "answer": "AURAFARMING",
+   "clue": "Doing something slow and cool purely for the clout"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 2,
+   "col": 7,
+   "answer": "VIBE",
+   "clue": "The overall energy of a room"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 4,
+   "col": 2,
+   "answer": "COOK",
+   "clue": "\"Let him ___\" (stop interrupting his genius)"
+  },
+  {
+   "id": "10D",
+   "number": 10,
+   "direction": "down",
+   "row": 7,
+   "col": 10,
+   "answer": "GOOBER",
+   "clue": "Lovable goofball"
+  },
+  {
+   "id": "11D",
+   "number": 11,
+   "direction": "down",
+   "row": 8,
+   "col": 1,
+   "answer": "TOKEN",
+   "clue": "What models eat and bill you for"
+  },
+  {
+   "id": "12D",
+   "number": 12,
+   "direction": "down",
+   "row": 8,
+   "col": 3,
+   "answer": "SKRRT",
+   "clue": "Tire-screech sound effect for leaving fast"
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "id": "2026-10-21",
+ "issue": 2,
+ "title": "Aura Audit",
+ "rows": 13,
+ "cols": 13,
+ "entries": [
+  {
+   "id": "2A",
+   "number": 2,
+   "direction": "across",
+   "row": 1,
+   "col": 2,
+   "answer": "GLAZING",
+   "clue": "Hyping someone up way too hard"
+  },
+  {
+   "id": "5A",
+   "number": 5,
+   "direction": "across",
+   "row": 3,
+   "col": 0,
+   "answer": "OPP",
+   "clue": "The enemy, in drill-rap parlance"
+  },
+  {
+   "id": "7A",
+   "number": 7,
+   "direction": "across",
+   "row": 3,
+   "col": 8,
+   "answer": "TOKEN",
+   "clue": "What models eat and bill you for"
+  },
+  {
+   "id": "8A",
+   "number": 8,
+   "direction": "across",
+   "row": 4,
+   "col": 5,
+   "answer": "CAP",
+   "clue": "No ___ = I'm being completely serious rn"
+  },
+  {
+   "id": "9A",
+   "number": 9,
+   "direction": "across",
+   "row": 5,
+   "col": 0,
+   "answer": "BOOMER",
+   "clue": "\"OK, ___\" (dismissive generational comeback)"
+  },
+  {
+   "id": "10A",
+   "number": 10,
+   "direction": "across",
+   "row": 7,
+   "col": 5,
+   "answer": "SALTY",
+   "clue": "Bitter about taking an L"
+  },
+  {
+   "id": "12A",
+   "number": 12,
+   "direction": "across",
+   "row": 10,
+   "col": 4,
+   "answer": "BUSSIN",
+   "clue": "When the food is so good it's absolutely ___"
+  },
+  {
+   "id": "13A",
+   "number": 13,
+   "direction": "across",
+   "row": 12,
+   "col": 6,
+   "answer": "SHEESH",
+   "clue": "Drawn-out exclamation when something is impressive"
+  },
+  {
+   "id": "1D",
+   "number": 1,
+   "direction": "down",
+   "row": 0,
+   "col": 6,
+   "answer": "SIGMA",
+   "clue": "Lone-wolf grindset archetype who doesn't need the pack"
+  },
+  {
+   "id": "3D",
+   "number": 3,
+   "direction": "down",
+   "row": 2,
+   "col": 0,
+   "answer": "GOOBER",
+   "clue": "Lovable goofball"
+  },
+  {
+   "id": "4D",
+   "number": 4,
+   "direction": "down",
+   "row": 2,
+   "col": 9,
+   "answer": "LOWKEY",
+   "clue": "Secretly or kind of; opposite of highkey"
+  },
+  {
+   "id": "6D",
+   "number": 6,
+   "direction": "down",
+   "row": 3,
+   "col": 2,
+   "answer": "PROMPT",
+   "clue": "What you type before the model starts yapping"
+  },
+  {
+   "id": "8D",
+   "number": 8,
+   "direction": "down",
+   "row": 4,
+   "col": 5,
+   "answer": "CRASHOUT",
+   "clue": "Spectacular emotional meltdown, often over something tiny"
+  },
+  {
+   "id": "11D",
+   "number": 11,
+   "direction": "down",
+   "row": 9,
+   "col": 8,
+   "answer": "VIBE",
+   "clue": "The overall energy of a room"
+  }
+ ]
+}
